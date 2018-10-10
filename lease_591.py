@@ -20,19 +20,9 @@ def get_web_page(url):
 def get_info(page):
     dict1 = json.loads(page) # page is a dict of dict of list of dict
 
-    topData = dict1["data"]["topData"]
     data = dict1["data"]["data"]
-
-    lease_td_info = []
     lease_data_info = []
 
-    for td in topData:
-        lease_td_info.append({
-            "post_id": td["post_id"],
-            "url": td["detail_url"],
-            "price": td["price"],
-            "area": td["area"]
-        })
     for d in data:
         lease_data_info.append({
             "post_id": d["post_id"],
@@ -43,13 +33,12 @@ def get_info(page):
                 + d["alley_name"]
         })
 
-    return lease_td_info, lease_data_info
+    return lease_data_info
 
 
 if __name__ == "__main__":
     current_page = get_web_page(LEASE_URL) # return a dict of dict of list of dict
-    topData, data = get_info(current_page)
+    data = get_info(current_page)
 
     for d in data:
         print(d)
-    
