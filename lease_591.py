@@ -43,6 +43,9 @@ def save(row_data):
     df.to_excel(writer, sheet_name='total_rent_data')
     writer.save()
 
+    with open('total_row.json', 'w', encoding='utf-8') as f:
+        json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
+
 if __name__ == "__main__":
     page_count = 0
     current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row)) # return a dict of dict of list of dict
