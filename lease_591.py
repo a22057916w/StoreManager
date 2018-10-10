@@ -5,6 +5,7 @@ import os
 import re
 import urllib.request
 import json
+import pandas as pd
 
 LEASE_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=1&type=1&kind=5&searchtype=1&region=1"
 total_row = 2761
@@ -36,18 +37,21 @@ def get_info(page):
 
     return lease_data_info
 
+def save(row_data):
+    df = pd.DataFrame.from_dict(row_data)
+    writer = pd.ExcelWriter('total_rent.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='total_rent_data')
+    writer.save()
 
 if __name__ == "__main__":
     page_count = 0
     current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row)) # return a dict of dict of list of dict
     row_data = []
 
-    while page_count <= 2790:
+    while page_count <= total_row:
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
         current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row))
 
-
-    for data in row_data:
-        print(data)
+    save(row_data)
