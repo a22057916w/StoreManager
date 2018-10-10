@@ -33,8 +33,6 @@ def get_info(page):
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
         })
-    for d in lease_data_info:
-        print(d)
 
     return lease_data_info
 
