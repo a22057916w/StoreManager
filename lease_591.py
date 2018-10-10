@@ -39,7 +39,7 @@ def get_info(page):
 
 def save(row_data):
     df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter('total_rent.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('total_row.xlsx', engine='xlsxwriter')
     df.to_excel(writer, sheet_name='total_rent_data')
     writer.save()
 
