@@ -5,6 +5,7 @@ import os
 import re
 import urllib.request
 import json
+import ast
 
 LEASE_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=1&type=1&kind=5&searchtype=1&region=1"
 total_row = 2761
@@ -20,11 +21,12 @@ def get_web_page(url):
 
 def get_info(page):
     dict1 = json.loads(page) # page is a dict of dict of list of dict
-
+    print(dict1.keys())
+    print(dict1["records"])
     data = dict1["data"]["data"]
     lease_data_info = []
 
-    for d in data:
+    """for d in data:
         lease_data_info.append({
             "post_id": d["post_id"],
             "url": "rent-detail-" + str(d["post_id"]) + ".html",
@@ -32,18 +34,24 @@ def get_info(page):
             "area": d["area"],
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
-        })
+        })"""
 
     return lease_data_info
+
+def get_total_rows(page):
+    str_total_rows = json.loads(page)["records"]
+    print(str[0]-'0')
 
 
 if __name__ == "__main__":
     page_count = 0
     current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row)) # return a dict of dict of list of dict
+    total_row = get_total_rows(current_page)
     row_data = []
+    data = get_info(current_page)
 
-    """while page_count <= 2790:
-        data = get_info(current_page)
+
+    """while page_count <= :
         row_data += data
         page_count += pageRow
-        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row))"""
+        print(page_count)"""
