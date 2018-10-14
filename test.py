@@ -12,7 +12,7 @@ total_row = 2761
 pageRow = 30
 
 def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'})
+    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
     if resp.status_code != 200:
         print("Invalid url:", resp.url)
         return None
@@ -39,8 +39,9 @@ def get_info(page):
     return lease_data_info
 
 def get_total_rows(page):
-    str_total_rows = json.loads(page)["records"]
-    print(str[0]-'0')
+    str_total = json.loads(page)["records"]
+    int_total = int(str_total.replace(",", ""))
+    return int_total
 
 
 if __name__ == "__main__":
@@ -51,7 +52,7 @@ if __name__ == "__main__":
     data = get_info(current_page)
 
 
-    """while page_count <= :
+    while page_count <= total_row:
         row_data += data
         page_count += pageRow
-        print(page_count)"""
+        print(page_count)
