@@ -44,11 +44,11 @@ def get_total_rows(page):
 
 def save(row_data):
     df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter('total_rows_NTC.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='total_rows_data')
+    writer = pd.ExcelWriter('lease_total_rows_NTC.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='lease_total_rows_data')
     writer.save()
 
-    with open('total_rows_NTC.json', 'w', encoding='utf-8') as f:
+    with open('lease_total_rows_NTC.json', 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
