@@ -33,8 +33,6 @@ def get_info(page):
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
         })
-    """for d in lease_data_info:
-        print(d)"""
 
     return lease_data_info
 
@@ -44,12 +42,8 @@ if __name__ == "__main__":
     current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row)) # return a dict of dict of list of dict
     row_data = []
 
-    while page_count <= 2790:
+    """while page_count <= 2790:
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
-        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row))
-
-
-    for data in row_data:
-        print(data)
+        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row))"""
