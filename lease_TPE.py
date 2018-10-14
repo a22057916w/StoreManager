@@ -5,10 +5,9 @@ import os
 import re
 import urllib.request
 import json
-import ast
+import pandas as pd
 
 LEASE_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=1&type=1&kind=5&searchtype=1&region=1"
-total_row = 2761
 pageRow = 30
 
 def get_web_page(url):
@@ -21,12 +20,11 @@ def get_web_page(url):
 
 def get_info(page):
     dict1 = json.loads(page) # page is a dict of dict of list of dict
-    print(dict1.keys())
-    print(dict1["records"])
+
     data = dict1["data"]["data"]
     lease_data_info = []
 
-    """for d in data:
+    for d in data:
         lease_data_info.append({
             "post_id": d["post_id"],
             "url": "rent-detail-" + str(d["post_id"]) + ".html",
@@ -34,25 +32,36 @@ def get_info(page):
             "area": d["area"],
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
-        })"""
+        })
 
     return lease_data_info
 
 def get_total_rows(page):
     str_total = json.loads(page)["records"]
     int_total = int(str_total.replace(",", ""))
+
     return int_total
 
+def save(row_data):
+    df = pd.DataFrame.from_dict(row_data)
+    writer = pd.ExcelWriter('total_rows_TPE.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='total_rows_data')
+    writer.save()
+
+    with open('total_rows_TPE.json', 'w', encoding='utf-8') as f:
+        json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
+    current_page = get_web_page(LEASE_URL) # return a dict of dict of list of dict
+    total_rows = get_total_rows(current_page)
+
     page_count = 0
-    current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_row)) # return a dict of dict of list of dict
-    total_row = get_total_rows(current_page)
     row_data = []
-    data = get_info(current_page)
 
-
-    while page_count <= total_row:
+    while page_count <= total_rows:
+        data = get_info(current_page)
         row_data += data
         page_count += pageRow
-        print(page_count)
+        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows))
+
+    save(row_data)
