@@ -31,7 +31,7 @@ def get_info(page):
             "price": d["price"],
             "area": d["area"],
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
-                + d["alley_name"]
+                + d["alley_name"] + d["lane_name"] + d["addr_number_name"]
         })
 
     return lease_data_info
