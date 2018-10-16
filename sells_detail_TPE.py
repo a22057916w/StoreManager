@@ -39,14 +39,6 @@ def get_total_rows(page):
 
     return int_total
 
-def save(row_data):
-    df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter('sells_total_rows_TPE.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='sells_total_rows_data')
-    writer.save()
-
-    with open('sells_total_rows_TPE.json', 'w', encoding='utf-8') as f:
-        json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
     current_page = get_web_page(SELLS_URL) # return a dict of dict of list of dict
@@ -56,7 +48,6 @@ if __name__ == "__main__":
 
     while page_count <= total_rows:
         detail_url = get_detail_url(current_page)
-        print(detail_url)
         page_count += pageRow
         current_page = get_web_page(SELLS_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows))
 
