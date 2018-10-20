@@ -15,7 +15,7 @@ def get_web_page(url):
         print("Invalid url:", resp.url)
         return None
     else:
-        return resp.text # return a dict of dict of list of dict
+        return resp.text
 
 def read_excel():
     df = pd.read_excel("sells_total_rows_TPE.xlsx")
@@ -23,13 +23,14 @@ def read_excel():
 
     return my_dict  # return a list of dict
 
-def detail_info(row_data):
-    print(row_data)
-    page = get_web_page(DETAIL_URL + row_data[0]["url"])
-    print(page)
+def get_articles(dom):
+    soup = BeautifulSoup(dom, "html.parser")
 
 
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
-    print(row_data)
-    detail_info(row_data)
+
+    articles = []
+    for data in row_data:
+        page = get_web_page(DETAIL_URL + data["url"])
+        get_articles(page)
