@@ -75,7 +75,6 @@ def get_articles(dom, post_id):
         "community": addr_data[1],
         "addr": addr_data[2]
     })
-    print(info_boxes)
     return info_boxes
 
 if __name__ == "__main__":
@@ -85,3 +84,5 @@ if __name__ == "__main__":
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"])
         info_boxes += get_articles(page, data["post_id"])
+
+    print(info_boxes)
