@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 SELLS_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=2&type=2&kind=5&searchtype=1&region=1"
-DETAIL_URL = "https://rent.591.com.tw/"
+DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
 pageRow = 30
 
 def get_web_page(url):
@@ -28,7 +28,7 @@ def get_detail_url(page):
     for d in data:
         sells_data_info.append({
             "post_id": d["post_id"],
-            "url": "rent-detail-" + str(d["post_id"]) + ".html"
+            "url": str(d["post_id"]) + ".html"
         })
 
     return sells_data_info
