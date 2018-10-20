@@ -26,7 +26,7 @@ def read_excel():
 
     return my_dict  # return a list of dict
 
-def get_articles(dom, post_id):
+def get_info_box(dom, post_id):
     info_boxes = []
 
     soup = BeautifulSoup(dom, "html.parser")
@@ -96,6 +96,6 @@ if __name__ == "__main__":
     info_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"])
-        info_boxes += get_articles(page, data["post_id"])
+        info_boxes += get_info_box(page, data["post_id"])
 
     save(info_boxes)
