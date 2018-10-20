@@ -27,7 +27,7 @@ def get_info(page):
     for d in data:
         sells_data_info.append({
             "post_id": d["post_id"],
-            "url": "rent-detail-" + str(d["post_id"]) + ".html",
+            "url": "home/house/detail/2/" + str(d["post_id"]) + ".html",
             "price": d["price"].replace(",", ""),
             "unit": "萬",
             "area": d["area"],
