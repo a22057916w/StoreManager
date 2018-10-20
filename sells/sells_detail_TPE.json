@@ -1,5 +1,41 @@
 [
   {
+    "addr": "台北市內湖區民權東路六段",
+    "age": "5年",
+    "area": "15.05坪",
+    "community": "華固名人道",
+    "floor": "1F/14F",
+    "form": "電梯大樓",
+    "post_id": 2937183
+  },
+  {
+    "addr": "台北市信義區虎林街202巷",
+    "age": "24年",
+    "area": "22.34坪",
+    "community": "凱廈",
+    "floor": "1F/23F",
+    "form": "店面（店鋪）",
+    "post_id": 5468142
+  },
+  {
+    "addr": "台北市信義區忠孝東路四段559巷16弄21號",
+    "age": "28年",
+    "area": "599.49坪",
+    "community": "逸仙林園",
+    "floor": "B1/6F",
+    "form": "電梯大樓",
+    "post_id": 5558477
+  },
+  {
+    "addr": "台北市中山區吉林路12-3號",
+    "age": "40年",
+    "area": "111.35坪",
+    "community": "立富大樓",
+    "floor": "B1/9F",
+    "form": "電梯大樓",
+    "post_id": 5401802
+  },
+  {
     "addr": "台北市大安區敦化南路二段",
     "age": "36年",
     "area": "40.23坪",
@@ -108,42 +144,6 @@
     "post_id": 5429750
   },
   {
-    "addr": "台北市內湖區民權東路六段",
-    "age": "5年",
-    "area": "15.05坪",
-    "community": "華固名人道",
-    "floor": "1F/14F",
-    "form": "電梯大樓",
-    "post_id": 2937183
-  },
-  {
-    "addr": "台北市信義區虎林街202巷",
-    "age": "24年",
-    "area": "22.34坪",
-    "community": "凱廈",
-    "floor": "1F/23F",
-    "form": "店面（店鋪）",
-    "post_id": 5468142
-  },
-  {
-    "addr": "台北市信義區忠孝東路四段559巷16弄21號",
-    "age": "28年",
-    "area": "599.49坪",
-    "community": "逸仙林園",
-    "floor": "B1/6F",
-    "form": "電梯大樓",
-    "post_id": 5558477
-  },
-  {
-    "addr": "台北市中山區吉林路12-3號",
-    "age": "40年",
-    "area": "111.35坪",
-    "community": "立富大樓",
-    "floor": "B1/9F",
-    "form": "電梯大樓",
-    "post_id": 5401802
-  },
-  {
     "addr": "台北市松山區延壽街",
     "age": "19年",
     "area": "30.21坪",
@@ -178,6 +178,96 @@
     "floor": "1F/2F",
     "form": "透天厝",
     "post_id": 5405614
+  },
+  {
+    "addr": "台北市松山區光復北路26巷",
+    "age": "30年",
+    "area": "29.87坪",
+    "community": "環翠庭",
+    "floor": "1F/10F",
+    "form": "電梯大樓",
+    "post_id": 5419755
+  },
+  {
+    "addr": "台北市信義區松山路",
+    "age": "47年",
+    "area": "24.2坪",
+    "community": "松山賺錢三角窗金店",
+    "floor": "2F/4F",
+    "form": "店面（店鋪）",
+    "post_id": 5539198
+  },
+  {
+    "addr": "台北市信義區忠孝東路五段",
+    "age": "36年",
+    "area": "42.51坪",
+    "community": "新世界大樓",
+    "floor": "3F/12F",
+    "form": "電梯大樓",
+    "post_id": 5478383
+  },
+  {
+    "addr": "台北市士林區天玉街",
+    "age": "35年",
+    "area": "35坪",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5356145
+  },
+  {
+    "addr": "台北市內湖區成功路四段30巷",
+    "age": "22年",
+    "area": "334.94坪",
+    "community": null,
+    "floor": "1F/10F",
+    "form": "店面（店鋪）",
+    "post_id": 5457470
+  },
+  {
+    "addr": "台北市北投區自強街",
+    "age": "43年",
+    "area": "36.28坪",
+    "community": null,
+    "floor": "整棟/2F",
+    "form": "透天厝",
+    "post_id": 5580668
+  },
+  {
+    "addr": "台北市南港區研究院路一段",
+    "age": "33年",
+    "area": "25.2坪",
+    "community": null,
+    "floor": "1F/5F",
+    "form": "公寓",
+    "post_id": 5529734
+  },
+  {
+    "addr": "台北市北投區知行路",
+    "age": "49年",
+    "area": "44.59坪",
+    "community": null,
+    "floor": "整棟/2F",
+    "form": "透天厝",
+    "post_id": 5418601
+  },
+  {
+    "addr": "台北市中山區林森北路",
+    "age": "46年",
+    "area": "414.08坪",
+    "community": null,
+    "floor": "1F/11F",
+    "form": "店面（店鋪）",
+    "post_id": 5456274
+  },
+  {
+    "addr": "台北市大安區大安路一段",
+    "age": "35年",
+    "area": "72坪",
+    "community": null,
+    "floor": "2F/7F",
+    "form": "電梯大樓",
+    "post_id": 5548180
   },
   {
     "addr": "台北市大同區華陰街",
@@ -630,42 +720,6 @@
     "post_id": 5590524
   },
   {
-    "addr": "台北市松山區光復北路26巷",
-    "age": "30年",
-    "area": "29.87坪",
-    "community": "環翠庭",
-    "floor": "1F/10F",
-    "form": "電梯大樓",
-    "post_id": 5419755
-  },
-  {
-    "addr": "台北市信義區忠孝東路五段",
-    "age": "36年",
-    "area": "42.51坪",
-    "community": "新世界大樓",
-    "floor": "3F/12F",
-    "form": "電梯大樓",
-    "post_id": 5478383
-  },
-  {
-    "addr": "台北市士林區天玉街",
-    "age": "35年",
-    "area": "35坪",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5356145
-  },
-  {
-    "addr": "台北市內湖區成功路四段30巷",
-    "age": "22年",
-    "area": "334.94坪",
-    "community": null,
-    "floor": "1F/10F",
-    "form": "店面（店鋪）",
-    "post_id": 5457470
-  },
-  {
     "addr": "台北市北投區致遠一路一段78號",
     "age": "3年",
     "area": "6.95坪",
@@ -675,24 +729,6 @@
     "post_id": 5303140
   },
   {
-    "addr": "台北市南港區研究院路一段",
-    "age": "33年",
-    "area": "25.2坪",
-    "community": null,
-    "floor": "1F/5F",
-    "form": "公寓",
-    "post_id": 5529734
-  },
-  {
-    "addr": "台北市北投區知行路",
-    "age": "49年",
-    "area": "44.59坪",
-    "community": null,
-    "floor": "整棟/2F",
-    "form": "透天厝",
-    "post_id": 5418601
-  },
-  {
     "addr": "台北市大安區大安路一段51巷36號",
     "age": "56年",
     "area": "22.43坪",
@@ -700,15 +736,6 @@
     "floor": "1F/4F",
     "form": "公寓",
     "post_id": 5452477
-  },
-  {
-    "addr": "台北市中山區林森北路",
-    "age": "46年",
-    "area": "414.08坪",
-    "community": null,
-    "floor": "1F/11F",
-    "form": "店面（店鋪）",
-    "post_id": 5456274
   },
   {
     "addr": "台北市信義區林口街",
@@ -738,15 +765,6 @@
     "post_id": 5368261
   },
   {
-    "addr": "台北市大安區大安路一段",
-    "age": "35年",
-    "area": "72坪",
-    "community": null,
-    "floor": "2F/7F",
-    "form": "電梯大樓",
-    "post_id": 5548180
-  },
-  {
     "addr": "台北市信義區光復南路",
     "age": "10年",
     "area": "83.09坪",
@@ -765,15 +783,6 @@
     "post_id": 5351183
   },
   {
-    "addr": "台北市信義區松山路",
-    "age": "47年",
-    "area": "24.2坪",
-    "community": "松山賺錢三角窗金店",
-    "floor": "2F/4F",
-    "form": "店面（店鋪）",
-    "post_id": 5539198
-  },
-  {
     "addr": "台北市大安區安和路一段",
     "age": "36年",
     "area": "72.4坪",
@@ -783,13 +792,355 @@
     "post_id": 5453634
   },
   {
-    "addr": "台北市北投區自強街",
+    "addr": "台北市大安區通安街",
+    "age": "25年",
+    "area": "22.16坪",
+    "community": "通安新城",
+    "floor": "1F/12F",
+    "form": "電梯大樓",
+    "post_id": 5529906
+  },
+  {
+    "addr": "台北市大同區大龍街",
+    "age": "41年",
+    "area": "170.49坪",
+    "community": null,
+    "floor": "整棟/3F",
+    "form": "公寓",
+    "post_id": 5557966
+  },
+  {
+    "addr": "台北市松山區八德路四段",
     "age": "43年",
-    "area": "36.28坪",
+    "area": "59.85坪",
+    "community": null,
+    "floor": "1F/4F",
+    "form": "公寓",
+    "post_id": 5565948
+  },
+  {
+    "addr": "台北市大同區錦西街",
+    "age": "41年",
+    "area": "26.02坪",
+    "community": null,
+    "floor": "1F/5F",
+    "form": "店面（店鋪）",
+    "post_id": 5579240
+  },
+  {
+    "addr": "台北市士林區天母西路13巷",
+    "age": "34年",
+    "area": "39.77坪",
+    "community": "松園富堡",
+    "floor": "1F/7F",
+    "form": "電梯大樓",
+    "post_id": 5493208
+  },
+  {
+    "addr": "台北市大安區光復南路180巷",
+    "age": "44年",
+    "area": "68.95坪",
+    "community": "浩然大廈",
+    "floor": "1F/12F",
+    "form": "店面（店鋪）",
+    "post_id": 5526180
+  },
+  {
+    "addr": "台北市士林區德行東路109巷",
+    "age": "44年",
+    "area": "33.63坪",
     "community": null,
     "floor": "整棟/2F",
     "form": "透天厝",
-    "post_id": 5580668
+    "post_id": 5542335
+  },
+  {
+    "addr": "台北市大同區大龍街",
+    "age": "41年",
+    "area": "170.49坪",
+    "community": null,
+    "floor": "整棟/3F",
+    "form": "透天厝",
+    "post_id": 5554403
+  },
+  {
+    "addr": "台北市松山區光復北路230巷",
+    "age": "40年",
+    "area": "102.63坪(含車位)",
+    "community": "松山新城",
+    "floor": "1F/7F",
+    "form": "電梯大樓",
+    "post_id": 5509695
+  },
+  {
+    "addr": "台北市萬華區成都路",
+    "age": "50年",
+    "area": "69.67坪",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5511262
+  },
+  {
+    "addr": "台北市士林區大東路",
+    "age": "50年",
+    "area": "52.33坪",
+    "community": null,
+    "floor": "整棟/3F",
+    "form": "透天厝",
+    "post_id": 5542334
+  },
+  {
+    "addr": "台北市信義區基隆路二段",
+    "age": "97年",
+    "area": "37.01坪",
+    "community": null,
+    "floor": "1F/18F",
+    "form": "店面（店鋪）",
+    "post_id": 5564028
+  },
+  {
+    "addr": "台北市內湖區新湖一路",
+    "age": "5年",
+    "area": "97.32坪(含車位)",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5579113
+  },
+  {
+    "addr": "台北市北投區中正街49巷",
+    "age": "21年",
+    "area": "19.92坪(含車位)",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5579114
+  },
+  {
+    "addr": "台北市北投區中央北路二段",
+    "age": "13年",
+    "area": "23.2坪",
+    "community": "安家時代",
+    "floor": "1F/10F",
+    "form": "電梯大樓",
+    "post_id": 5517923
+  },
+  {
+    "addr": "台北市大安區敦化南路一段161巷",
+    "age": "49年",
+    "area": "36.23坪",
+    "community": null,
+    "floor": "1F/4F",
+    "form": "公寓",
+    "post_id": 5546900
+  },
+  {
+    "addr": "台北市士林區天母北路",
+    "age": "38年",
+    "area": "35.76坪",
+    "community": "石濤園",
+    "floor": "1F/11F",
+    "form": "電梯大樓",
+    "post_id": 5550899
+  },
+  {
+    "addr": "台北市士林區文林路",
+    "age": "56年",
+    "area": "23.69坪",
+    "community": null,
+    "floor": "1F/3F",
+    "form": "店面（店鋪）",
+    "post_id": 5568506
+  },
+  {
+    "addr": "台北市中山區新生北路二段",
+    "age": "42年",
+    "area": "44.27坪",
+    "community": null,
+    "floor": "1F/12F",
+    "form": "電梯大樓",
+    "post_id": 5571563
+  },
+  {
+    "addr": "台北市士林區大南路",
+    "age": "97年",
+    "area": "36.91坪",
+    "community": null,
+    "floor": "整棟/2F",
+    "form": "透天厝",
+    "post_id": 5579046
+  },
+  {
+    "addr": "台北市中正區信陽街",
+    "age": "54年",
+    "area": "119.22坪",
+    "community": null,
+    "floor": "整棟/4F",
+    "form": "透天厝",
+    "post_id": 5493035
+  },
+  {
+    "addr": "台北市中山區民權東路三段",
+    "age": "43年",
+    "area": "110.26坪",
+    "community": null,
+    "floor": "整棟/4F",
+    "form": "透天厝",
+    "post_id": 5496154
+  },
+  {
+    "addr": "台北市大同區大龍街91巷",
+    "age": "21年",
+    "area": "52.51坪(含車位)",
+    "community": "大華理想家",
+    "floor": "1F/14F",
+    "form": "電梯大樓",
+    "post_id": 5519538
+  },
+  {
+    "addr": "台北市中正區博愛路",
+    "age": "17年",
+    "area": "165.76坪(含車位)",
+    "community": "卓越時代",
+    "floor": "1F/14F",
+    "form": "店面（店鋪）",
+    "post_id": 5526070
+  },
+  {
+    "addr": "台北市松山區延壽街",
+    "age": "44年",
+    "area": "26.41坪",
+    "community": null,
+    "floor": "1F/4F",
+    "form": "店面（店鋪）",
+    "post_id": 5533444
+  },
+  {
+    "addr": "台北市中山區撫順街",
+    "age": "41年",
+    "area": "166.57坪",
+    "community": null,
+    "floor": "1F/8F",
+    "form": "店面（店鋪）",
+    "post_id": 5546849
+  },
+  {
+    "addr": "台北市大安區敦化南路一段161巷",
+    "age": "49年",
+    "area": "36.23坪",
+    "community": "以現場名稱為主",
+    "floor": "1F/4F",
+    "form": "店面（店鋪）",
+    "post_id": 5579015
+  },
+  {
+    "addr": "台北市中正區中華路一段",
+    "age": "69年",
+    "area": "63.6坪",
+    "community": null,
+    "floor": "整棟/3F",
+    "form": "透天厝",
+    "post_id": 5542401
+  },
+  {
+    "addr": "台北市大安區和平東路三段308巷",
+    "age": "39年",
+    "area": "49.38坪",
+    "community": "麟光捷運",
+    "floor": "1F/5F",
+    "form": "公寓",
+    "post_id": 5546826
+  },
+  {
+    "addr": "台北市大同區華陰街",
+    "age": "58年",
+    "area": "51.49坪",
+    "community": null,
+    "floor": "整棟/3F",
+    "form": "透天厝",
+    "post_id": 5421693
+  },
+  {
+    "addr": "台北市中正區杭州南路一段",
+    "age": "48年",
+    "area": "36.97坪",
+    "community": null,
+    "floor": "1F/11F",
+    "form": "店面（店鋪）",
+    "post_id": 5502768
+  },
+  {
+    "addr": "台北市中正區金門街4-5號",
+    "age": "52年",
+    "area": "13.6坪",
+    "community": null,
+    "floor": "1F/3F",
+    "form": "透天厝",
+    "post_id": 5522259
+  },
+  {
+    "addr": "台北市中正區襄陽路",
+    "age": "54年",
+    "area": "119.57坪",
+    "community": null,
+    "floor": "整棟/6F",
+    "form": "透天厝",
+    "post_id": 5542400
+  },
+  {
+    "addr": "台北市大安區復興南路二段148巷",
+    "age": "36年",
+    "area": "12.37坪",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5502739
+  },
+  {
+    "addr": "台北市大安區忠孝東路三段",
+    "age": "24年",
+    "area": "61.74坪",
+    "community": "工專新村",
+    "floor": "1F/11F",
+    "form": "電梯大樓",
+    "post_id": 5519489
+  },
+  {
+    "addr": "台北市松山區八德路三段158巷",
+    "age": "41年",
+    "area": "23.4坪",
+    "community": "光明",
+    "floor": "1F/7F",
+    "form": "電梯大樓",
+    "post_id": 5565810
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "age": "24年",
+    "area": "30.68坪",
+    "community": "台北新站大樓",
+    "floor": "1F/12F",
+    "form": "電梯大樓",
+    "post_id": 5565821
+  },
+  {
+    "addr": "台北市內湖區新湖三路",
+    "age": "8年",
+    "area": "617.85坪(含車位)",
+    "community": "廠辦店面",
+    "floor": "1F/6F",
+    "form": "電梯大樓",
+    "post_id": 5571453
+  },
+  {
+    "addr": "台北市大安區基隆路三段",
+    "age": "32年",
+    "area": "63.01坪",
+    "community": "大安區金店面",
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5575285
   },
   {
     "addr": "台北市士林區大東路",
@@ -799,6 +1150,69 @@
     "floor": "整棟/3F",
     "form": "透天厝",
     "post_id": 5484172
+  },
+  {
+    "addr": "台北市大安區敦化南路一段187巷",
+    "age": "42年",
+    "area": "26.5坪",
+    "community": "電梯大樓",
+    "floor": "1F/7F",
+    "form": "電梯大樓",
+    "post_id": 5504447
+  },
+  {
+    "addr": "台北市南港區中坡南路",
+    "age": "35年",
+    "area": "73.27坪",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "電梯大樓",
+    "post_id": 5520441
+  },
+  {
+    "addr": "台北市南港區研究院路一段",
+    "age": "33年",
+    "area": "25.2坪",
+    "community": null,
+    "floor": "1F/5F",
+    "form": "公寓",
+    "post_id": 5525957
+  },
+  {
+    "addr": "台北市大安區信義路四段",
+    "age": "41年",
+    "area": "92.58坪",
+    "community": "台興大廈",
+    "floor": "1F/12F",
+    "form": "店面（店鋪）",
+    "post_id": 5529552
+  },
+  {
+    "addr": "台北市內湖區東湖路113巷",
+    "age": "33年",
+    "area": "33.95坪",
+    "community": null,
+    "floor": "1F/5F",
+    "form": "公寓",
+    "post_id": 5575212
+  },
+  {
+    "addr": "台北市中山區松江路124巷",
+    "age": "39年",
+    "area": "195.4坪",
+    "community": null,
+    "floor": "1F/6F",
+    "form": "公寓",
+    "post_id": 5575243
+  },
+  {
+    "addr": "台北市文山區下崙路11巷",
+    "age": "1年",
+    "area": "14.03坪",
+    "community": null,
+    "floor": "1F/7F",
+    "form": "店面（店鋪）",
+    "post_id": 5575273
   },
   {
     "addr": "台北市松山區新中街",
@@ -1078,15 +1492,6 @@
     "floor": "1F/5F",
     "form": "公寓",
     "post_id": 5513084
-  },
-  {
-    "addr": "台北市北投區中央北路二段",
-    "age": "13年",
-    "area": "23.2坪",
-    "community": "安家時代",
-    "floor": "1F/10F",
-    "form": "電梯大樓",
-    "post_id": 5517923
   },
   {
     "addr": "台北市中山區新生北路二段",
@@ -3744,15 +4149,6 @@
     "post_id": 5565202
   },
   {
-    "addr": "台北市松山區光復北路230巷",
-    "age": "40年",
-    "area": "102.63坪(含車位)",
-    "community": "松山新城",
-    "floor": "1F/7F",
-    "form": "電梯大樓",
-    "post_id": 5509695
-  },
-  {
     "addr": "台北市中正區中華路二段75巷",
     "age": "45年",
     "area": "22.86坪",
@@ -4021,15 +4417,6 @@
     "floor": "1F/4F",
     "form": "公寓",
     "post_id": 5452976
-  },
-  {
-    "addr": "台北市大同區華陰街",
-    "age": "58年",
-    "area": "51.49坪",
-    "community": null,
-    "floor": "整棟/3F",
-    "form": "透天厝",
-    "post_id": 5421693
   },
   {
     "addr": "台北市大安區仁愛路四段",
@@ -6120,42 +6507,6 @@
     "post_id": 5495420
   },
   {
-    "addr": "台北市大安區通安街",
-    "age": "25年",
-    "area": "22.16坪",
-    "community": "通安新城",
-    "floor": "1F/12F",
-    "form": "電梯大樓",
-    "post_id": 5529906
-  },
-  {
-    "addr": "台北市大同區大龍街",
-    "age": "41年",
-    "area": "170.49坪",
-    "community": null,
-    "floor": "整棟/3F",
-    "form": "公寓",
-    "post_id": 5557966
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "age": "43年",
-    "area": "59.85坪",
-    "community": null,
-    "floor": "1F/4F",
-    "form": "公寓",
-    "post_id": 5565948
-  },
-  {
-    "addr": "台北市大同區錦西街",
-    "age": "41年",
-    "area": "26.02坪",
-    "community": null,
-    "floor": "1F/5F",
-    "form": "店面（店鋪）",
-    "post_id": 5579240
-  },
-  {
     "addr": "台北市中山區中山北路二段65巷",
     "age": "52年",
     "area": "36.43坪",
@@ -6163,15 +6514,6 @@
     "floor": "1F/4F",
     "form": "公寓",
     "post_id": 5571077
-  },
-  {
-    "addr": "台北市士林區天母西路13巷",
-    "age": "34年",
-    "area": "39.77坪",
-    "community": "松園富堡",
-    "floor": "1F/7F",
-    "form": "電梯大樓",
-    "post_id": 5493208
   },
   {
     "addr": "台北市松山區南京東路五段",
@@ -6190,33 +6532,6 @@
     "floor": "1F/5F",
     "form": "店面（店鋪）",
     "post_id": 5518133
-  },
-  {
-    "addr": "台北市大安區光復南路180巷",
-    "age": "44年",
-    "area": "68.95坪",
-    "community": "浩然大廈",
-    "floor": "1F/12F",
-    "form": "店面（店鋪）",
-    "post_id": 5526180
-  },
-  {
-    "addr": "台北市士林區德行東路109巷",
-    "age": "44年",
-    "area": "33.63坪",
-    "community": null,
-    "floor": "整棟/2F",
-    "form": "透天厝",
-    "post_id": 5542335
-  },
-  {
-    "addr": "台北市大同區大龍街",
-    "age": "41年",
-    "area": "170.49坪",
-    "community": null,
-    "floor": "整棟/3F",
-    "form": "透天厝",
-    "post_id": 5554403
   },
   {
     "addr": "台北市松山區健康路",
@@ -6273,15 +6588,6 @@
     "post_id": 5540089
   },
   {
-    "addr": "台北市萬華區成都路",
-    "age": "50年",
-    "area": "69.67坪",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5511262
-  },
-  {
     "addr": "台北市松山區三民路",
     "age": "35年",
     "area": "34.28坪",
@@ -6291,24 +6597,6 @@
     "post_id": 5523199
   },
   {
-    "addr": "台北市士林區大東路",
-    "age": "50年",
-    "area": "52.33坪",
-    "community": null,
-    "floor": "整棟/3F",
-    "form": "透天厝",
-    "post_id": 5542334
-  },
-  {
-    "addr": "台北市信義區基隆路二段",
-    "age": "97年",
-    "area": "37.01坪",
-    "community": null,
-    "floor": "1F/18F",
-    "form": "店面（店鋪）",
-    "post_id": 5564028
-  },
-  {
     "addr": "台北市萬華區貴陽街二段",
     "age": "31年",
     "area": "37.99坪",
@@ -6316,24 +6604,6 @@
     "floor": "1F/9F",
     "form": "店面（店鋪）",
     "post_id": 5575485
-  },
-  {
-    "addr": "台北市內湖區新湖一路",
-    "age": "5年",
-    "area": "97.32坪(含車位)",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5579113
-  },
-  {
-    "addr": "台北市北投區中正街49巷",
-    "age": "21年",
-    "area": "19.92坪(含車位)",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5579114
   },
   {
     "addr": "台北市南港區成福路",
@@ -6363,33 +6633,6 @@
     "post_id": 5536733
   },
   {
-    "addr": "台北市大安區敦化南路一段161巷",
-    "age": "49年",
-    "area": "36.23坪",
-    "community": null,
-    "floor": "1F/4F",
-    "form": "公寓",
-    "post_id": 5546900
-  },
-  {
-    "addr": "台北市士林區天母北路",
-    "age": "38年",
-    "area": "35.76坪",
-    "community": "石濤園",
-    "floor": "1F/11F",
-    "form": "電梯大樓",
-    "post_id": 5550899
-  },
-  {
-    "addr": "台北市士林區文林路",
-    "age": "56年",
-    "area": "23.69坪",
-    "community": null,
-    "floor": "1F/3F",
-    "form": "店面（店鋪）",
-    "post_id": 5568506
-  },
-  {
     "addr": "台北市萬華區康定路",
     "age": "55年",
     "area": "158.28坪",
@@ -6397,87 +6640,6 @@
     "floor": "整棟/4F",
     "form": "透天厝",
     "post_id": 5571562
-  },
-  {
-    "addr": "台北市中山區新生北路二段",
-    "age": "42年",
-    "area": "44.27坪",
-    "community": null,
-    "floor": "1F/12F",
-    "form": "電梯大樓",
-    "post_id": 5571563
-  },
-  {
-    "addr": "台北市士林區大南路",
-    "age": "97年",
-    "area": "36.91坪",
-    "community": null,
-    "floor": "整棟/2F",
-    "form": "透天厝",
-    "post_id": 5579046
-  },
-  {
-    "addr": "台北市中正區信陽街",
-    "age": "54年",
-    "area": "119.22坪",
-    "community": null,
-    "floor": "整棟/4F",
-    "form": "透天厝",
-    "post_id": 5493035
-  },
-  {
-    "addr": "台北市中山區民權東路三段",
-    "age": "43年",
-    "area": "110.26坪",
-    "community": null,
-    "floor": "整棟/4F",
-    "form": "透天厝",
-    "post_id": 5496154
-  },
-  {
-    "addr": "台北市大同區大龍街91巷",
-    "age": "21年",
-    "area": "52.51坪(含車位)",
-    "community": "大華理想家",
-    "floor": "1F/14F",
-    "form": "電梯大樓",
-    "post_id": 5519538
-  },
-  {
-    "addr": "台北市中正區博愛路",
-    "age": "17年",
-    "area": "165.76坪(含車位)",
-    "community": "卓越時代",
-    "floor": "1F/14F",
-    "form": "店面（店鋪）",
-    "post_id": 5526070
-  },
-  {
-    "addr": "台北市松山區延壽街",
-    "age": "44年",
-    "area": "26.41坪",
-    "community": null,
-    "floor": "1F/4F",
-    "form": "店面（店鋪）",
-    "post_id": 5533444
-  },
-  {
-    "addr": "台北市中山區撫順街",
-    "age": "41年",
-    "area": "166.57坪",
-    "community": null,
-    "floor": "1F/8F",
-    "form": "店面（店鋪）",
-    "post_id": 5546849
-  },
-  {
-    "addr": "台北市大安區敦化南路一段161巷",
-    "age": "49年",
-    "area": "36.23坪",
-    "community": "以現場名稱為主",
-    "floor": "1F/4F",
-    "form": "店面（店鋪）",
-    "post_id": 5579015
   },
   {
     "addr": "台北市中山區新生北路二段",
@@ -6534,51 +6696,6 @@
     "post_id": 5439658
   },
   {
-    "addr": "台北市中正區中華路一段",
-    "age": "69年",
-    "area": "63.6坪",
-    "community": null,
-    "floor": "整棟/3F",
-    "form": "透天厝",
-    "post_id": 5542401
-  },
-  {
-    "addr": "台北市大安區和平東路三段308巷",
-    "age": "39年",
-    "area": "49.38坪",
-    "community": "麟光捷運",
-    "floor": "1F/5F",
-    "form": "公寓",
-    "post_id": 5546826
-  },
-  {
-    "addr": "台北市中正區杭州南路一段",
-    "age": "48年",
-    "area": "36.97坪",
-    "community": null,
-    "floor": "1F/11F",
-    "form": "店面（店鋪）",
-    "post_id": 5502768
-  },
-  {
-    "addr": "台北市中正區金門街4-5號",
-    "age": "52年",
-    "area": "13.6坪",
-    "community": null,
-    "floor": "1F/3F",
-    "form": "透天厝",
-    "post_id": 5522259
-  },
-  {
-    "addr": "台北市中正區襄陽路",
-    "age": "54年",
-    "area": "119.57坪",
-    "community": null,
-    "floor": "整棟/6F",
-    "form": "透天厝",
-    "post_id": 5542400
-  },
-  {
     "addr": "台北市中山區合江街",
     "age": "9年",
     "area": "50.81坪(含車位)",
@@ -6597,24 +6714,6 @@
     "post_id": 5493242
   },
   {
-    "addr": "台北市大安區復興南路二段148巷",
-    "age": "36年",
-    "area": "12.37坪",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5502739
-  },
-  {
-    "addr": "台北市大安區忠孝東路三段",
-    "age": "24年",
-    "area": "61.74坪",
-    "community": "工專新村",
-    "floor": "1F/11F",
-    "form": "電梯大樓",
-    "post_id": 5519489
-  },
-  {
     "addr": "台北市大安區忠孝東路四段",
     "age": "28年",
     "area": "56坪",
@@ -6631,42 +6730,6 @@
     "floor": "1F/5F",
     "form": "公寓",
     "post_id": 5546149
-  },
-  {
-    "addr": "台北市松山區八德路三段158巷",
-    "age": "41年",
-    "area": "23.4坪",
-    "community": "光明",
-    "floor": "1F/7F",
-    "form": "電梯大樓",
-    "post_id": 5565810
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "age": "24年",
-    "area": "30.68坪",
-    "community": "台北新站大樓",
-    "floor": "1F/12F",
-    "form": "電梯大樓",
-    "post_id": 5565821
-  },
-  {
-    "addr": "台北市內湖區新湖三路",
-    "age": "8年",
-    "area": "617.85坪(含車位)",
-    "community": "廠辦店面",
-    "floor": "1F/6F",
-    "form": "電梯大樓",
-    "post_id": 5571453
-  },
-  {
-    "addr": "台北市大安區基隆路三段",
-    "age": "32年",
-    "area": "63.01坪",
-    "community": "大安區金店面",
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5575285
   },
   {
     "addr": "台北市信義區市民大道六段",
@@ -6739,69 +6802,6 @@
     "floor": "1F/14F",
     "form": "店面（店鋪）",
     "post_id": 5454036
-  },
-  {
-    "addr": "台北市大安區敦化南路一段187巷",
-    "age": "42年",
-    "area": "26.5坪",
-    "community": "電梯大樓",
-    "floor": "1F/7F",
-    "form": "電梯大樓",
-    "post_id": 5504447
-  },
-  {
-    "addr": "台北市南港區中坡南路",
-    "age": "35年",
-    "area": "73.27坪",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "電梯大樓",
-    "post_id": 5520441
-  },
-  {
-    "addr": "台北市南港區研究院路一段",
-    "age": "33年",
-    "area": "25.2坪",
-    "community": null,
-    "floor": "1F/5F",
-    "form": "公寓",
-    "post_id": 5525957
-  },
-  {
-    "addr": "台北市大安區信義路四段",
-    "age": "41年",
-    "area": "92.58坪",
-    "community": "台興大廈",
-    "floor": "1F/12F",
-    "form": "店面（店鋪）",
-    "post_id": 5529552
-  },
-  {
-    "addr": "台北市內湖區東湖路113巷",
-    "age": "33年",
-    "area": "33.95坪",
-    "community": null,
-    "floor": "1F/5F",
-    "form": "公寓",
-    "post_id": 5575212
-  },
-  {
-    "addr": "台北市中山區松江路124巷",
-    "age": "39年",
-    "area": "195.4坪",
-    "community": null,
-    "floor": "1F/6F",
-    "form": "公寓",
-    "post_id": 5575243
-  },
-  {
-    "addr": "台北市文山區下崙路11巷",
-    "age": "1年",
-    "area": "14.03坪",
-    "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
-    "post_id": 5575273
   },
   {
     "addr": "台北市中山區南京東路三段109巷9號",
@@ -14265,39 +14265,39 @@
     "post_id": 5397332
   },
   {
-    "addr": "台北市大同區錦西街",
-    "age": "42年",
-    "area": "26.02坪",
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/5F",
-    "form": "公寓",
+    "floor": null,
+    "form": null,
     "post_id": 5395531
   },
   {
-    "addr": "台北市大安區敦化南路二段",
-    "age": "39年",
-    "area": "75.15坪",
-    "community": "世界大樓",
-    "floor": "1F/16F",
-    "form": "店面（店鋪）",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5395542
   },
   {
-    "addr": "台北市大安區通化街57巷",
-    "age": "55年",
-    "area": "46.85坪",
-    "community": "通化夜市透天店面",
-    "floor": "整棟/3F",
-    "form": "透天厝",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5395536
   },
   {
-    "addr": "台北市萬華區武昌街二段16號",
-    "age": "47年",
-    "area": "113.31坪",
-    "community": "西門町透天店面",
-    "floor": "整棟/5F",
-    "form": "透天厝",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5395528
   },
   {
