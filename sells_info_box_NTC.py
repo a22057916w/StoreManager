@@ -106,7 +106,6 @@ if __name__ == "__main__":
     info_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"])
-        print(data["url"])
         info_boxes += get_info_box(page, data["post_id"])
 
     save(info_boxes)

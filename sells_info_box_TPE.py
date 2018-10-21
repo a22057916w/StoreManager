@@ -74,12 +74,16 @@ def get_info_box(dom, post_id):
     match = re.findall(r"[0-9]", regex)
     price = int("".join(map(str, match)))
 
+    #handling unexpected string of area to eval
+    match = re.findall(r"[0-9]+\.*[0-9]*", floor_data[2])
+    area = eval("".join(map(str, match)))
+
     info_boxes.append({
         "post_id": post_id,
         "price": price,
         "floor": floor_data[0],
         "age": floor_data[1],
-        "area": floor_data[2],
+        "area": area,
         "form": addr_data[0],
         "community": addr_data[1],
         "addr": addr_data[2]
@@ -102,6 +106,7 @@ if __name__ == "__main__":
     info_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"])
+        print(data["url"])
         info_boxes += get_info_box(page, data["post_id"])
 
     save(info_boxes)
