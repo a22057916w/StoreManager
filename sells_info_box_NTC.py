@@ -10,7 +10,7 @@ import pandas as pd
 DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
 
 def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
+    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "3"})
     if resp.status_code != 200:
         print("Invalid url:", resp.url)
         return None
@@ -19,7 +19,7 @@ def get_web_page(url):
 
 def read_excel():
     try:
-        df = pd.read_excel("sells/sells_total_rows_TPE.xlsx")
+        df = pd.read_excel("sells/sells_total_rows_NTC.xlsx")
         my_dict = df.to_dict("records")
     except Exception as e:
         print(e)
@@ -83,11 +83,11 @@ def get_info_box(dom, post_id):
 def save(data):
 
     df = pd.DataFrame.from_dict(data)
-    writer = pd.ExcelWriter('sells/sells_detail_TPE.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='sells_detail_data')
+    writer = pd.ExcelWriter('sells/sells_info_box_NTC.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='sells_info_box_data')
     writer.save()
 
-    with open('sells/sells_detail_TPE.json', 'w', encoding='utf-8') as f:
+    with open('sells/sells_info_box_NTC.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
