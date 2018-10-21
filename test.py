@@ -32,9 +32,9 @@ def get_house_box(dom, post_id):
     soup = BeautifulSoup(dom, "html.parser")
     names = soup.find_all("div", "detail-house-name")
     contents = soup.find_all("div", "detail-house-content") # get all houes box data
-    # ******************* first index of contents ************************
-    first_attr = ["現況", "裝潢程度", "管理費", "帶租約", "車位", "公設比"]
-    first_data = [None] * 6
+    # ******************* first index of contents (house info)************************
+    house_attr = ["現況", "裝潢程度", "管理費", "帶租約", "車位", "公設比"]
+    house_data = [None] * 6
 
     try:
         keys = contents[0].find_all("div", "detail-house-key")
@@ -43,14 +43,16 @@ def get_house_box(dom, post_id):
         counts = 0
         while counts < len(values):
             for i in range(6):
-                regex = r"(.*)" + re.escape(str(first_attr[i])) + r"(.*)" #regular expression string
+                regex = r"(.*)" + re.escape(str(house_attr[i])) + r"(.*)" #regular expression string
                 if re.match(regex, keys[counts].string):
-                    first_data[i] = values[counts].get_text()
+                    house_data[i] = values[counts].get_text()
                     break
             counts += 1
     except:
         pass
     print(first_data)
+    # *********************** second index of contents (area info) *********************
+    area_attr = []
 
 def save(data):
 
