@@ -28,9 +28,6 @@ def get_info(page):
         sells_data_info.append({
             "post_id": d["post_id"],
             "url": str(d["post_id"]) + ".html",
-            "price": d["price"].replace(",", ""),
-            "unit": "萬",
-            "area": d["area"],
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
         })

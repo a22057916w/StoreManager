@@ -30,27 +30,9 @@ def get_house_box(dom, post_id):
     house_boxes = []
 
     soup = BeautifulSoup(dom, "html.parser")
-    names = soup.find_all("div", "detail-house-name")
-    contents = soup.find_all("div", "detail-house-content") # get all houes box data
-    # ******************* first index of contents ************************
-    first_attr = ["現況", "裝潢程度", "管理費", "帶租約", "車位", "公設比"]
-    first_data = [None] * 6
+    info_box = soup.find("div", "detail-house-box")
 
-    try:
-        keys = contents[0].find_all("div", "detail-house-key")
-        values = contents[0].find_all("div", "detail-house-value")
 
-        counts = 0
-        while counts < len(values):
-            for i in range(6):
-                regex = r"(.*)" + re.escape(str(first_attr[i])) + r"(.*)" #regular expression string
-                if re.match(regex, keys[counts].string):
-                    first_data[i] = values[counts].get_text()
-                    break
-            counts += 1
-    except:
-        pass
-    print(first_data)
 
 def save(data):
 
@@ -66,7 +48,8 @@ if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
     house_boxes = []
-    page = get_web_page(DETAIL_URL + row_data[0]["url"])
-    get_house_box(page, row_data[0]["post_id"])
+    for data in row_data:
+        page = get_web_page(DETAIL_URL + data["url"])
+        house_boxes += get_house_box(page, data["post_id"])
 
     #save(house_boxes)
