@@ -68,9 +68,15 @@ def get_info_box(dom, post_id):
             counts += 1
     except:
         pass
-    # return info
+    # return info and get price
+    # handle unexpected string of numbers
+    regex = re.escape(soup.find("span", "info-price-num").get_text())
+    match = re.findall(r"[0-9]", regex)
+    price = int("".join(map(str, match)))
+
     info_boxes.append({
         "post_id": post_id,
+        "price": price,
         "floor": floor_data[0],
         "age": floor_data[1],
         "area": floor_data[2],
