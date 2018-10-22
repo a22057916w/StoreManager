@@ -30,6 +30,7 @@ def get_house_box(dom, post_id):
     house_boxes = []
 
     soup = BeautifulSoup(dom, "html.parser")
+    boxes = soup.find_all("div", "detail-house-box")
     names = soup.find_all("div", "detail-house-name")
     contents = soup.find_all("div", "detail-house-content") # get all houes box data
     # ******************* first index of contents (house info)************************
@@ -50,9 +51,10 @@ def get_house_box(dom, post_id):
             counts += 1
     except:
         pass
-    print(first_data)
+    print(house_data)
     # *********************** second index of contents (area info) *********************
-    area_attr = []
+
+
 
 def save(data):
 
@@ -68,7 +70,8 @@ if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
     house_boxes = []
-    page = get_web_page(DETAIL_URL + row_data[0]["url"])
+    page = get_web_page("https://sale.591.com.tw/home/house/detail/2/5563931.html")
+    print(row_data[0]["url"])
     get_house_box(page, row_data[0]["post_id"])
 
     #save(house_boxes)
