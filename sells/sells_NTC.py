@@ -7,11 +7,11 @@ import urllib.request
 import json
 import pandas as pd
 
-SELLS_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=2&type=2&kind=5&searchtype=1&region=1"
+SELLS_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=2&type=2&kind=5&searchtype=1&region=3"
 pageRow = 30
 
 def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
+    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "3"})
     if resp.status_code != 200:
         print("Invalid url:", resp.url)
         return None
@@ -27,6 +27,8 @@ def get_info(page):
     for d in data:
         sells_data_info.append({
             "post_id": d["post_id"],
+            "price": int(d["price"].replace(",", "")),
+            "area": d["area"],
             "url": str(d["post_id"]) + ".html",
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"]
@@ -41,14 +43,14 @@ def get_total_rows(page):
     return int_total
 
 def save(row_data):
-    os.makedirs("sells", exist_ok=True)
+    os.makedirs("sells/data", exist_ok=True)
 
     df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter('sells/sells_total_rows_TPE.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter("sells/data/total_rows_NTC.xlsx", engine='xlsxwriter')
     df.to_excel(writer, sheet_name='sells_total_rows_data')
     writer.save()
 
-    with open('sells/sells_total_rows_TPE.json', 'w', encoding='utf-8') as f:
+    with open("sells/data/total_rows_NTC.json", 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":

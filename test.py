@@ -53,18 +53,21 @@ def get_house_box(dom, post_id):
         pass
     print(house_data)
     # *********************** other index of contents  *********************
-    print(len(boxes))
-    str = [""] * (len(boxes) - 1) # 排除第一個index
 
-    for i in range(1, len(boxes)):
-        keys = contents[i].find_all("div", "detail-house-key")
-        values = contents[i].find_all("div", "detail-house-value")
+    cLen = len(contents)
+    str = [""] * cLen
+    for i in range(0, cLen):
+        items = contents[i].find_all("div", "detail-house-item")
 
-        for j in range(0, len(keys)):
-            str[i - 1] += keys[j].string + ":" + values[j].string + ","
+        cnt = 0
+        for item in items:
+            if cnt > 0:
+                str[i] += ","
+            str[i] += item.get_text().replace("\n", "")
+            cnt += 1
 
     print(str)
-    
+
 def save(data):
 
     df = pd.DataFrame.from_dict(data)

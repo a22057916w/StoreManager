@@ -19,7 +19,7 @@ def get_web_page(url):
 
 def read_excel():
     try:
-        df = pd.read_excel("sells/sells_total_rows_NTC.xlsx")
+        df = pd.read_excel("sells/data/total_rows_NTC.xlsx")
         my_dict = df.to_dict("records")
     except Exception as e:
         print(e)
@@ -93,11 +93,11 @@ def get_info_box(dom, post_id):
 def save(data):
 
     df = pd.DataFrame.from_dict(data)
-    writer = pd.ExcelWriter('sells/sells_info_box_NTC.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('sells/data/info_box_NTC.xlsx', engine='xlsxwriter')
     df.to_excel(writer, sheet_name='sells_info_box_data')
     writer.save()
 
-    with open('sells/sells_info_box_NTC.json', 'w', encoding='utf-8') as f:
+    with open('sells/data/info_box_NTC.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
