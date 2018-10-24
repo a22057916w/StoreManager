@@ -52,10 +52,19 @@ def get_house_box(dom, post_id):
     except:
         pass
     print(house_data)
-    # *********************** second index of contents (area info) *********************
+    # *********************** other index of contents  *********************
+    print(len(boxes))
+    str = [""] * (len(boxes) - 1) # 排除第一個index
 
+    for i in range(1, len(boxes)):
+        keys = contents[i].find_all("div", "detail-house-key")
+        values = contents[i].find_all("div", "detail-house-value")
 
+        for j in range(0, len(keys)):
+            str[i - 1] += keys[j].string + ":" + values[j].string + ","
 
+    print(str)
+    
 def save(data):
 
     df = pd.DataFrame.from_dict(data)
