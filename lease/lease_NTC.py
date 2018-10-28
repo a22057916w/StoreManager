@@ -43,14 +43,14 @@ def get_total_rows(page):
     return int_total
 
 def save(row_data):
-    os.makedirs("lease", exist_ok=True)
+    os.makedirs("lease/data", exist_ok=True)
 
     df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter('lease/lease_total_rows_NTC.xlsx', engine='xlsxwriter')
+    writer = pd.ExcelWriter('lease/data/total_rows_NTC.xlsx', engine='xlsxwriter')
     df.to_excel(writer, sheet_name='lease_total_rows_data')
     writer.save()
 
-    with open('lease/lease_total_rows_NTC.json', 'w', encoding='utf-8') as f:
+    with open('lease/data/total_rows_NTC.json', 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":

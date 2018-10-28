@@ -21,10 +21,10 @@ def read_excel():
     try:
         df = pd.read_excel("sells/data/total_rows_TPE.xlsx")
         my_dict = df.to_dict("records")
+        return my_dict  # return a list of dict
+
     except Exception as e:
         print(e)
-
-    return my_dict  # return a list of dict
 
 def get_house_box(dom, post_id):
     house_boxes = []
