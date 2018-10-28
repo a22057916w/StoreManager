@@ -7,7 +7,7 @@ import urllib.request
 import json
 import pandas as pd
 
-DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
+DETAIL_URL = "https://rent.591.com.tw/"
 
 def get_web_page(url):
     resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
@@ -25,29 +25,49 @@ def read_excel():
 
     except Exception as e:
         print(e)
-    
-def get_info_box(dom):
-    info_boxes = []
 
-    soup = BeautifulSoup(dom, "html.parser")
-    div = soup.find("div", "detailInfo clearfix")
-    attr = div.find_all("li") # a list of info
+def get_info_box(dom, post_id):
+    info_box = []
+    try:
+        # 獲取 info_box 數據
+        soup = BeautifulSoup(dom, "html.parser")
+        div = soup.find("div", "detailInfo clearfix")
+        attrs = div.find_all("li") # a list of info
 
-    print(attr)
+        #解析數據
+        my_list = ["post_id", "坪數", "樓層", "型態", "現況", "社區", "權狀坪數"]
+        my_dict = {}.fromkeys(my_list)
+
+        for attr in attrs:
+            key = attr.get_text().split(":")[0].strip()
+            value = attr.get_text().split(":")[1].strip()
+            my_dict[key] = value
+
+        #回傳數據
+        my_dict["post_id"] = post_id
+        info_box.append(my_dict)
+    except:
+        print("webpage is no longer exist")
+        pass
+
+    return info_box
 
 def save(data):
 
     df = pd.DataFrame.from_dict(data)
-    writer = pd.ExcelWriter('sells/data/info_box_TPE.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='sells_info_box_data')
+    writer = pd.ExcelWriter('lease/data/info_box_TPE.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='lease_info_box_data')
     writer.save()
 
-    with open('sells/data/info_box_TPE.json', 'w', encoding='utf-8') as f:
+    with open('lease/data/info_box_TPE.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
     info_boxes = []
-    page = get_web_page("https://rent.591.com.tw/rent-detail-6747723.html")
-    get_info_box(page)
+    for data in row_data:
+        page = get_web_page(DETAIL_URL + data["url"])
+        info_boxes += get_info_box(page, data["post_id"])
+
+    save(info_boxes)
