@@ -20,7 +20,7 @@ def get_web_page(url):
 
 def read_excel():
     try:
-        df = pd.read_excel("sells/data/total_rows_NTC.xlsx")
+        df = pd.read_excel("sells/data/total_rows_TPE.xlsx")
         my_dict = df.to_dict("records")
     except Exception as e:
         print(e)
@@ -52,7 +52,7 @@ def get_images(dom):
 
         return img_urls
     except Exception as e:
-        print(e)
+        print("Webpage is not exists")
         return None
 
 
@@ -60,7 +60,7 @@ def get_images(dom):
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
-    dir = "sells/images/"
+    dir = "sells/images/TPE/"
     if os.path.exists(dir): # 先刪除原本的images資料夾
         shutil.rmtree(dir, ignore_errors=True)
 

@@ -27,6 +27,8 @@ def get_info(page):
     for d in data:
         lease_data_info.append({
             "post_id": d["post_id"],
+            "price": int(d["price"].replace(",", "")),
+            "area": d["area"],
             "url": "rent-detail-" + str(d["post_id"]) + ".html",
             "addr": d["region_name"] + d["section_name"] + d["street_name"]
                 + d["alley_name"] + d["lane_name"] + d["addr_number_name"]
