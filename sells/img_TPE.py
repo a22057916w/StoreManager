@@ -6,6 +6,7 @@ import re
 import urllib.request
 import json
 import pandas as pd
+import shutil
 
 DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
 
@@ -27,26 +28,44 @@ def read_excel():
     return my_dict  # return a list of dict
 
 
-def save(data):
-    print()
+def save(image_urls, post_id, dir):
+    if img_urls:
+        try:
+            dname = dir + str(post_id)
+            os.makedirs(dname, exist_ok=False)
+
+            for img_url in img_urls:
+                fname = img_url.split('/')[-1]
+                urllib.request.urlretrieve(img_url, os.path.join(dname, fname))
+        except Exception as e:
+            print(e)
 
 def get_images(dom):
     soup = BeautifulSoup(dom, "html.parser")
+    try:
+        div = soup.find("div", "img_list")
+        images = div.find_all("img")
 
-    div = soup.find("div", "img_list")
-    images = div.find_all("img")
+        img_urls = []
+        for img in images:
+            img_urls.append(img["src"].replace("118x88.crop", "730x460"))
 
-    img_urls = []
-    for img in images:
-        img_urls.append(img["src"].replace("118x88.crop", "730x460"))
+        return img_urls
+    except Exception as e:
+        print(e)
+        return None
 
-    return img_urls
+
 
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
-    images = []
+    dir = "sells/images/"
+    if os.path.exists(dir): # 先刪除原本的images資料夾
+        shutil.rmtree(dir, ignore_errors=True)
 
-    page = get_web_page("https://sale.591.com.tw/home/house/detail/2/5523659.html")
-    img_urls = get_images(page)
-    #save(img_urls)
+    for data in row_data:
+        page = get_web_page(DETAIL_URL + data["url"])
+        print(data["post_id"])
+        img_urls = get_images(page)
+        save(img_urls, data["post_id"], dir)
