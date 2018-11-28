@@ -59,7 +59,7 @@ def get_images(dom):
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
-    dir = "lease/images/NTC/"
+    dir = "D:/Python/database/lease/images/NTC/"
     if os.path.exists(dir): # 先刪除原本的images資料夾
         shutil.rmtree(dir, ignore_errors=True)
 

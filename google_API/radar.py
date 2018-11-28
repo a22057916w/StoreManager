@@ -11,25 +11,30 @@ def read_excel():
     except Exception as e:
         print(e)
 
-"""def save(data):
+def save(data):
 
     df = pd.DataFrame.from_dict(data)
-    writer = pd.ExcelWriter('lease/data/house_box_TPE.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='lease_house_box_data')
+    writer = pd.ExcelWriter('lease/data/loc_NTC.xlsx', engine='xlsxwriter')
+    df.to_excel(writer, sheet_name='lease_NTC_location')
     writer.save()
 
-    with open('lease/data/house_box_TPE.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)"""
+    with open('lease/data/loc_NTC.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
     row_data = read_excel()
 
     gmaps = googlemaps.Client(key = "AIzaSyDcixkMKgROY2tE_4VLPTioPtDOwbmzfcI")
-    mrt_station = []
     geo_result = []
     for data in row_data:
-        geo_result.append(gmaps.geocode(data["addr"]))
-    for geo_loc in geo_result:
-        print(geo_loc[0]["geometry"]["location"])
+        coordinate = gmaps.geocode(data["addr"])[0]["geometry"]["location"]
+        geo_result.append({
+            "addr": data["addr"],
+            "coordinate": coordinate
+        })
+    print(geo_result)
+
+    save(geo_result)
+
     #radar_result = gmaps.places_nearby(keyword = "cafe", location = ", radius = 1000, language = "chinese")
     #print(radar_result)
