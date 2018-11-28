@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import os
 
 def read_excel(fname):
     try:
@@ -14,7 +15,7 @@ def save(data, fname):
 
     df = pd.DataFrame.from_dict(data)
     writer = pd.ExcelWriter(fname + ".xlsx", engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='lease_NTC_location')
+    df.to_excel(writer, sheet_name = fname.split("/")[-1])
     writer.save()
 
     with open(fname + ".json", 'w', encoding='utf-8') as f:

@@ -4,8 +4,7 @@ import time
 import os
 import re
 import urllib.request
-import json
-import pandas as pd
+from myio import read_excel, save
 
 DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
 
@@ -16,15 +15,6 @@ def get_web_page(url):
         return None
     else:
         return resp.text
-
-def read_excel():
-    try:
-        df = pd.read_excel("sells/data/total_rows_NTC.xlsx")
-        my_dict = df.to_dict("records")
-        return my_dict  # return a list of dict
-
-    except Exception as e:
-        print(e)
 
 def get_house_box(dom, post_id):
     house_boxes = []
@@ -58,22 +48,12 @@ def get_house_box(dom, post_id):
     house_boxes.append(my_dict)
     return house_boxes
 
-def save(data):
-
-    df = pd.DataFrame.from_dict(data)
-    writer = pd.ExcelWriter('sells/data/house_box_NTC.xlsx', engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='sells_house_box_data')
-    writer.save()
-
-    with open('sells/data/house_box_NTC.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
-
 if __name__ == "__main__":
-    row_data = read_excel() # get the excel info
+    row_data = read_excel("sells/data/total_rows_NTC.xlsx") # get the excel info
 
     house_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"])
         house_boxes += get_house_box(page, data["post_id"])
 
-    save(house_boxes)
+    save(house_boxes, "sells/data/house_box_NTC")
