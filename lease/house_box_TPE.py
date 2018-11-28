@@ -28,6 +28,9 @@ def read_excel():
 
 def get_house_box(dom, post_id):
     house_boxes = []
+    my_list = ["post_id", "房屋資料", "生活機能", "附近交通"]
+    my_dict = {}.fromkeys(my_list)
+    my_dict["post_id"] = post_id
 
     try:
         #獲取資訊
@@ -36,15 +39,12 @@ def get_house_box(dom, post_id):
         life_p = soup.find("div", "lifeBox").find_all("p") #生活交通
 
         #解析資訊
-        my_list = ["post_id", "房屋資料", "生活機能", "附近交通"]
-        my_dict = {}.fromkeys(my_list)
-
-        str = ""
+        str1 = ""
         for li in house_li: #房屋資料
             key = li.find("div", "one").get_text()
             value = li.find("div", "two").get_text()
-            str += key + value + ","
-        my_dict["房屋資料"] = str
+            str1 += key + value + ","
+        my_dict["房屋資料"] = str1
 
         for p in life_p: #生活機能
             text = p.get_text().strip()
@@ -53,13 +53,12 @@ def get_house_box(dom, post_id):
             my_dict[key] = value
 
         #回傳資料
-        my_dict["post_id"] = post_id
         house_boxes.append(my_dict)
+        return house_boxes
     except:
-        print("webpage is no longer exist")
-        pass
-
-    return house_boxes
+        print("post_id " + str(post_id) + ": webpage is no longer exist")
+        house_boxes.append(my_dict)
+        return house_boxes
 
 def save(data):
 

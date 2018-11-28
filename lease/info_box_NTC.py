@@ -27,30 +27,30 @@ def read_excel():
         print(e)
 
 def get_info_box(dom, post_id):
-    info_box = []
-    try:
-        # 獲取 info_box 數據
-        soup = BeautifulSoup(dom, "html.parser")
-        div = soup.find("div", "detailInfo clearfix")
-        attrs = div.find_all("li") # a list of info
-
-        #解析數據
+        info_box = []
         my_list = ["post_id", "坪數", "樓層", "型態", "現況", "社區", "權狀坪數"]
         my_dict = {}.fromkeys(my_list)
-
-        for attr in attrs:
-            key = attr.get_text().split(":")[0].strip()
-            value = attr.get_text().split(":")[1].strip()
-            my_dict[key] = value
-
-        #回傳數據
         my_dict["post_id"] = post_id
-        info_box.append(my_dict)
-    except:
-        print("webpage is no longer exist")
-        pass
 
-    return info_box
+        try:
+            # 獲取 info_box 數據
+            soup = BeautifulSoup(dom, "html.parser")
+            div = soup.find("div", "detailInfo clearfix")
+            attrs = div.find_all("li") # a list of info
+
+            #解析數據
+            for attr in attrs:
+                key = attr.get_text().split(":")[0].strip()
+                value = attr.get_text().split(":")[1].strip()
+                my_dict[key] = value
+
+            #回傳數據
+            info_box.append(my_dict)
+            return info_box
+        except:
+            print("post_id" + str(post_id) + ": 網頁資料不存在")
+            info_box.append(my_dict)
+            return info_box
 
 def save(data):
 
