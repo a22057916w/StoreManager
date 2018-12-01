@@ -1,23 +1,10 @@
-import requests
-from bs4 import BeautifulSoup
-import time
-import os
 import re
-import urllib.request
-import json
-import pandas as pd
 from myio import read_excel, save
+from bs4 import BeautifulSoup
+from wb import get_web_page
 
 DETAIL_URL = "https://rent.591.com.tw/"
-
-def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
-    if resp.status_code != 200:
-        print("Invalid url:", resp.url)
-        return None
-    else:
-        return resp.text
-
+urlJumpIp = 1
 
 def get_info_box(dom, post_id):
     info_box = []
@@ -51,7 +38,7 @@ if __name__ == "__main__":
 
     info_boxes = []
     for data in row_data:
-        page = get_web_page(DETAIL_URL + data["url"])
+        page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         info_boxes += get_info_box(page, data["post_id"])
 
     save(info_boxes, "lease/data/info_box_TPE")

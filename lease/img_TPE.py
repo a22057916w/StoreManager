@@ -1,6 +1,5 @@
-import requests
 from bs4 import BeautifulSoup
-import time
+from wb import get_web_page
 import os
 import re
 import urllib.request
@@ -9,14 +8,7 @@ import pandas as pd
 import shutil
 
 DETAIL_URL = "https://rent.591.com.tw/"
-
-def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
-    if resp.status_code != 200:
-        print("Invalid url:", resp.url)
-        return None
-    else:
-        return resp.text
+urlJumpIp = 1
 
 def read_excel():
     try:
@@ -64,7 +56,7 @@ if __name__ == "__main__":
         shutil.rmtree(dir, ignore_errors=True)
 
     for data in row_data:
-        page = get_web_page(DETAIL_URL + data["url"])
+        page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         print(data["post_id"])
         img_urls = get_images(page)
         save(img_urls, data["post_id"], dir)

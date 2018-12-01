@@ -1,20 +1,11 @@
-import requests
-from bs4 import BeautifulSoup
-import time
-import os
 import re
-import urllib.request
 from myio import read_excel, save
+from bs4 import BeautifulSoup
+from wb import get_web_page
 
 DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
+urlJumpIp = 3
 
-def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "3"})
-    if resp.status_code != 200:
-        print("Invalid url:", resp.url)
-        return None
-    else:
-        return resp.text
 
 def get_info_box(dom, post_id):
     info_boxes = []
@@ -85,7 +76,7 @@ if __name__ == "__main__":
 
     info_boxes = []
     for data in row_data:
-        page = get_web_page(DETAIL_URL + data["url"])
+        page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         info_boxes += get_info_box(page, data["post_id"])
 
     save(info_boxes, "sells/data/info_box_NTC")
