@@ -15,7 +15,7 @@ def save(data, fname):
 
     df = pd.DataFrame.from_dict(data)
     writer = pd.ExcelWriter(fname + ".xlsx", engine='xlsxwriter')
-    df.to_excel(writer, sheet_name = fname.split("/")[-1])
+    df.to_excel(writer)
     writer.save()
 
     with open(fname + ".json", 'w', encoding='utf-8') as f:

@@ -1,6 +1,5 @@
-import requests
 from bs4 import BeautifulSoup
-import time
+from wb import get_web_page
 import os
 import re
 import urllib.request
@@ -9,14 +8,6 @@ import pandas as pd
 
 LEASE_URL = "https://business.591.com.tw/home/search/rsList?is_new_list=1&storeType=1&type=1&kind=5&searchtype=1&region=1"
 pageRow = 30
-
-def get_web_page(url):
-    resp = requests.get(url=url, headers={'User-Agent': 'Custom'}, cookies={"urlJumpIp": "1"})
-    if resp.status_code != 200:
-        print("Invalid url:", resp.url)
-        return None
-    else:
-        return resp.text # return a dict of dict of list of dict
 
 def get_info(page):
     dict1 = json.loads(page) # page is a dict of dict of list of dict
@@ -54,7 +45,7 @@ def save(row_data):
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
-    current_page = get_web_page(LEASE_URL) # return a dict of dict of list of dict
+    current_page = get_web_page(LEASE_URL, 1) # return a dict of dict of list of dict
     total_rows = get_total_rows(current_page)
 
     page_count = 0
@@ -64,6 +55,6 @@ if __name__ == "__main__":
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
-        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows))
+        current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows), 1)
 
     save(row_data)
