@@ -47,8 +47,8 @@ def save(row_data):
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
-    current_page = get_web_page(LEASE_URL) # return a dict of dict of list of dict
-    total_rows = get_total_rows(current_page, urlJumpIp)
+    current_page = get_web_page(LEASE_URL, urlJumpIp) # return a dict of dict of list of dict
+    total_rows = get_total_rows(current_page)
 
     page_count = 0
     row_data = []

@@ -51,15 +51,22 @@ def get_info_box(dom, post_id):
             counts += 1
     except:
         pass
+
     # return info and get price
     # handling unexpected string of numbers to int
-    regex = re.escape(soup.find("span", "info-price-num").get_text())
-    match = re.findall(r"[0-9]", regex)
-    price = int("".join(map(str, match)))
+    try:
+        regex = re.escape(soup.find("span", "info-price-num").get_text())
+        match = re.findall(r"[0-9]", regex)
+        price = int("".join(map(str, match)))
+    except:
+        price = None
 
     #handling unexpected string of area to eval
-    match = re.findall(r"[0-9]+\.*[0-9]*", floor_data[2])
-    area = eval("".join(map(str, match)))
+    try:
+        match = re.findall(r"[0-9]+\.*[0-9]*", floor_data[2])
+        area = eval("".join(map(str, match)))
+    except:
+        area = None
 
     info_boxes.append({
         "post_id": post_id,
