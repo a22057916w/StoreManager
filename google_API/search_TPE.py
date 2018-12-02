@@ -1,4 +1,5 @@
 import googlemaps
+import ast
 import sys
 sys.path.append("script/")
 from myio import read_excel, save
@@ -6,9 +7,10 @@ from myio import read_excel, save
 def get_geoNearBy(locations):
     vic = []
     for loc in locations:
-        print(loc["coordinate"])
-        #vic.append(gmaps.places_nearby(location = loc["coordinate"], radius = 1000, type = "subway_station"))
-    #print(vic[0])
+        dicLoc = ast.literal_eval(loc["coordinate"]) # turn string into dict
+        coord = (dicLoc["lat"], dicLoc["lng"]) # make a coordinate
+        vic.append(gmaps.places_nearby(location = coord, radius = 1000, type = "subway_station"))
+    print(vic[0])
     return vic
 
 
