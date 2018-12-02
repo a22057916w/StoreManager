@@ -1,5 +1,5 @@
-import requests
 from bs4 import BeautifulSoup
+from wb import get_web_page
 import time
 import os
 import re
