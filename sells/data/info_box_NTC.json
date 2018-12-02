@@ -710,14 +710,14 @@
     "price": 980
   },
   {
-    "addr": "新北市深坑區北深路二段",
-    "age": "19年",
-    "area": 37,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/7F",
-    "form": "電梯大樓",
+    "floor": null,
+    "form": null,
     "post_id": 5530298,
-    "price": 2650
+    "price": null
   },
   {
     "addr": "新北市鶯歌區中山路138巷",
@@ -1040,14 +1040,14 @@
     "price": 2150
   },
   {
-    "addr": "新北市新莊區福壽街",
-    "age": "40年",
-    "area": 45.22,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/4F",
-    "form": "公寓",
+    "floor": null,
+    "form": null,
     "post_id": 5529970,
-    "price": 5880
+    "price": null
   },
   {
     "addr": "新北市中和區中正路",
@@ -7471,7 +7471,7 @@
   },
   {
     "addr": "新北市新店區永業路81巷",
-    "age": "37年",
+    "age": "38年",
     "area": 12.81,
     "community": "美芝城",
     "floor": "B1/5F",
@@ -11780,14 +11780,14 @@
     "price": 4450
   },
   {
-    "addr": "新北市汐止區新台五路一段",
-    "age": "24年",
-    "area": 37.4,
-    "community": "華爾街大樓",
-    "floor": "1F/10F",
-    "form": "電梯大樓",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5530501,
-    "price": 3200
+    "price": null
   },
   {
     "addr": "新北市板橋區文化路二段",
@@ -12470,54 +12470,54 @@
     "price": 1980
   },
   {
-    "addr": "新北市板橋區重慶路",
-    "age": "16年",
-    "area": 96.15,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/9F",
-    "form": "電梯大樓",
+    "floor": null,
+    "form": null,
     "post_id": 5529904,
-    "price": 5960
+    "price": null
   },
   {
-    "addr": "新北市板橋區重慶路",
-    "age": "16年",
-    "area": 64.23,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/9F",
-    "form": "電梯大樓",
+    "floor": null,
+    "form": null,
     "post_id": 5529912,
-    "price": 3980
+    "price": null
   },
   {
-    "addr": "新北市板橋區四川路二段245巷",
-    "age": "22年",
-    "area": 56.96,
-    "community": "生活社區",
-    "floor": "1F/17F",
-    "form": "電梯大樓",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5529927,
-    "price": 1880
+    "price": null
   },
   {
-    "addr": "新北市板橋區中山路二段318巷",
-    "age": "46年",
-    "area": 33.12,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "整棟/3F",
-    "form": "透天厝",
+    "floor": null,
+    "form": null,
     "post_id": 5530015,
-    "price": 2750
+    "price": null
   },
   {
-    "addr": "新北市板橋區重慶路",
-    "age": "16年",
-    "area": 19.46,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/9F",
-    "form": "電梯大樓",
+    "floor": null,
+    "form": null,
     "post_id": 5529892,
-    "price": 1980
+    "price": null
   },
   {
     "addr": "新北市淡水區北新路",
@@ -13320,14 +13320,14 @@
     "price": 3000
   },
   {
-    "addr": "新北市中和區中山路二段",
-    "age": "42年",
-    "area": 34.8,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/4F",
-    "form": "店面（店鋪）",
+    "floor": null,
+    "form": null,
     "post_id": 5530173,
-    "price": 3380
+    "price": null
   },
   {
     "addr": "新北市中和區中原五街",
@@ -15450,14 +15450,14 @@
     "price": 1800
   },
   {
-    "addr": "新北市板橋區長安街138巷",
-    "age": "37年",
-    "area": 48.17,
-    "community": "0989540091",
-    "floor": "整棟/3F",
-    "form": "透天厝",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5530020,
-    "price": 3580
+    "price": null
   },
   {
     "addr": "新北市三芝區三民街",
@@ -17060,64 +17060,64 @@
     "price": 4360
   },
   {
-    "addr": "新北市永和區永和路二段",
-    "age": "45年",
-    "area": 74.78,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "整棟/4F",
-    "form": "透天厝",
+    "floor": null,
+    "form": null,
     "post_id": 5529889,
-    "price": 13800
+    "price": null
   },
   {
-    "addr": "新北市永和區林森路",
-    "age": "20年",
-    "area": 54.06,
-    "community": "橋頭堡",
-    "floor": "1F/12F",
-    "form": "店面（店鋪）",
+    "addr": null,
+    "age": null,
+    "area": null,
+    "community": null,
+    "floor": null,
+    "form": null,
     "post_id": 5529905,
-    "price": 2350
+    "price": null
   },
   {
-    "addr": "新北市三重區中央南路",
-    "age": "17年",
-    "area": 47.38,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/7F",
-    "form": "店面（店鋪）",
+    "floor": null,
+    "form": null,
     "post_id": 5530301,
-    "price": 3580
+    "price": null
   },
   {
-    "addr": "新北市蘆洲區中山一路",
-    "age": "35年",
-    "area": 54.54,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/5F",
-    "form": "店面（店鋪）",
+    "floor": null,
+    "form": null,
     "post_id": 5530310,
-    "price": 5980
+    "price": null
   },
   {
-    "addr": "新北市蘆洲區鷺江街",
-    "age": "31年",
-    "area": 27.84,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "整棟/5F",
-    "form": "公寓",
+    "floor": null,
+    "form": null,
     "post_id": 5530271,
-    "price": 3680
+    "price": null
   },
   {
-    "addr": "新北市中和區中山路二段",
-    "age": "42年",
-    "area": 34.8,
+    "addr": null,
+    "age": null,
+    "area": null,
     "community": null,
-    "floor": "1F/4F",
-    "form": "公寓",
+    "floor": null,
+    "form": null,
     "post_id": 5530021,
-    "price": 3380
+    "price": null
   },
   {
     "addr": "新北市汐止區伯爵街",
