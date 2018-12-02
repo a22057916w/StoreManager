@@ -1,19 +1,5 @@
 [
   {
-    "addr": "台北市松山區寶清街3號",
-    "area": 22,
-    "post_id": 7070330,
-    "price": 33000,
-    "url": "rent-detail-7070330.html"
-  },
-  {
-    "addr": "台北市中山區長春路218號",
-    "area": 134,
-    "post_id": 6830224,
-    "price": 320000,
-    "url": "rent-detail-6830224.html"
-  },
-  {
     "addr": "台北市松山區忠孝東路四段",
     "area": 230,
     "post_id": 6746098,
@@ -35,11 +21,11 @@
     "url": "rent-detail-6684724.html"
   },
   {
-    "addr": "台北市中正區南昌路一段",
-    "area": 91.4,
-    "post_id": 6791514,
-    "price": 120000,
-    "url": "rent-detail-6791514.html"
+    "addr": "台北市中正區羅斯福路三段100號",
+    "area": 1,
+    "post_id": 6786766,
+    "price": 2000,
+    "url": "rent-detail-6786766.html"
   },
   {
     "addr": "台北市松山區饒河街212號",
@@ -49,6 +35,244 @@
     "url": "rent-detail-6804916.html"
   },
   {
+    "addr": "台北市中正區忠孝西路一段50號",
+    "area": 22,
+    "post_id": 6849530,
+    "price": 268000,
+    "url": "rent-detail-6849530.html"
+  },
+  {
+    "addr": "台北市文山區羅斯福路五段79巷",
+    "area": 10,
+    "post_id": 6920960,
+    "price": 12000,
+    "url": "rent-detail-6920960.html"
+  },
+  {
+    "addr": "台北市大安區市民大道三段",
+    "area": 43.1,
+    "post_id": 6931731,
+    "price": 120000,
+    "url": "rent-detail-6931731.html"
+  },
+  {
+    "addr": "台北市中山區南京東路一段",
+    "area": 222.8,
+    "post_id": 6984078,
+    "price": 600000,
+    "url": "rent-detail-6984078.html"
+  },
+  {
+    "addr": "台北市中正區南昌路一段",
+    "area": 91.4,
+    "post_id": 6992612,
+    "price": 120000,
+    "url": "rent-detail-6992612.html"
+  },
+  {
+    "addr": "台北市大同區承德路三段",
+    "area": 70,
+    "post_id": 7013887,
+    "price": 132135,
+    "url": "rent-detail-7013887.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段216巷",
+    "area": 12,
+    "post_id": 7039415,
+    "price": 140000,
+    "url": "rent-detail-7039415.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路三段216巷4弄19號",
+    "area": 14,
+    "post_id": 7050782,
+    "price": 32000,
+    "url": "rent-detail-7050782.html"
+  },
+  {
+    "addr": "台北市松山區敦化北路222巷",
+    "area": 125,
+    "post_id": 7054504,
+    "price": 165000,
+    "url": "rent-detail-7054504.html"
+  },
+  {
+    "addr": "台北市松山區南京東路五段59巷",
+    "area": 28.5,
+    "post_id": 7059057,
+    "price": 82000,
+    "url": "rent-detail-7059057.html"
+  },
+  {
+    "addr": "台北市松山區撫遠街",
+    "area": 37.3,
+    "post_id": 7059997,
+    "price": 70000,
+    "url": "rent-detail-7059997.html"
+  },
+  {
+    "addr": "台北市中山區南京東路一段",
+    "area": 222.8,
+    "post_id": 7013099,
+    "price": 600000,
+    "url": "rent-detail-7013099.html"
+  },
+  {
+    "addr": "台北市信義區基隆路一段147巷5弄3號",
+    "area": 30,
+    "post_id": 7018413,
+    "price": 95000,
+    "url": "rent-detail-7018413.html"
+  },
+  {
+    "addr": "台北市士林區後港街",
+    "area": 50,
+    "post_id": 6870832,
+    "price": 60000,
+    "url": "rent-detail-6870832.html"
+  },
+  {
+    "addr": "台北市大安區通化街39巷",
+    "area": 14.4,
+    "post_id": 6992557,
+    "price": 33000,
+    "url": "rent-detail-6992557.html"
+  },
+  {
+    "addr": "台北市中正區寶慶路",
+    "area": 158.4,
+    "post_id": 6795567,
+    "price": 298000,
+    "url": "rent-detail-6795567.html"
+  },
+  {
+    "addr": "台北市內湖區瑞光路",
+    "area": 94,
+    "post_id": 6776586,
+    "price": 134329,
+    "url": "rent-detail-6776586.html"
+  },
+  {
+    "addr": "台北市大安區延吉街62巷",
+    "area": 8,
+    "post_id": 6784986,
+    "price": 38000,
+    "url": "rent-detail-6784986.html"
+  },
+  {
+    "addr": "台北市中山區南京東路三段223巷",
+    "area": 27.8,
+    "post_id": 6958288,
+    "price": 70000,
+    "url": "rent-detail-6958288.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "area": 200,
+    "post_id": 7041605,
+    "price": 422832,
+    "url": "rent-detail-7041605.html"
+  },
+  {
+    "addr": "台北市中山區中山北路二段",
+    "area": 41,
+    "post_id": 7061318,
+    "price": 200000,
+    "url": "rent-detail-7061318.html"
+  },
+  {
+    "addr": "台北市中正區杭州南路一段",
+    "area": 133,
+    "post_id": 6790989,
+    "price": 171429,
+    "url": "rent-detail-6790989.html"
+  },
+  {
+    "addr": "台北市信義區忠孝東路五段520號",
+    "area": 52,
+    "post_id": 6846822,
+    "price": 148000,
+    "url": "rent-detail-6846822.html"
+  },
+  {
+    "addr": "台北市中正區南昌路二段",
+    "area": 50,
+    "post_id": 6870954,
+    "price": 115000,
+    "url": "rent-detail-6870954.html"
+  },
+  {
+    "addr": "台北市大安區延吉街62巷",
+    "area": 10,
+    "post_id": 6904490,
+    "price": 45000,
+    "url": "rent-detail-6904490.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "area": 218,
+    "post_id": 6853318,
+    "price": 260000,
+    "url": "rent-detail-6853318.html"
+  },
+  {
+    "addr": "台北市中正區忠孝西路一段72號",
+    "area": 22.5,
+    "post_id": 7003823,
+    "price": 85000,
+    "url": "rent-detail-7003823.html"
+  },
+  {
+    "addr": "台北市松山區南京東路三段269巷",
+    "area": 73,
+    "post_id": 7009465,
+    "price": 158562,
+    "url": "rent-detail-7009465.html"
+  },
+  {
+    "addr": "台北市內湖區堤頂大道二段407巷",
+    "area": 169,
+    "post_id": 7009875,
+    "price": 422575,
+    "url": "rent-detail-7009875.html"
+  },
+  {
+    "addr": "台北市內湖區內湖路一段737巷",
+    "area": 10.3,
+    "post_id": 6794686,
+    "price": 35000,
+    "url": "rent-detail-6794686.html"
+  },
+  {
+    "addr": "台北市內湖區內湖路一段",
+    "area": 15,
+    "post_id": 6867500,
+    "price": 8000,
+    "url": "rent-detail-6867500.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段69巷",
+    "area": 78.1,
+    "post_id": 7060716,
+    "price": 120000,
+    "url": "rent-detail-7060716.html"
+  },
+  {
+    "addr": "台北市中正區南昌路一段",
+    "area": 91.4,
+    "post_id": 6791514,
+    "price": 120000,
+    "url": "rent-detail-6791514.html"
+  },
+  {
+    "addr": "台北市中山區北安路",
+    "area": 65,
+    "post_id": 6812955,
+    "price": 90000,
+    "url": "rent-detail-6812955.html"
+  },
+  {
     "addr": "台北市大安區瑞安街135巷",
     "area": 60,
     "post_id": 6830592,
@@ -56,11 +280,11 @@
     "url": "rent-detail-6830592.html"
   },
   {
-    "addr": "台北市中正區忠孝西路一段50號",
-    "area": 22,
-    "post_id": 6849530,
-    "price": 268000,
-    "url": "rent-detail-6849530.html"
+    "addr": "台北市中正區中華路二段",
+    "area": 25,
+    "post_id": 6832133,
+    "price": 38888,
+    "url": "rent-detail-6832133.html"
   },
   {
     "addr": "台北市文山區景美街75號",
@@ -77,6 +301,13 @@
     "url": "rent-detail-6866489.html"
   },
   {
+    "addr": "台北市大安區敦化南路一段187巷",
+    "area": 20,
+    "post_id": 6891373,
+    "price": 200000,
+    "url": "rent-detail-6891373.html"
+  },
+  {
     "addr": "台北市中山區雙城街46巷",
     "area": 60,
     "post_id": 6906533,
@@ -91,11 +322,18 @@
     "url": "rent-detail-6917423.html"
   },
   {
-    "addr": "台北市大安區市民大道三段",
-    "area": 43.1,
-    "post_id": 6931731,
-    "price": 120000,
-    "url": "rent-detail-6931731.html"
+    "addr": "台北市大安區忠孝東路四段223巷",
+    "area": 8,
+    "post_id": 6964027,
+    "price": 38000,
+    "url": "rent-detail-6964027.html"
+  },
+  {
+    "addr": "台北市萬華區武昌街二段91巷10號",
+    "area": 25,
+    "post_id": 6981871,
+    "price": 90000,
+    "url": "rent-detail-6981871.html"
   },
   {
     "addr": "台北市中正區羅斯福路三段",
@@ -110,13 +348,6 @@
     "post_id": 6997488,
     "price": 139999,
     "url": "rent-detail-6997488.html"
-  },
-  {
-    "addr": "台北市信義區基隆路一段147巷5弄3號",
-    "area": 30,
-    "post_id": 7018413,
-    "price": 95000,
-    "url": "rent-detail-7018413.html"
   },
   {
     "addr": "台北市中山區林森北路259巷",
@@ -140,32 +371,11 @@
     "url": "rent-detail-7035951.html"
   },
   {
-    "addr": "台北市大安區忠孝東路四段216巷",
-    "area": 12,
-    "post_id": 7039415,
-    "price": 140000,
-    "url": "rent-detail-7039415.html"
-  },
-  {
-    "addr": "台北市松山區敦化北路222巷",
-    "area": 125,
-    "post_id": 7054504,
-    "price": 165000,
-    "url": "rent-detail-7054504.html"
-  },
-  {
     "addr": "台北市中山區吉林路236巷",
     "area": 26.8,
     "post_id": 7057367,
     "price": 45000,
     "url": "rent-detail-7057367.html"
-  },
-  {
-    "addr": "台北市松山區撫遠街",
-    "area": 37.3,
-    "post_id": 7059997,
-    "price": 70000,
-    "url": "rent-detail-7059997.html"
   },
   {
     "addr": "台北市中山區林森北路310巷",
@@ -175,270 +385,11 @@
     "url": "rent-detail-7071911.html"
   },
   {
-    "addr": "台北市士林區後港街",
-    "area": 50,
-    "post_id": 6870832,
-    "price": 60000,
-    "url": "rent-detail-6870832.html"
-  },
-  {
-    "addr": "台北市中山區南京東路一段",
-    "area": 222.8,
-    "post_id": 7013099,
-    "price": 600000,
-    "url": "rent-detail-7013099.html"
-  },
-  {
     "addr": "台北市大安區光復南路290巷",
     "area": 21,
     "post_id": 6967648,
     "price": 75000,
     "url": "rent-detail-6967648.html"
-  },
-  {
-    "addr": "台北市大安區通化街39巷",
-    "area": 14.4,
-    "post_id": 6992557,
-    "price": 33000,
-    "url": "rent-detail-6992557.html"
-  },
-  {
-    "addr": "台北市大同區承德路三段",
-    "area": 70,
-    "post_id": 7013887,
-    "price": 132135,
-    "url": "rent-detail-7013887.html"
-  },
-  {
-    "addr": "台北市內湖區行愛路140巷25號",
-    "area": 105,
-    "post_id": 6880374,
-    "price": 128000,
-    "url": "rent-detail-6880374.html"
-  },
-  {
-    "addr": "台北市內湖區瑞光路",
-    "area": 94,
-    "post_id": 6776586,
-    "price": 134329,
-    "url": "rent-detail-6776586.html"
-  },
-  {
-    "addr": "台北市大安區延吉街62巷",
-    "area": 8,
-    "post_id": 6784986,
-    "price": 38000,
-    "url": "rent-detail-6784986.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段161巷",
-    "area": 8,
-    "post_id": 6821752,
-    "price": 38000,
-    "url": "rent-detail-6821752.html"
-  },
-  {
-    "addr": "台北市中山區南京東路三段223巷",
-    "area": 27.8,
-    "post_id": 6958288,
-    "price": 70000,
-    "url": "rent-detail-6958288.html"
-  },
-  {
-    "addr": "台北市中正區中華路二段",
-    "area": 25,
-    "post_id": 6832133,
-    "price": 38888,
-    "url": "rent-detail-6832133.html"
-  },
-  {
-    "addr": "台北市中山區南京東路一段",
-    "area": 222.8,
-    "post_id": 6984078,
-    "price": 600000,
-    "url": "rent-detail-6984078.html"
-  },
-  {
-    "addr": "台北市中正區南昌路一段",
-    "area": 91.4,
-    "post_id": 6992612,
-    "price": 120000,
-    "url": "rent-detail-6992612.html"
-  },
-  {
-    "addr": "台北市內湖區堤頂大道二段407巷",
-    "area": 169,
-    "post_id": 7009875,
-    "price": 422575,
-    "url": "rent-detail-7009875.html"
-  },
-  {
-    "addr": "台北市松山區南京東路五段59巷",
-    "area": 28.5,
-    "post_id": 7059057,
-    "price": 82000,
-    "url": "rent-detail-7059057.html"
-  },
-  {
-    "addr": "台北市中山區中山北路二段",
-    "area": 41,
-    "post_id": 7061318,
-    "price": 200000,
-    "url": "rent-detail-7061318.html"
-  },
-  {
-    "addr": "台北市中正區寶慶路",
-    "area": 158.4,
-    "post_id": 6795567,
-    "price": 298000,
-    "url": "rent-detail-6795567.html"
-  },
-  {
-    "addr": "台北市大安區延吉街62巷",
-    "area": 10,
-    "post_id": 6904490,
-    "price": 45000,
-    "url": "rent-detail-6904490.html"
-  },
-  {
-    "addr": "台北市信義區忠孝東路五段520號",
-    "area": 52,
-    "post_id": 6846822,
-    "price": 148000,
-    "url": "rent-detail-6846822.html"
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "area": 218,
-    "post_id": 6853318,
-    "price": 260000,
-    "url": "rent-detail-6853318.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段69巷",
-    "area": 78.1,
-    "post_id": 7060716,
-    "price": 120000,
-    "url": "rent-detail-7060716.html"
-  },
-  {
-    "addr": "台北市內湖區內湖路一段737巷",
-    "area": 10.3,
-    "post_id": 6794686,
-    "price": 35000,
-    "url": "rent-detail-6794686.html"
-  },
-  {
-    "addr": "台北市內湖區內湖路一段",
-    "area": 15,
-    "post_id": 6867500,
-    "price": 8000,
-    "url": "rent-detail-6867500.html"
-  },
-  {
-    "addr": "台北市中正區杭州南路一段",
-    "area": 133,
-    "post_id": 6790989,
-    "price": 171429,
-    "url": "rent-detail-6790989.html"
-  },
-  {
-    "addr": "台北市中山區北安路",
-    "area": 65,
-    "post_id": 6812955,
-    "price": 90000,
-    "url": "rent-detail-6812955.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段187巷",
-    "area": 20,
-    "post_id": 6891373,
-    "price": 200000,
-    "url": "rent-detail-6891373.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段223巷",
-    "area": 8,
-    "post_id": 6964027,
-    "price": 38000,
-    "url": "rent-detail-6964027.html"
-  },
-  {
-    "addr": "台北市萬華區武昌街二段91巷10號",
-    "area": 25,
-    "post_id": 6981871,
-    "price": 90000,
-    "url": "rent-detail-6981871.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路三段216巷4弄19號",
-    "area": 14,
-    "post_id": 7050782,
-    "price": 32000,
-    "url": "rent-detail-7050782.html"
-  },
-  {
-    "addr": "台北市松山區南京東路三段269巷",
-    "area": 73,
-    "post_id": 7009465,
-    "price": 158562,
-    "url": "rent-detail-7009465.html"
-  },
-  {
-    "addr": "台北市信義區忠孝東路五段697號",
-    "area": 100,
-    "post_id": 6940051,
-    "price": 180000,
-    "url": "rent-detail-6940051.html"
-  },
-  {
-    "addr": "台北市南港區忠孝東路六段",
-    "area": 60,
-    "post_id": 7008487,
-    "price": 110000,
-    "url": "rent-detail-7008487.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段223巷",
-    "area": 10,
-    "post_id": 6775249,
-    "price": 45000,
-    "url": "rent-detail-6775249.html"
-  },
-  {
-    "addr": "台北市信義區永吉路",
-    "area": 30,
-    "post_id": 6936577,
-    "price": 78000,
-    "url": "rent-detail-6936577.html"
-  },
-  {
-    "addr": "台北市中正區重慶南路三段67號",
-    "area": 20,
-    "post_id": 6936967,
-    "price": 38000,
-    "url": "rent-detail-6936967.html"
-  },
-  {
-    "addr": "台北市中正區忠孝西路一段72號",
-    "area": 22.5,
-    "post_id": 7003823,
-    "price": 85000,
-    "url": "rent-detail-7003823.html"
-  },
-  {
-    "addr": "台北市中正區羅斯福路三段100號",
-    "area": 1,
-    "post_id": 6786766,
-    "price": 2000,
-    "url": "rent-detail-6786766.html"
-  },
-  {
-    "addr": "台北市文山區羅斯福路五段79巷",
-    "area": 10,
-    "post_id": 6920960,
-    "price": 12000,
-    "url": "rent-detail-6920960.html"
   },
   {
     "addr": "台北市大安區忠孝東路四段223巷",
@@ -448,18 +399,60 @@
     "url": "rent-detail-6771432.html"
   },
   {
-    "addr": "台北市中正區南昌路二段",
-    "area": 50,
-    "post_id": 6870954,
-    "price": 115000,
-    "url": "rent-detail-6870954.html"
+    "addr": "台北市大同區長安西路",
+    "area": 80,
+    "post_id": 6919787,
+    "price": 206800,
+    "url": "rent-detail-6919787.html"
   },
   {
-    "addr": "台北市大同區重慶北路一段26巷",
+    "addr": "台北市中山區中山北路一段121巷",
+    "area": 48,
+    "post_id": 7075501,
+    "price": 145000,
+    "url": "rent-detail-7075501.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段223巷",
+    "area": 10,
+    "post_id": 6775249,
+    "price": 45000,
+    "url": "rent-detail-6775249.html"
+  },
+  {
+    "addr": "台北市大同區重慶北路三段264號",
     "area": 20,
-    "post_id": 7073595,
+    "post_id": 7075545,
+    "price": 40000,
+    "url": "rent-detail-7075545.html"
+  },
+  {
+    "addr": "台北市內湖區行愛路140巷25號",
+    "area": 105,
+    "post_id": 6880374,
+    "price": 128000,
+    "url": "rent-detail-6880374.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段161巷",
+    "area": 8,
+    "post_id": 6821752,
     "price": 38000,
-    "url": "rent-detail-7073595.html"
+    "url": "rent-detail-6821752.html"
+  },
+  {
+    "addr": "台北市萬華區車園街194號",
+    "area": 85,
+    "post_id": 6991232,
+    "price": 105000,
+    "url": "rent-detail-6991232.html"
+  },
+  {
+    "addr": "台北市信義區永吉路",
+    "area": 30,
+    "post_id": 6936577,
+    "price": 78000,
+    "url": "rent-detail-6936577.html"
   },
   {
     "addr": "台北市大安區復興南路一段62號",
@@ -630,11 +623,11 @@
     "url": "rent-detail-6812456.html"
   },
   {
-    "addr": "台北市信義區吳興街284巷5號",
-    "area": 30,
-    "post_id": 6812456,
-    "price": 50000,
-    "url": "rent-detail-6812456.html"
+    "addr": "台北市中山區農安街130號",
+    "area": 70,
+    "post_id": 6813066,
+    "price": 70000,
+    "url": "rent-detail-6813066.html"
   },
   {
     "addr": "台北市中山區農安街130號",
@@ -691,6 +684,13 @@
     "post_id": 6829911,
     "price": 70000,
     "url": "rent-detail-6829911.html"
+  },
+  {
+    "addr": "台北市中山區長春路218號",
+    "area": 134,
+    "post_id": 6830224,
+    "price": 320000,
+    "url": "rent-detail-6830224.html"
   },
   {
     "addr": "台北市松山區民生東路五段1號",
@@ -1015,13 +1015,6 @@
     "url": "rent-detail-6918747.html"
   },
   {
-    "addr": "台北市大同區長安西路",
-    "area": 80,
-    "post_id": 6919787,
-    "price": 206800,
-    "url": "rent-detail-6919787.html"
-  },
-  {
     "addr": "台北市大安區光復南路116巷22號",
     "area": 20,
     "post_id": 6920913,
@@ -1076,6 +1069,13 @@
     "post_id": 6936071,
     "price": 49000,
     "url": "rent-detail-6936071.html"
+  },
+  {
+    "addr": "台北市中正區重慶南路三段67號",
+    "area": 20,
+    "post_id": 6936967,
+    "price": 38000,
+    "url": "rent-detail-6936967.html"
   },
   {
     "addr": "台北市大安區和平東路一段",
@@ -1225,13 +1225,6 @@
     "url": "rent-detail-6987772.html"
   },
   {
-    "addr": "台北市萬華區車園街194號",
-    "area": 85,
-    "post_id": 6991232,
-    "price": 105000,
-    "url": "rent-detail-6991232.html"
-  },
-  {
     "addr": "台北市士林區大西路35號",
     "area": 27,
     "post_id": 6991409,
@@ -1314,6 +1307,13 @@
     "post_id": 7007485,
     "price": 89000,
     "url": "rent-detail-7007485.html"
+  },
+  {
+    "addr": "台北市南港區忠孝東路六段",
+    "area": 60,
+    "post_id": 7008487,
+    "price": 110000,
+    "url": "rent-detail-7008487.html"
   },
   {
     "addr": "台北市士林區文林路",
@@ -1526,6 +1526,174 @@
     "url": "rent-detail-7070945.html"
   },
   {
+    "addr": "台北市大同區重慶北路一段26巷",
+    "area": 20,
+    "post_id": 7073595,
+    "price": 38000,
+    "url": "rent-detail-7073595.html"
+  },
+  {
+    "addr": "台北市信義區忠孝東路五段",
+    "area": 67,
+    "post_id": 6643947,
+    "price": 198000,
+    "url": "rent-detail-6643947.html"
+  },
+  {
+    "addr": "台北市士林區大南路",
+    "area": 8.5,
+    "post_id": 6763585,
+    "price": 55000,
+    "url": "rent-detail-6763585.html"
+  },
+  {
+    "addr": "台北市內湖區內湖路二段355巷",
+    "area": 25.6,
+    "post_id": 6798146,
+    "price": 40000,
+    "url": "rent-detail-6798146.html"
+  },
+  {
+    "addr": "台北市大安區仁愛路四段300巷",
+    "area": 58,
+    "post_id": 6837345,
+    "price": 84000,
+    "url": "rent-detail-6837345.html"
+  },
+  {
+    "addr": "台北市內湖區金湖路101號",
+    "area": 49.9,
+    "post_id": 6935575,
+    "price": 150000,
+    "url": "rent-detail-6935575.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段187巷",
+    "area": 57.9,
+    "post_id": 6937546,
+    "price": 300000,
+    "url": "rent-detail-6937546.html"
+  },
+  {
+    "addr": "台北市中正區汀州路二段",
+    "area": 55,
+    "post_id": 6941156,
+    "price": 60000,
+    "url": "rent-detail-6941156.html"
+  },
+  {
+    "addr": "台北市內湖區康寧路三段219巷1號",
+    "area": 15,
+    "post_id": 6945205,
+    "price": 45000,
+    "url": "rent-detail-6945205.html"
+  },
+  {
+    "addr": "台北市大安區市民大道三段",
+    "area": 80,
+    "post_id": 6948918,
+    "price": 92000,
+    "url": "rent-detail-6948918.html"
+  },
+  {
+    "addr": "台北市士林區天母東路",
+    "area": 200,
+    "post_id": 6962037,
+    "price": 450000,
+    "url": "rent-detail-6962037.html"
+  },
+  {
+    "addr": "台北市松山區新中街8巷16號",
+    "area": 22.3,
+    "post_id": 6996320,
+    "price": 60000,
+    "url": "rent-detail-6996320.html"
+  },
+  {
+    "addr": "台北市中山區建國北路一段",
+    "area": 93.6,
+    "post_id": 7013071,
+    "price": 355788,
+    "url": "rent-detail-7013071.html"
+  },
+  {
+    "addr": "台北市松山區民生東路四段",
+    "area": 34.7,
+    "post_id": 7017947,
+    "price": 160000,
+    "url": "rent-detail-7017947.html"
+  },
+  {
+    "addr": "台北市中正區濟南路二段",
+    "area": 40.6,
+    "post_id": 7023868,
+    "price": 130000,
+    "url": "rent-detail-7023868.html"
+  },
+  {
+    "addr": "台北市中山區北安路621巷",
+    "area": 30,
+    "post_id": 7057800,
+    "price": 73000,
+    "url": "rent-detail-7057800.html"
+  },
+  {
+    "addr": "台北市文山區萬美街一段",
+    "area": 76,
+    "post_id": 7068699,
+    "price": 75000,
+    "url": "rent-detail-7068699.html"
+  },
+  {
+    "addr": "台北市中山區中山北路一段121巷",
+    "area": 38,
+    "post_id": 7075590,
+    "price": 42000,
+    "url": "rent-detail-7075590.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段223巷",
+    "area": 10,
+    "post_id": 7061188,
+    "price": 46800,
+    "url": "rent-detail-7061188.html"
+  },
+  {
+    "addr": "台北市中山區松江路",
+    "area": 2,
+    "post_id": 7061164,
+    "price": 9999,
+    "url": "rent-detail-7061164.html"
+  },
+  {
+    "addr": "台北市中山區松江路",
+    "area": 4,
+    "post_id": 6938615,
+    "price": 10888,
+    "url": "rent-detail-6938615.html"
+  },
+  {
+    "addr": "台北市萬華區廣州街",
+    "area": 80,
+    "post_id": 6565433,
+    "price": 99000,
+    "url": "rent-detail-6565433.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段233巷",
+    "area": 22,
+    "post_id": 6942452,
+    "price": 130000,
+    "url": "rent-detail-6942452.html"
+  },
+  {
+    "addr": "台北市中山區明水路",
+    "area": 37.4,
+    "post_id": 6971391,
+    "price": 50000,
+    "url": "rent-detail-6971391.html"
+  },
+  {
     "addr": "台北市中山區南京東路一段",
     "area": 142.9,
     "post_id": 6871998,
@@ -1610,111 +1778,6 @@
     "url": "rent-detail-7057681.html"
   },
   {
-    "addr": "台北市中山區雙城街25巷",
-    "area": 31,
-    "post_id": 6797874,
-    "price": 83000,
-    "url": "rent-detail-6797874.html"
-  },
-  {
-    "addr": "台北市信義區松仁路",
-    "area": 30.7,
-    "post_id": 6812539,
-    "price": 43500,
-    "url": "rent-detail-6812539.html"
-  },
-  {
-    "addr": "台北市士林區大南路",
-    "area": 25,
-    "post_id": 6912922,
-    "price": 180000,
-    "url": "rent-detail-6912922.html"
-  },
-  {
-    "addr": "台北市內湖區康寧路三段219巷1號",
-    "area": 15,
-    "post_id": 6945205,
-    "price": 45000,
-    "url": "rent-detail-6945205.html"
-  },
-  {
-    "addr": "台北市信義區莊敬路412號",
-    "area": 23.9,
-    "post_id": 6981068,
-    "price": 65000,
-    "url": "rent-detail-6981068.html"
-  },
-  {
-    "addr": "台北市松山區新中街8巷16號",
-    "area": 22.3,
-    "post_id": 6996320,
-    "price": 60000,
-    "url": "rent-detail-6996320.html"
-  },
-  {
-    "addr": "台北市內湖區康寧路三段219巷",
-    "area": 10,
-    "post_id": 7000068,
-    "price": 25000,
-    "url": "rent-detail-7000068.html"
-  },
-  {
-    "addr": "台北市北投區立農街38號",
-    "area": 20,
-    "post_id": 7043390,
-    "price": 35000,
-    "url": "rent-detail-7043390.html"
-  },
-  {
-    "addr": "台北市文山區萬美街一段",
-    "area": 76,
-    "post_id": 7068699,
-    "price": 75000,
-    "url": "rent-detail-7068699.html"
-  },
-  {
-    "addr": "台北市中正區金門街",
-    "area": 30,
-    "post_id": 7038403,
-    "price": 95000,
-    "url": "rent-detail-7038403.html"
-  },
-  {
-    "addr": "台北市中正區師大路",
-    "area": 60.9,
-    "post_id": 6995696,
-    "price": 110000,
-    "url": "rent-detail-6995696.html"
-  },
-  {
-    "addr": "台北市大安區安居街35巷",
-    "area": 47,
-    "post_id": 6891573,
-    "price": 58000,
-    "url": "rent-detail-6891573.html"
-  },
-  {
-    "addr": "台北市大安區光復南路419巷",
-    "area": 40,
-    "post_id": 6926663,
-    "price": 54680,
-    "url": "rent-detail-6926663.html"
-  },
-  {
-    "addr": "台北市信義區松仁路",
-    "area": 30.7,
-    "post_id": 6939656,
-    "price": 43500,
-    "url": "rent-detail-6939656.html"
-  },
-  {
-    "addr": "台北市文山區指南路二段119巷",
-    "area": 15,
-    "post_id": 7014284,
-    "price": 30000,
-    "url": "rent-detail-7014284.html"
-  },
-  {
     "addr": "台北市松山區南京東路四段52巷",
     "area": 19.4,
     "post_id": 7065001,
@@ -1727,13 +1790,6 @@
     "post_id": 7069713,
     "price": 210000,
     "url": "rent-detail-7069713.html"
-  },
-  {
-    "addr": "台北市士林區忠誠路二段140巷",
-    "area": 9,
-    "post_id": 7072889,
-    "price": 28000,
-    "url": "rent-detail-7072889.html"
   },
   {
     "addr": "台北市中山區民生東路三段",
@@ -1750,18 +1806,18 @@
     "url": "rent-detail-6886474.html"
   },
   {
-    "addr": "台北市中正區汀州路二段",
-    "area": 30.4,
-    "post_id": 7039879,
-    "price": 68000,
-    "url": "rent-detail-7039879.html"
+    "addr": "台北市中山區南京東路一段",
+    "area": 100,
+    "post_id": 7019522,
+    "price": 326000,
+    "url": "rent-detail-7019522.html"
   },
   {
-    "addr": "台北市萬華區廣州街",
-    "area": 80,
-    "post_id": 6565433,
-    "price": 99000,
-    "url": "rent-detail-6565433.html"
+    "addr": "台北市大安區羅斯福路三段",
+    "area": 33,
+    "post_id": 7010285,
+    "price": 79000,
+    "url": "rent-detail-7010285.html"
   },
   {
     "addr": "台北市中山區龍江路",
@@ -1771,34 +1827,6 @@
     "url": "rent-detail-6958285.html"
   },
   {
-    "addr": "台北市中正區汀州路二段",
-    "area": 55,
-    "post_id": 6960483,
-    "price": 60000,
-    "url": "rent-detail-6960483.html"
-  },
-  {
-    "addr": "台北市中山區長安東路二段",
-    "area": 43,
-    "post_id": 6996668,
-    "price": 80000,
-    "url": "rent-detail-6996668.html"
-  },
-  {
-    "addr": "台北市大安區大安路二段35號",
-    "area": 28,
-    "post_id": 6853893,
-    "price": 120000,
-    "url": "rent-detail-6853893.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段233巷",
-    "area": 22,
-    "post_id": 6942452,
-    "price": 130000,
-    "url": "rent-detail-6942452.html"
-  },
-  {
     "addr": "台北市大同區南京西路302巷",
     "area": 17,
     "post_id": 6982231,
@@ -1806,32 +1834,11 @@
     "url": "rent-detail-6982231.html"
   },
   {
-    "addr": "台北市中山區南京東路一段",
-    "area": 100,
-    "post_id": 7019522,
-    "price": 326000,
-    "url": "rent-detail-7019522.html"
-  },
-  {
     "addr": "台北市萬華區萬大路",
     "area": 16,
     "post_id": 7034899,
     "price": 36000,
     "url": "rent-detail-7034899.html"
-  },
-  {
-    "addr": "台北市北投區明德路7號",
-    "area": 35,
-    "post_id": 6929969,
-    "price": 38000,
-    "url": "rent-detail-6929969.html"
-  },
-  {
-    "addr": "台北市中山區民族東路410巷38號",
-    "area": 16,
-    "post_id": 6990796,
-    "price": 50000,
-    "url": "rent-detail-6990796.html"
   },
   {
     "addr": "台北市文山區木新路三段",
@@ -1848,18 +1855,11 @@
     "url": "rent-detail-6868233.html"
   },
   {
-    "addr": "台北市大安區敦化南路一段187巷",
-    "area": 57.9,
-    "post_id": 6937546,
-    "price": 300000,
-    "url": "rent-detail-6937546.html"
-  },
-  {
     "addr": "台北市中正區汀州路二段",
     "area": 55,
-    "post_id": 6941156,
+    "post_id": 6960483,
     "price": 60000,
-    "url": "rent-detail-6941156.html"
+    "url": "rent-detail-6960483.html"
   },
   {
     "addr": "台北市中山區松江路",
@@ -1876,25 +1876,18 @@
     "url": "rent-detail-6969106.html"
   },
   {
+    "addr": "台北市信義區莊敬路412號",
+    "area": 23.9,
+    "post_id": 6981068,
+    "price": 65000,
+    "url": "rent-detail-6981068.html"
+  },
+  {
     "addr": "台北市信義區林口街",
     "area": 1147.2,
     "post_id": 7006391,
     "price": 400000,
     "url": "rent-detail-7006391.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段",
-    "area": 6.5,
-    "post_id": 7007995,
-    "price": 66000,
-    "url": "rent-detail-7007995.html"
-  },
-  {
-    "addr": "台北市松山區民生東路四段",
-    "area": 34.7,
-    "post_id": 7017947,
-    "price": 160000,
-    "url": "rent-detail-7017947.html"
   },
   {
     "addr": "台北市中山區林森北路119巷",
@@ -1911,11 +1904,11 @@
     "url": "rent-detail-7027337.html"
   },
   {
-    "addr": "台北市內湖區洲子街100號",
-    "area": 50,
-    "post_id": 7054063,
-    "price": 198000,
-    "url": "rent-detail-7054063.html"
+    "addr": "台北市大安區樂業街",
+    "area": 24,
+    "post_id": 7075558,
+    "price": 65000,
+    "url": "rent-detail-7075558.html"
   },
   {
     "addr": "台北市大安區忠孝東路四段223巷",
@@ -1925,11 +1918,11 @@
     "url": "rent-detail-7066636.html"
   },
   {
-    "addr": "台北市士林區德行東路27號",
-    "area": 26.7,
-    "post_id": 6867222,
-    "price": 78000,
-    "url": "rent-detail-6867222.html"
+    "addr": "台北市內湖區五分街",
+    "area": 55.6,
+    "post_id": 6938645,
+    "price": 58000,
+    "url": "rent-detail-6938645.html"
   },
   {
     "addr": "台北市士林區文林路101巷22號",
@@ -1939,39 +1932,11 @@
     "url": "rent-detail-6987133.html"
   },
   {
-    "addr": "台北市士林區文林路128號",
-    "area": 2,
-    "post_id": 7016273,
-    "price": 22000,
-    "url": "rent-detail-7016273.html"
-  },
-  {
-    "addr": "台北市南港區忠孝東路六段",
-    "area": 25,
-    "post_id": 6772375,
-    "price": 80000,
-    "url": "rent-detail-6772375.html"
-  },
-  {
-    "addr": "台北市中山區林森北路119巷71號",
-    "area": 12,
-    "post_id": 7020361,
-    "price": 48000,
-    "url": "rent-detail-7020361.html"
-  },
-  {
-    "addr": "台北市中山區明水路",
-    "area": 37.4,
-    "post_id": 6971391,
-    "price": 50000,
-    "url": "rent-detail-6971391.html"
-  },
-  {
-    "addr": "台北市大同區承德路一段",
-    "area": 20.6,
-    "post_id": 6982682,
-    "price": 40000,
-    "url": "rent-detail-6982682.html"
+    "addr": "台北市信義區松山路",
+    "area": 21.3,
+    "post_id": 6975205,
+    "price": 100000,
+    "url": "rent-detail-6975205.html"
   },
   {
     "addr": "台北市大安區仁愛路四段",
@@ -1981,32 +1946,11 @@
     "url": "rent-detail-6727265.html"
   },
   {
-    "addr": "台北市信義區松山路",
-    "area": 21.3,
-    "post_id": 6975205,
-    "price": 100000,
-    "url": "rent-detail-6975205.html"
-  },
-  {
     "addr": "台北市松山區八德路四段",
     "area": 16,
     "post_id": 6985142,
     "price": 29999,
     "url": "rent-detail-6985142.html"
-  },
-  {
-    "addr": "台北市內湖區金龍路",
-    "area": 28.1,
-    "post_id": 6884487,
-    "price": 85000,
-    "url": "rent-detail-6884487.html"
-  },
-  {
-    "addr": "台北市內湖區五分街",
-    "area": 55.6,
-    "post_id": 6938645,
-    "price": 58000,
-    "url": "rent-detail-6938645.html"
   },
   {
     "addr": "台北市中正區羅斯福路三段",
@@ -2016,95 +1960,137 @@
     "url": "rent-detail-7052381.html"
   },
   {
-    "addr": "台北市大安區通化街39巷50弄17號",
-    "area": 17.8,
-    "post_id": 6962703,
-    "price": 53000,
-    "url": "rent-detail-6962703.html"
+    "addr": "台北市士林區文林路128號",
+    "area": 2,
+    "post_id": 7016273,
+    "price": 22000,
+    "url": "rent-detail-7016273.html"
   },
   {
-    "addr": "台北市信義區忠孝東路五段",
-    "area": 67,
-    "post_id": 6643947,
-    "price": 198000,
-    "url": "rent-detail-6643947.html"
+    "addr": "台北市士林區大東路",
+    "area": 1.5,
+    "post_id": 6912910,
+    "price": 80000,
+    "url": "rent-detail-6912910.html"
   },
   {
-    "addr": "台北市大安區仁愛路四段300巷",
-    "area": 58,
-    "post_id": 6837345,
-    "price": 84000,
-    "url": "rent-detail-6837345.html"
+    "addr": "台北市中山區林森北路119巷71號",
+    "area": 12,
+    "post_id": 7020361,
+    "price": 48000,
+    "url": "rent-detail-7020361.html"
   },
   {
-    "addr": "台北市內湖區金湖路101號",
-    "area": 49.9,
-    "post_id": 6935575,
+    "addr": "台北市北投區立農街38號",
+    "area": 20,
+    "post_id": 7043390,
+    "price": 35000,
+    "url": "rent-detail-7043390.html"
+  },
+  {
+    "addr": "台北市中正區杭州南路一段",
+    "area": 133,
+    "post_id": 6810360,
+    "price": 180000,
+    "url": "rent-detail-6810360.html"
+  },
+  {
+    "addr": "台北市大安區復興南路二段78巷",
+    "area": 100,
+    "post_id": 6830416,
     "price": 150000,
-    "url": "rent-detail-6935575.html"
+    "url": "rent-detail-6830416.html"
   },
   {
-    "addr": "台北市大安區市民大道三段",
-    "area": 80,
-    "post_id": 6948918,
-    "price": 92000,
-    "url": "rent-detail-6948918.html"
+    "addr": "台北市松山區南京東路四段133巷",
+    "area": 46.4,
+    "post_id": 6911025,
+    "price": 65000,
+    "url": "rent-detail-6911025.html"
   },
   {
-    "addr": "台北市士林區天母東路",
-    "area": 200,
-    "post_id": 6962037,
-    "price": 450000,
-    "url": "rent-detail-6962037.html"
+    "addr": "台北市中山區民權東路一段",
+    "area": 88.8,
+    "post_id": 7056897,
+    "price": 266340,
+    "url": "rent-detail-7056897.html"
+  },
+  {
+    "addr": "台北市文山區景文街",
+    "area": 57,
+    "post_id": 6863322,
+    "price": 125000,
+    "url": "rent-detail-6863322.html"
+  },
+  {
+    "addr": "台北市中山區雙城街25巷",
+    "area": 31,
+    "post_id": 6797874,
+    "price": 83000,
+    "url": "rent-detail-6797874.html"
+  },
+  {
+    "addr": "台北市信義區松仁路",
+    "area": 30.7,
+    "post_id": 6812539,
+    "price": 43500,
+    "url": "rent-detail-6812539.html"
+  },
+  {
+    "addr": "台北市內湖區康寧路三段219巷",
+    "area": 10,
+    "post_id": 7000068,
+    "price": 25000,
+    "url": "rent-detail-7000068.html"
+  },
+  {
+    "addr": "台北市內湖區洲子街100號",
+    "area": 50,
+    "post_id": 7054063,
+    "price": 198000,
+    "url": "rent-detail-7054063.html"
+  },
+  {
+    "addr": "台北市大安區光復南路419巷",
+    "area": 40,
+    "post_id": 6926663,
+    "price": 54680,
+    "url": "rent-detail-6926663.html"
+  },
+  {
+    "addr": "台北市信義區松仁路",
+    "area": 30.7,
+    "post_id": 6939656,
+    "price": 43500,
+    "url": "rent-detail-6939656.html"
+  },
+  {
+    "addr": "台北市內湖區金龍路",
+    "area": 28.1,
+    "post_id": 6884487,
+    "price": 85000,
+    "url": "rent-detail-6884487.html"
   },
   {
     "addr": "台北市松山區民生東路五段",
-    "area": 13,
-    "post_id": 7007929,
-    "price": 128000,
-    "url": "rent-detail-7007929.html"
+    "area": 6.5,
+    "post_id": 7007995,
+    "price": 66000,
+    "url": "rent-detail-7007995.html"
   },
   {
-    "addr": "台北市中山區建國北路一段",
-    "area": 93.6,
-    "post_id": 7013071,
-    "price": 355788,
-    "url": "rent-detail-7013071.html"
+    "addr": "台北市文山區指南路二段119巷",
+    "area": 15,
+    "post_id": 7014284,
+    "price": 30000,
+    "url": "rent-detail-7014284.html"
   },
   {
-    "addr": "台北市中正區濟南路二段",
-    "area": 40.6,
-    "post_id": 7023868,
-    "price": 130000,
-    "url": "rent-detail-7023868.html"
-  },
-  {
-    "addr": "台北市中山區北安路621巷",
-    "area": 30,
-    "post_id": 7057800,
-    "price": 73000,
-    "url": "rent-detail-7057800.html"
-  },
-  {
-    "addr": "台北市大安區復興南路一段",
-    "area": 128,
-    "post_id": 7039404,
-    "price": 395000,
-    "url": "rent-detail-7039404.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段",
-    "area": 34.1,
-    "post_id": 7034273,
-    "price": 530000,
-    "url": "rent-detail-7034273.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 24,
-    "post_id": 6922719,
-    "price": 68000,
-    "url": "rent-detail-6922719.html"
+    "addr": "台北市士林區忠誠路二段140巷",
+    "area": 9,
+    "post_id": 7072889,
+    "price": 28000,
+    "url": "rent-detail-7072889.html"
   },
   {
     "addr": "台北市大同區酒泉街",
@@ -2156,11 +2142,95 @@
     "url": "rent-detail-6768964.html"
   },
   {
-    "addr": "台北市內湖區內湖路一段",
-    "area": 66.7,
-    "post_id": 6980437,
-    "price": 110000,
-    "url": "rent-detail-6980437.html"
+    "addr": "台北市南港區忠孝東路六段",
+    "area": 25,
+    "post_id": 6772375,
+    "price": 80000,
+    "url": "rent-detail-6772375.html"
+  },
+  {
+    "addr": "台北市大同區延平北路一段72號",
+    "area": 45,
+    "post_id": 6830209,
+    "price": 58000,
+    "url": "rent-detail-6830209.html"
+  },
+  {
+    "addr": "台北市中正區汀州路二段",
+    "area": 30.4,
+    "post_id": 7039879,
+    "price": 68000,
+    "url": "rent-detail-7039879.html"
+  },
+  {
+    "addr": "台北市大安區復興南路二段",
+    "area": 17.2,
+    "post_id": 6917655,
+    "price": 50000,
+    "url": "rent-detail-6917655.html"
+  },
+  {
+    "addr": "台北市中山區興安街",
+    "area": 27,
+    "post_id": 7047233,
+    "price": 68000,
+    "url": "rent-detail-7047233.html"
+  },
+  {
+    "addr": "台北市士林區德行東路27號",
+    "area": 26.7,
+    "post_id": 6867222,
+    "price": 78000,
+    "url": "rent-detail-6867222.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 24,
+    "post_id": 6922719,
+    "price": 68000,
+    "url": "rent-detail-6922719.html"
+  },
+  {
+    "addr": "台北市文山區興隆路三段223號",
+    "area": 38,
+    "post_id": 6836263,
+    "price": 26000,
+    "url": "rent-detail-6836263.html"
+  },
+  {
+    "addr": "台北市文山區木新路二段",
+    "area": 122.7,
+    "post_id": 6986633,
+    "price": 100000,
+    "url": "rent-detail-6986633.html"
+  },
+  {
+    "addr": "台北市文山區木新路三段116號",
+    "area": 100,
+    "post_id": 6902532,
+    "price": 150000,
+    "url": "rent-detail-6902532.html"
+  },
+  {
+    "addr": "台北市大安區大安路二段35號",
+    "area": 28,
+    "post_id": 6853893,
+    "price": 120000,
+    "url": "rent-detail-6853893.html"
+  },
+  {
+    "addr": "台北市萬華區西園路181號",
+    "area": 8,
+    "post_id": 6953595,
+    "price": 39000,
+    "url": "rent-detail-6953595.html"
+  },
+  {
+    "addr": "台北市大安區信義路四段199巷",
+    "area": 98.4,
+    "post_id": 6941312,
+    "price": 170000,
+    "url": "rent-detail-6941312.html"
   },
   {
     "addr": "台北市中正區中華路一段",
@@ -2464,13 +2534,6 @@
     "url": "rent-detail-6793045.html"
   },
   {
-    "addr": "台北市內湖區內湖路二段355巷",
-    "area": 25.6,
-    "post_id": 6798146,
-    "price": 40000,
-    "url": "rent-detail-6798146.html"
-  },
-  {
     "addr": "台北市中山區伊通街",
     "area": 2,
     "post_id": 6800375,
@@ -2504,13 +2567,6 @@
     "post_id": 6809120,
     "price": 80000,
     "url": "rent-detail-6809120.html"
-  },
-  {
-    "addr": "台北市中正區杭州南路一段",
-    "area": 133,
-    "post_id": 6810360,
-    "price": 180000,
-    "url": "rent-detail-6810360.html"
   },
   {
     "addr": "台北市中正區杭州南路一段",
@@ -2569,13 +2625,6 @@
     "url": "rent-detail-6829839.html"
   },
   {
-    "addr": "台北市大安區復興南路二段78巷",
-    "area": 100,
-    "post_id": 6830416,
-    "price": 150000,
-    "url": "rent-detail-6830416.html"
-  },
-  {
     "addr": "台北市信義區永吉路",
     "area": 30,
     "post_id": 6833004,
@@ -2588,13 +2637,6 @@
     "post_id": 6835795,
     "price": 12000,
     "url": "rent-detail-6835795.html"
-  },
-  {
-    "addr": "台北市文山區興隆路三段223號",
-    "area": 38,
-    "post_id": 6836263,
-    "price": 26000,
-    "url": "rent-detail-6836263.html"
   },
   {
     "addr": "台北市中山區長安東路一段53巷17號",
@@ -2728,13 +2770,6 @@
     "post_id": 6861870,
     "price": 12000,
     "url": "rent-detail-6861870.html"
-  },
-  {
-    "addr": "台北市文山區景文街",
-    "area": 57,
-    "post_id": 6863322,
-    "price": 125000,
-    "url": "rent-detail-6863322.html"
   },
   {
     "addr": "台北市松山區八德路四段453巷14號",
@@ -2884,6 +2919,13 @@
     "url": "rent-detail-6891038.html"
   },
   {
+    "addr": "台北市大安區安居街35巷",
+    "area": 47,
+    "post_id": 6891573,
+    "price": 58000,
+    "url": "rent-detail-6891573.html"
+  },
+  {
     "addr": "台北市大安區復興南路一段47巷",
     "area": 40,
     "post_id": 6892596,
@@ -2917,13 +2959,6 @@
     "post_id": 6901852,
     "price": 178000,
     "url": "rent-detail-6901852.html"
-  },
-  {
-    "addr": "台北市文山區木新路三段116號",
-    "area": 100,
-    "post_id": 6902532,
-    "price": 150000,
-    "url": "rent-detail-6902532.html"
   },
   {
     "addr": "台北市松山區饒河街",
@@ -2989,13 +3024,6 @@
     "url": "rent-detail-6911014.html"
   },
   {
-    "addr": "台北市松山區南京東路四段133巷",
-    "area": 46.4,
-    "post_id": 6911025,
-    "price": 65000,
-    "url": "rent-detail-6911025.html"
-  },
-  {
     "addr": "台北市中山區松江路313巷",
     "area": 15,
     "post_id": 6911779,
@@ -3029,13 +3057,6 @@
     "post_id": 6915488,
     "price": 250000,
     "url": "rent-detail-6915488.html"
-  },
-  {
-    "addr": "台北市大安區復興南路二段",
-    "area": 17.2,
-    "post_id": 6917655,
-    "price": 56000,
-    "url": "rent-detail-6917655.html"
   },
   {
     "addr": "台北市大同區酒泉街212號",
@@ -3094,6 +3115,13 @@
     "url": "rent-detail-6928409.html"
   },
   {
+    "addr": "台北市北投區明德路7號",
+    "area": 35,
+    "post_id": 6929969,
+    "price": 38000,
+    "url": "rent-detail-6929969.html"
+  },
+  {
     "addr": "台北市中正區羅斯福路三段",
     "area": 69.9,
     "post_id": 6930139,
@@ -3143,25 +3171,11 @@
     "url": "rent-detail-6938529.html"
   },
   {
-    "addr": "台北市中山區松江路",
-    "area": 4,
-    "post_id": 6938615,
-    "price": 10888,
-    "url": "rent-detail-6938615.html"
-  },
-  {
     "addr": "台北市中山區敬業一路",
     "area": 10,
     "post_id": 6939719,
     "price": 38000,
     "url": "rent-detail-6939719.html"
-  },
-  {
-    "addr": "台北市大安區信義路四段199巷",
-    "area": 98.4,
-    "post_id": 6941312,
-    "price": 170000,
-    "url": "rent-detail-6941312.html"
   },
   {
     "addr": "台北市中山區新生北路二段111號",
@@ -3346,6 +3360,13 @@
     "url": "rent-detail-6979460.html"
   },
   {
+    "addr": "台北市內湖區內湖路一段",
+    "area": 66.7,
+    "post_id": 6980437,
+    "price": 110000,
+    "url": "rent-detail-6980437.html"
+  },
+  {
     "addr": "台北市南港區忠孝東路七段620號",
     "area": 85,
     "post_id": 6981041,
@@ -3358,6 +3379,13 @@
     "post_id": 6982467,
     "price": 46000,
     "url": "rent-detail-6982467.html"
+  },
+  {
+    "addr": "台北市大同區承德路一段",
+    "area": 20.6,
+    "post_id": 6982682,
+    "price": 40000,
+    "url": "rent-detail-6982682.html"
   },
   {
     "addr": "台北市中山區中山北路一段33巷",
@@ -3402,13 +3430,6 @@
     "url": "rent-detail-6986195.html"
   },
   {
-    "addr": "台北市文山區木新路二段",
-    "area": 122.7,
-    "post_id": 6986633,
-    "price": 100000,
-    "url": "rent-detail-6986633.html"
-  },
-  {
     "addr": "台北市松山區北寧路32巷",
     "area": 95.1,
     "post_id": 6986767,
@@ -3421,6 +3442,13 @@
     "post_id": 6989414,
     "price": 9900,
     "url": "rent-detail-6989414.html"
+  },
+  {
+    "addr": "台北市中山區民族東路410巷38號",
+    "area": 16,
+    "post_id": 6990796,
+    "price": 50000,
+    "url": "rent-detail-6990796.html"
   },
   {
     "addr": "台北市松山區復興北路183號",
@@ -3472,11 +3500,25 @@
     "url": "rent-detail-6995315.html"
   },
   {
+    "addr": "台北市中正區師大路",
+    "area": 60.9,
+    "post_id": 6995696,
+    "price": 110000,
+    "url": "rent-detail-6995696.html"
+  },
+  {
     "addr": "台北市中山區劍南路",
     "area": 35,
     "post_id": 6996569,
     "price": 60000,
     "url": "rent-detail-6996569.html"
+  },
+  {
+    "addr": "台北市中山區長安東路二段",
+    "area": 43,
+    "post_id": 6996668,
+    "price": 80000,
+    "url": "rent-detail-6996668.html"
   },
   {
     "addr": "台北市中山區中山北路二段26巷17號",
@@ -3528,6 +3570,13 @@
     "url": "rent-detail-7006081.html"
   },
   {
+    "addr": "台北市松山區民生東路五段",
+    "area": 13,
+    "post_id": 7007929,
+    "price": 128000,
+    "url": "rent-detail-7007929.html"
+  },
+  {
     "addr": "台北市士林區天母西路48號",
     "area": 50,
     "post_id": 7008042,
@@ -3540,13 +3589,6 @@
     "post_id": 7009769,
     "price": 280000,
     "url": "rent-detail-7009769.html"
-  },
-  {
-    "addr": "台北市大安區羅斯福路三段",
-    "area": 33,
-    "post_id": 7010285,
-    "price": 79000,
-    "url": "rent-detail-7010285.html"
   },
   {
     "addr": "台北市松山區敦化北路222巷",
@@ -3640,6 +3682,13 @@
     "url": "rent-detail-7032642.html"
   },
   {
+    "addr": "台北市大安區忠孝東路四段",
+    "area": 34.1,
+    "post_id": 7034273,
+    "price": 530000,
+    "url": "rent-detail-7034273.html"
+  },
+  {
     "addr": "台北市中山區龍江路",
     "area": 37,
     "post_id": 7034385,
@@ -3689,6 +3738,13 @@
     "url": "rent-detail-7038109.html"
   },
   {
+    "addr": "台北市中正區金門街",
+    "area": 30,
+    "post_id": 7038403,
+    "price": 95000,
+    "url": "rent-detail-7038403.html"
+  },
+  {
     "addr": "台北市中山區中山北路二段115巷10號",
     "area": 35,
     "post_id": 7038583,
@@ -3708,6 +3764,13 @@
     "post_id": 7039221,
     "price": 180000,
     "url": "rent-detail-7039221.html"
+  },
+  {
+    "addr": "台北市大安區復興南路一段",
+    "area": 128,
+    "post_id": 7039404,
+    "price": 395000,
+    "url": "rent-detail-7039404.html"
   },
   {
     "addr": "台北市大同區大龍街",
@@ -3757,13 +3820,6 @@
     "post_id": 7046800,
     "price": 788000,
     "url": "rent-detail-7046800.html"
-  },
-  {
-    "addr": "台北市中山區興安街",
-    "area": 27,
-    "post_id": 7047233,
-    "price": 98000,
-    "url": "rent-detail-7047233.html"
   },
   {
     "addr": "台北市中山區中山北路一段121巷",
@@ -3836,13 +3892,6 @@
     "url": "rent-detail-7056759.html"
   },
   {
-    "addr": "台北市中山區民權東路一段",
-    "area": 88.8,
-    "post_id": 7056897,
-    "price": 266340,
-    "url": "rent-detail-7056897.html"
-  },
-  {
     "addr": "台北市松山區民生東路三段110巷",
     "area": 15.5,
     "post_id": 7056995,
@@ -3899,20 +3948,6 @@
     "url": "rent-detail-7059110.html"
   },
   {
-    "addr": "台北市中山區松江路",
-    "area": 2,
-    "post_id": 7061164,
-    "price": 9999,
-    "url": "rent-detail-7061164.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段223巷",
-    "area": 10,
-    "post_id": 7061188,
-    "price": 46800,
-    "url": "rent-detail-7061188.html"
-  },
-  {
     "addr": "台北市大安區信義路四段",
     "area": 8,
     "post_id": 7062238,
@@ -3955,32 +3990,1691 @@
     "url": "rent-detail-7069568.html"
   },
   {
-    "addr": "台北市大同區延平北路一段72號",
-    "area": 45,
-    "post_id": 6830209,
-    "price": 58000,
-    "url": "rent-detail-6830209.html"
-  },
-  {
-    "addr": "台北市萬華區西園路181號",
-    "area": 8,
-    "post_id": 6953595,
-    "price": 39000,
-    "url": "rent-detail-6953595.html"
-  },
-  {
-    "addr": "台北市士林區大東路",
-    "area": 1.5,
-    "post_id": 6912910,
-    "price": 80000,
-    "url": "rent-detail-6912910.html"
+    "addr": "台北市大安區通化街39巷50弄17號",
+    "area": 17.8,
+    "post_id": 6962703,
+    "price": 53000,
+    "url": "rent-detail-6962703.html"
   },
   {
     "addr": "台北市士林區大南路",
-    "area": 8.5,
-    "post_id": 6763585,
+    "area": 25,
+    "post_id": 6912922,
+    "price": 180000,
+    "url": "rent-detail-6912922.html"
+  },
+  {
+    "addr": "台北市中山區林森北路133巷26號",
+    "area": 10,
+    "post_id": 7018354,
+    "price": 8888,
+    "url": "rent-detail-7018354.html"
+  },
+  {
+    "addr": "台北市萬華區萬大路322巷",
+    "area": 21.6,
+    "post_id": 7049642,
+    "price": 26800,
+    "url": "rent-detail-7049642.html"
+  },
+  {
+    "addr": "台北市中山區民權東路三段",
+    "area": 57.8,
+    "post_id": 6982259,
+    "price": 120000,
+    "url": "rent-detail-6982259.html"
+  },
+  {
+    "addr": "台北市大安區通化街39巷",
+    "area": 20,
+    "post_id": 7053539,
+    "price": 48000,
+    "url": "rent-detail-7053539.html"
+  },
+  {
+    "addr": "台北市中山區長安東路二段",
+    "area": 40,
+    "post_id": 7075932,
+    "price": 53000,
+    "url": "rent-detail-7075932.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段226號",
+    "area": 31,
+    "post_id": 7039220,
+    "price": 60000,
+    "url": "rent-detail-7039220.html"
+  },
+  {
+    "addr": "台北市大安區安和路209巷",
+    "area": 49.1,
+    "post_id": 7032777,
+    "price": 188000,
+    "url": "rent-detail-7032777.html"
+  },
+  {
+    "addr": "台北市士林區中正路",
+    "area": 34.4,
+    "post_id": 7069978,
+    "price": 27000,
+    "url": "rent-detail-7069978.html"
+  },
+  {
+    "addr": "台北市北投區中央北路一段",
+    "area": 14.6,
+    "post_id": 6757995,
+    "price": 62000,
+    "url": "rent-detail-6757995.html"
+  },
+  {
+    "addr": "台北市萬華區梧州街",
+    "area": 29.1,
+    "post_id": 6600981,
+    "price": 46800,
+    "url": "rent-detail-6600981.html"
+  },
+  {
+    "addr": "台北市萬華區昆明街",
+    "area": 15,
+    "post_id": 7048245,
+    "price": 22000,
+    "url": "rent-detail-7048245.html"
+  },
+  {
+    "addr": "台北市萬華區柳州街",
+    "area": 20,
+    "post_id": 6902376,
+    "price": 32000,
+    "url": "rent-detail-6902376.html"
+  },
+  {
+    "addr": "台北市萬華區貴陽街二段",
+    "area": 25,
+    "post_id": 6990061,
+    "price": 38000,
+    "url": "rent-detail-6990061.html"
+  },
+  {
+    "addr": "台北市萬華區西園路二段",
+    "area": 30.7,
+    "post_id": 6929348,
+    "price": 52000,
+    "url": "rent-detail-6929348.html"
+  },
+  {
+    "addr": "台北市萬華區中華路二段",
+    "area": 40,
+    "post_id": 6969132,
+    "price": 62000,
+    "url": "rent-detail-6969132.html"
+  },
+  {
+    "addr": "台北市中山區北安路458巷41弄3號",
+    "area": 3,
+    "post_id": 7073037,
+    "price": 15000,
+    "url": "rent-detail-7073037.html"
+  },
+  {
+    "addr": "台北市松山區敦化南路一段",
+    "area": 280,
+    "post_id": 6946241,
+    "price": 979000,
+    "url": "rent-detail-6946241.html"
+  },
+  {
+    "addr": "台北市大安區復興南路二段",
+    "area": 45,
+    "post_id": 7075865,
+    "price": 45000,
+    "url": "rent-detail-7075865.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段36巷",
+    "area": 9.6,
+    "post_id": 7020870,
+    "price": 30000,
+    "url": "rent-detail-7020870.html"
+  },
+  {
+    "addr": "台北市大安區復興南路二段",
+    "area": 163.3,
+    "post_id": 6989199,
+    "price": 265000,
+    "url": "rent-detail-6989199.html"
+  },
+  {
+    "addr": "台北市大安區永康街",
+    "area": 8,
+    "post_id": 6766839,
+    "price": 62000,
+    "url": "rent-detail-6766839.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段",
+    "area": 45,
+    "post_id": 7071597,
+    "price": 150000,
+    "url": "rent-detail-7071597.html"
+  },
+  {
+    "addr": "台北市大同區承德路一段",
+    "area": 15.8,
+    "post_id": 6964881,
+    "price": 66000,
+    "url": "rent-detail-6964881.html"
+  },
+  {
+    "addr": "台北市大同區延平北路一段69巷",
+    "area": 65.8,
+    "post_id": 7018839,
+    "price": 69000,
+    "url": "rent-detail-7018839.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 72,
+    "post_id": 7071602,
+    "price": 170000,
+    "url": "rent-detail-7071602.html"
+  },
+  {
+    "addr": "台北市松山區復興北路",
+    "area": 52,
+    "post_id": 6708574,
+    "price": 70000,
+    "url": "rent-detail-6708574.html"
+  },
+  {
+    "addr": "台北市大安區市民大道四段",
+    "area": 12,
+    "post_id": 7071629,
+    "price": 40000,
+    "url": "rent-detail-7071629.html"
+  },
+  {
+    "addr": "台北市中山區中山北路二段",
+    "area": 80,
+    "post_id": 7071621,
+    "price": 130000,
+    "url": "rent-detail-7071621.html"
+  },
+  {
+    "addr": "台北市大安區東豐街",
+    "area": 50,
+    "post_id": 7071616,
+    "price": 125000,
+    "url": "rent-detail-7071616.html"
+  },
+  {
+    "addr": "台北市中山區民生東路一段",
+    "area": 10,
+    "post_id": 7071599,
+    "price": 59000,
+    "url": "rent-detail-7071599.html"
+  },
+  {
+    "addr": "台北市信義區吳興街",
+    "area": 32,
+    "post_id": 7071595,
+    "price": 43000,
+    "url": "rent-detail-7071595.html"
+  },
+  {
+    "addr": "台北市中山區長安東路二段",
+    "area": 40,
+    "post_id": 7071607,
+    "price": 53000,
+    "url": "rent-detail-7071607.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 30,
+    "post_id": 7071577,
+    "price": 45000,
+    "url": "rent-detail-7071577.html"
+  },
+  {
+    "addr": "台北市北投區三合街一段82巷",
+    "area": 16.4,
+    "post_id": 6783531,
+    "price": 43000,
+    "url": "rent-detail-6783531.html"
+  },
+  {
+    "addr": "台北市北投區光明路2巷9號",
+    "area": 35,
+    "post_id": 7061424,
+    "price": 100000,
+    "url": "rent-detail-7061424.html"
+  },
+  {
+    "addr": "台北市北投區三合街二段",
+    "area": 21,
+    "post_id": 6953075,
+    "price": 28000,
+    "url": "rent-detail-6953075.html"
+  },
+  {
+    "addr": "台北市北投區稻香路",
+    "area": 34,
+    "post_id": 7023472,
+    "price": 30000,
+    "url": "rent-detail-7023472.html"
+  },
+  {
+    "addr": "台北市松山區民生東路三段113巷",
+    "area": 70,
+    "post_id": 7068034,
+    "price": 125000,
+    "url": "rent-detail-7068034.html"
+  },
+  {
+    "addr": "台北市松山區南京東路四段",
+    "area": 30,
+    "post_id": 6715211,
+    "price": 140000,
+    "url": "rent-detail-6715211.html"
+  },
+  {
+    "addr": "台北市中山區吉林路",
+    "area": 28,
+    "post_id": 6991850,
+    "price": 70000,
+    "url": "rent-detail-6991850.html"
+  },
+  {
+    "addr": "台北市中山區民生東路一段",
+    "area": 44,
+    "post_id": 5429311,
+    "price": 220000,
+    "url": "rent-detail-5429311.html"
+  },
+  {
+    "addr": "台北市大安區和平東路二段",
+    "area": 16,
+    "post_id": 6991839,
+    "price": 68000,
+    "url": "rent-detail-6991839.html"
+  },
+  {
+    "addr": "台北市信義區信義路四段",
+    "area": 300,
+    "post_id": 6933284,
+    "price": 400000,
+    "url": "rent-detail-6933284.html"
+  },
+  {
+    "addr": "台北市萬華區成都路",
+    "area": 210,
+    "post_id": 6895286,
+    "price": 320000,
+    "url": "rent-detail-6895286.html"
+  },
+  {
+    "addr": "台北市中山區明水路",
+    "area": 1600,
+    "post_id": 7014255,
+    "price": 730000,
+    "url": "rent-detail-7014255.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 10,
+    "post_id": 7071563,
+    "price": 57000,
+    "url": "rent-detail-7071563.html"
+  },
+  {
+    "addr": "台北市大安區樂利路",
+    "area": 40,
+    "post_id": 6787868,
+    "price": 88000,
+    "url": "rent-detail-6787868.html"
+  },
+  {
+    "addr": "台北市松山區南京東路四段",
+    "area": 230.4,
+    "post_id": 6971564,
+    "price": 800000,
+    "url": "rent-detail-6971564.html"
+  },
+  {
+    "addr": "台北市中山區松江路",
+    "area": 30,
+    "post_id": 7060290,
+    "price": 45000,
+    "url": "rent-detail-7060290.html"
+  },
+  {
+    "addr": "台北市士林區大東路",
+    "area": 21.9,
+    "post_id": 7064215,
+    "price": 310000,
+    "url": "rent-detail-7064215.html"
+  },
+  {
+    "addr": "台北市士林區大西路",
+    "area": 32,
+    "post_id": 7053160,
+    "price": 48000,
+    "url": "rent-detail-7053160.html"
+  },
+  {
+    "addr": "台北市北投區北投路二段",
+    "area": 70,
+    "post_id": 7047149,
+    "price": 138000,
+    "url": "rent-detail-7047149.html"
+  },
+  {
+    "addr": "台北市中正區羅斯福路三段284巷",
+    "area": 48.5,
+    "post_id": 6935049,
+    "price": 150000,
+    "url": "rent-detail-6935049.html"
+  },
+  {
+    "addr": "台北市大同區延平北路一段",
+    "area": 45,
+    "post_id": 6834066,
+    "price": 57500,
+    "url": "rent-detail-6834066.html"
+  },
+  {
+    "addr": "台北市士林區忠誠路二段",
+    "area": 21.8,
+    "post_id": 6836141,
     "price": 55000,
-    "url": "rent-detail-6763585.html"
+    "url": "rent-detail-6836141.html"
+  },
+  {
+    "addr": "台北市中正區中華路二段341號",
+    "area": 20,
+    "post_id": 6937737,
+    "price": 78000,
+    "url": "rent-detail-6937737.html"
+  },
+  {
+    "addr": "台北市大安區東豐街",
+    "area": 45,
+    "post_id": 7039272,
+    "price": 135000,
+    "url": "rent-detail-7039272.html"
+  },
+  {
+    "addr": "台北市士林區忠誠路二段22號",
+    "area": 40.4,
+    "post_id": 6870460,
+    "price": 110000,
+    "url": "rent-detail-6870460.html"
+  },
+  {
+    "addr": "台北市文山區和平東路四段69號",
+    "area": 50,
+    "post_id": 6849702,
+    "price": 39500,
+    "url": "rent-detail-6849702.html"
+  },
+  {
+    "addr": "台北市大安區復興南路142號",
+    "area": 30,
+    "post_id": 7075742,
+    "price": 12000,
+    "url": "rent-detail-7075742.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段177巷",
+    "area": 50,
+    "post_id": 7046562,
+    "price": 250000,
+    "url": "rent-detail-7046562.html"
+  },
+  {
+    "addr": "台北市內湖區成功路四段",
+    "area": 36.8,
+    "post_id": 6823310,
+    "price": 120000,
+    "url": "rent-detail-6823310.html"
+  },
+  {
+    "addr": "台北市南港區園區街56號",
+    "area": 97.2,
+    "post_id": 6966238,
+    "price": 300000,
+    "url": "rent-detail-6966238.html"
+  },
+  {
+    "addr": "台北市中山區樂群二路",
+    "area": 61.5,
+    "post_id": 6854533,
+    "price": 80000,
+    "url": "rent-detail-6854533.html"
+  },
+  {
+    "addr": "台北市大安區四維路52巷8號",
+    "area": 52,
+    "post_id": 7014158,
+    "price": 65000,
+    "url": "rent-detail-7014158.html"
+  },
+  {
+    "addr": "台北市大安區瑞安街208巷47弄18號",
+    "area": 48,
+    "post_id": 6903726,
+    "price": 70000,
+    "url": "rent-detail-6903726.html"
+  },
+  {
+    "addr": "台北市中山區林森北路119巷",
+    "area": 5.7,
+    "post_id": 6979455,
+    "price": 38000,
+    "url": "rent-detail-6979455.html"
+  },
+  {
+    "addr": "台北市中正區八德路一段",
+    "area": 102,
+    "post_id": 7021006,
+    "price": 280000,
+    "url": "rent-detail-7021006.html"
+  },
+  {
+    "addr": "台北市松山區復興北路313巷",
+    "area": 30,
+    "post_id": 7064439,
+    "price": 50000,
+    "url": "rent-detail-7064439.html"
+  },
+  {
+    "addr": "台北市松山區敦化北路165巷",
+    "area": 35,
+    "post_id": 7041551,
+    "price": 70000,
+    "url": "rent-detail-7041551.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 15,
+    "post_id": 7041424,
+    "price": 70000,
+    "url": "rent-detail-7041424.html"
+  },
+  {
+    "addr": "台北市大安區信義路三段",
+    "area": 26,
+    "post_id": 7038460,
+    "price": 200000,
+    "url": "rent-detail-7038460.html"
+  },
+  {
+    "addr": "台北市內湖區江南街",
+    "area": 35,
+    "post_id": 7017354,
+    "price": 95000,
+    "url": "rent-detail-7017354.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 27,
+    "post_id": 6994613,
+    "price": 65000,
+    "url": "rent-detail-6994613.html"
+  },
+  {
+    "addr": "台北市大安區光復南路240巷",
+    "area": 17,
+    "post_id": 6984269,
+    "price": 60000,
+    "url": "rent-detail-6984269.html"
+  },
+  {
+    "addr": "台北市大安區四維路",
+    "area": 50,
+    "post_id": 7023107,
+    "price": 108800,
+    "url": "rent-detail-7023107.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 8,
+    "post_id": 6971806,
+    "price": 60000,
+    "url": "rent-detail-6971806.html"
+  },
+  {
+    "addr": "台北市信義區松山路",
+    "area": 21.5,
+    "post_id": 6962453,
+    "price": 105000,
+    "url": "rent-detail-6962453.html"
+  },
+  {
+    "addr": "台北市松山區南京東路三段256巷",
+    "area": 43,
+    "post_id": 7064408,
+    "price": 55000,
+    "url": "rent-detail-7064408.html"
+  },
+  {
+    "addr": "台北市大安區仁愛路四段105巷",
+    "area": 37.3,
+    "post_id": 6892475,
+    "price": 80000,
+    "url": "rent-detail-6892475.html"
+  },
+  {
+    "addr": "台北市中山區德惠街46號",
+    "area": 25.4,
+    "post_id": 7062538,
+    "price": 38999,
+    "url": "rent-detail-7062538.html"
+  },
+  {
+    "addr": "台北市中山區德惠街46號",
+    "area": 25.4,
+    "post_id": 6832199,
+    "price": 38999,
+    "url": "rent-detail-6832199.html"
+  },
+  {
+    "addr": "台北市中正區重慶南路一段",
+    "area": 82.3,
+    "post_id": 6872256,
+    "price": 280000,
+    "url": "rent-detail-6872256.html"
+  },
+  {
+    "addr": "台北市文山區興隆路一段",
+    "area": 27,
+    "post_id": 7071009,
+    "price": 36000,
+    "url": "rent-detail-7071009.html"
+  },
+  {
+    "addr": "台北市萬華區萬大路",
+    "area": 32.9,
+    "post_id": 7068412,
+    "price": 33000,
+    "url": "rent-detail-7068412.html"
+  },
+  {
+    "addr": "台北市北投區明德路",
+    "area": 39,
+    "post_id": 7067034,
+    "price": 46000,
+    "url": "rent-detail-7067034.html"
+  },
+  {
+    "addr": "台北市北投區石牌路一段",
+    "area": 30.3,
+    "post_id": 7012349,
+    "price": 75000,
+    "url": "rent-detail-7012349.html"
+  },
+  {
+    "addr": "台北市士林區基河路",
+    "area": 35,
+    "post_id": 7005614,
+    "price": 80000,
+    "url": "rent-detail-7005614.html"
+  },
+  {
+    "addr": "台北市大同區華陰街",
+    "area": 17,
+    "post_id": 6906448,
+    "price": 98000,
+    "url": "rent-detail-6906448.html"
+  },
+  {
+    "addr": "台北市士林區基河路",
+    "area": 20,
+    "post_id": 6926397,
+    "price": 45000,
+    "url": "rent-detail-6926397.html"
+  },
+  {
+    "addr": "台北市松山區敦化南路一段",
+    "area": 40,
+    "post_id": 7037802,
+    "price": 120000,
+    "url": "rent-detail-7037802.html"
+  },
+  {
+    "addr": "台北市南港區忠孝東路七段",
+    "area": 87,
+    "post_id": 6987355,
+    "price": 168000,
+    "url": "rent-detail-6987355.html"
+  },
+  {
+    "addr": "台北市南港區南港路一段",
+    "area": 28,
+    "post_id": 6811558,
+    "price": 85000,
+    "url": "rent-detail-6811558.html"
+  },
+  {
+    "addr": "台北市信義區忠孝東路四段553巷",
+    "area": 21.8,
+    "post_id": 6967758,
+    "price": 100000,
+    "url": "rent-detail-6967758.html"
+  },
+  {
+    "addr": "台北市南港區忠孝東路六段",
+    "area": 27.9,
+    "post_id": 6877785,
+    "price": 39000,
+    "url": "rent-detail-6877785.html"
+  },
+  {
+    "addr": "台北市中山區天祥路",
+    "area": 137.4,
+    "post_id": 7001425,
+    "price": 260000,
+    "url": "rent-detail-7001425.html"
+  },
+  {
+    "addr": "台北市信義區松隆路",
+    "area": 27,
+    "post_id": 6932568,
+    "price": 60000,
+    "url": "rent-detail-6932568.html"
+  },
+  {
+    "addr": "台北市大同區民權西路",
+    "area": 82.6,
+    "post_id": 6932639,
+    "price": 250000,
+    "url": "rent-detail-6932639.html"
+  },
+  {
+    "addr": "台北市中山區南京東路二段11號",
+    "area": 59,
+    "post_id": 6860426,
+    "price": 80000,
+    "url": "rent-detail-6860426.html"
+  },
+  {
+    "addr": "台北市信義區忠孝東路五段",
+    "area": 21.5,
+    "post_id": 6908993,
+    "price": 125000,
+    "url": "rent-detail-6908993.html"
+  },
+  {
+    "addr": "台北市大同區延平北路二段",
+    "area": 47,
+    "post_id": 6993303,
+    "price": 41000,
+    "url": "rent-detail-6993303.html"
+  },
+  {
+    "addr": "台北市中山區松江路60號",
+    "area": 60,
+    "post_id": 7075596,
+    "price": 280000,
+    "url": "rent-detail-7075596.html"
+  },
+  {
+    "addr": "台北市中山區雙城街17巷",
+    "area": 15,
+    "post_id": 7035712,
+    "price": 52800,
+    "url": "rent-detail-7035712.html"
+  },
+  {
+    "addr": "台北市大安區信義路二段198巷",
+    "area": 63.2,
+    "post_id": 6757691,
+    "price": 330000,
+    "url": "rent-detail-6757691.html"
+  },
+  {
+    "addr": "台北市中山區敬業四路",
+    "area": 68.5,
+    "post_id": 6932229,
+    "price": 330000,
+    "url": "rent-detail-6932229.html"
+  },
+  {
+    "addr": "台北市士林區基河路120號",
+    "area": 15.6,
+    "post_id": 6863049,
+    "price": 79000,
+    "url": "rent-detail-6863049.html"
+  },
+  {
+    "addr": "台北市大同區重慶北路三段25巷7號",
+    "area": 21.7,
+    "post_id": 6989795,
+    "price": 27000,
+    "url": "rent-detail-6989795.html"
+  },
+  {
+    "addr": "台北市中正區汀州路三段",
+    "area": 20,
+    "post_id": 7053362,
+    "price": 95000,
+    "url": "rent-detail-7053362.html"
+  },
+  {
+    "addr": "台北市大安區和平東路二段",
+    "area": 20,
+    "post_id": 7053353,
+    "price": 65000,
+    "url": "rent-detail-7053353.html"
+  },
+  {
+    "addr": "台北市中山區南京西路",
+    "area": 160,
+    "post_id": 7053347,
+    "price": 380000,
+    "url": "rent-detail-7053347.html"
+  },
+  {
+    "addr": "台北市信義區永吉路30巷",
+    "area": 30,
+    "post_id": 7065247,
+    "price": 115000,
+    "url": "rent-detail-7065247.html"
+  },
+  {
+    "addr": "台北市松山區南京東路五段",
+    "area": 22,
+    "post_id": 7025953,
+    "price": 27000,
+    "url": "rent-detail-7025953.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段",
+    "area": 21.8,
+    "post_id": 7025355,
+    "price": 120000,
+    "url": "rent-detail-7025355.html"
+  },
+  {
+    "addr": "台北市中山區中山北路二段36巷",
+    "area": 20,
+    "post_id": 7020358,
+    "price": 150000,
+    "url": "rent-detail-7020358.html"
+  },
+  {
+    "addr": "台北市南港區忠孝東路六段",
+    "area": 28,
+    "post_id": 7008240,
+    "price": 38000,
+    "url": "rent-detail-7008240.html"
+  },
+  {
+    "addr": "台北市松山區寶清街",
+    "area": 51,
+    "post_id": 6990015,
+    "price": 65000,
+    "url": "rent-detail-6990015.html"
+  },
+  {
+    "addr": "台北市信義區光復南路",
+    "area": 25,
+    "post_id": 6989927,
+    "price": 100000,
+    "url": "rent-detail-6989927.html"
+  },
+  {
+    "addr": "台北市信義區永吉路",
+    "area": 30,
+    "post_id": 6989908,
+    "price": 78000,
+    "url": "rent-detail-6989908.html"
+  },
+  {
+    "addr": "台北市中正區羅斯福路四段",
+    "area": 60,
+    "post_id": 7050523,
+    "price": 80000,
+    "url": "rent-detail-7050523.html"
+  },
+  {
+    "addr": "台北市信義區松信路",
+    "area": 45,
+    "post_id": 6972790,
+    "price": 40000,
+    "url": "rent-detail-6972790.html"
+  },
+  {
+    "addr": "台北市松山區八德路三段",
+    "area": 34.4,
+    "post_id": 6954201,
+    "price": 79000,
+    "url": "rent-detail-6954201.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "area": 24.1,
+    "post_id": 6963167,
+    "price": 50000,
+    "url": "rent-detail-6963167.html"
+  },
+  {
+    "addr": "台北市大安區基隆路三段",
+    "area": 31.8,
+    "post_id": 6916260,
+    "price": 50000,
+    "url": "rent-detail-6916260.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "area": 31,
+    "post_id": 6898404,
+    "price": 60000,
+    "url": "rent-detail-6898404.html"
+  },
+  {
+    "addr": "台北市信義區松山路",
+    "area": 55,
+    "post_id": 6910704,
+    "price": 62000,
+    "url": "rent-detail-6910704.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段",
+    "area": 81.9,
+    "post_id": 6942885,
+    "price": 89000,
+    "url": "rent-detail-6942885.html"
+  },
+  {
+    "addr": "台北市松山區八德路四段72巷",
+    "area": 35,
+    "post_id": 7074154,
+    "price": 31500,
+    "url": "rent-detail-7074154.html"
+  },
+  {
+    "addr": "台北市中正區館前路",
+    "area": 12,
+    "post_id": 6597460,
+    "price": 38000,
+    "url": "rent-detail-6597460.html"
+  },
+  {
+    "addr": "台北市大安區信義路二段198巷",
+    "area": 62.5,
+    "post_id": 7015816,
+    "price": 280000,
+    "url": "rent-detail-7015816.html"
+  },
+  {
+    "addr": "台北市中正區信義路二段",
+    "area": 126.3,
+    "post_id": 6904942,
+    "price": 400000,
+    "url": "rent-detail-6904942.html"
+  },
+  {
+    "addr": "台北市信義區嘉興街",
+    "area": 19.4,
+    "post_id": 7011653,
+    "price": 35000,
+    "url": "rent-detail-7011653.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段",
+    "area": 20.6,
+    "post_id": 7018025,
+    "price": 250000,
+    "url": "rent-detail-7018025.html"
+  },
+  {
+    "addr": "台北市松山區民權東路三段160巷",
+    "area": 6,
+    "post_id": 7058024,
+    "price": 19800,
+    "url": "rent-detail-7058024.html"
+  },
+  {
+    "addr": "台北市內湖區內湖路一段",
+    "area": 134.7,
+    "post_id": 7050651,
+    "price": 353000,
+    "url": "rent-detail-7050651.html"
+  },
+  {
+    "addr": "台北市中山區德惠街",
+    "area": 44,
+    "post_id": 7023079,
+    "price": 80000,
+    "url": "rent-detail-7023079.html"
+  },
+  {
+    "addr": "台北市北投區西安街一段",
+    "area": 16.6,
+    "post_id": 6963612,
+    "price": 20000,
+    "url": "rent-detail-6963612.html"
+  },
+  {
+    "addr": "台北市文山區忠順街",
+    "area": 32,
+    "post_id": 6874294,
+    "price": 38000,
+    "url": "rent-detail-6874294.html"
+  },
+  {
+    "addr": "台北市松山區延壽街402巷",
+    "area": 30.2,
+    "post_id": 6871146,
+    "price": 47000,
+    "url": "rent-detail-6871146.html"
+  },
+  {
+    "addr": "台北市文山區羅斯福路六段455巷",
+    "area": 35.5,
+    "post_id": 6541099,
+    "price": 58000,
+    "url": "rent-detail-6541099.html"
+  },
+  {
+    "addr": "台北市文山區景文街",
+    "area": 16.7,
+    "post_id": 6862824,
+    "price": 100000,
+    "url": "rent-detail-6862824.html"
+  },
+  {
+    "addr": "台北市文山區三福街",
+    "area": 58.5,
+    "post_id": 6941893,
+    "price": 60000,
+    "url": "rent-detail-6941893.html"
+  },
+  {
+    "addr": "台北市萬華區中華路一段",
+    "area": 60,
+    "post_id": 6966492,
+    "price": 175000,
+    "url": "rent-detail-6966492.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段101巷32號",
+    "area": 7,
+    "post_id": 7021818,
+    "price": 14000,
+    "url": "rent-detail-7021818.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段270巷8號",
+    "area": 50,
+    "post_id": 6814354,
+    "price": 80000,
+    "url": "rent-detail-6814354.html"
+  },
+  {
+    "addr": "台北市大同區承德路二段53巷6號",
+    "area": 88,
+    "post_id": 6792289,
+    "price": 110000,
+    "url": "rent-detail-6792289.html"
+  },
+  {
+    "addr": "台北市中正區金山南路一段",
+    "area": 22,
+    "post_id": 6913435,
+    "price": 85000,
+    "url": "rent-detail-6913435.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 16,
+    "post_id": 6992274,
+    "price": 85000,
+    "url": "rent-detail-6992274.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段",
+    "area": 31,
+    "post_id": 6997365,
+    "price": 138000,
+    "url": "rent-detail-6997365.html"
+  },
+  {
+    "addr": "台北市松山區饒河街",
+    "area": 50,
+    "post_id": 6941686,
+    "price": 160000,
+    "url": "rent-detail-6941686.html"
+  },
+  {
+    "addr": "台北市信義區逸仙路",
+    "area": 38,
+    "post_id": 7009629,
+    "price": 130000,
+    "url": "rent-detail-7009629.html"
+  },
+  {
+    "addr": "台北市中山區長春路",
+    "area": 23,
+    "post_id": 6942316,
+    "price": 60000,
+    "url": "rent-detail-6942316.html"
+  },
+  {
+    "addr": "台北市士林區德行東路",
+    "area": 35.4,
+    "post_id": 7008821,
+    "price": 35000,
+    "url": "rent-detail-7008821.html"
+  },
+  {
+    "addr": "台北市中山區敬業一路",
+    "area": 24,
+    "post_id": 7037669,
+    "price": 62000,
+    "url": "rent-detail-7037669.html"
+  },
+  {
+    "addr": "台北市大安區大安路一段",
+    "area": 84.1,
+    "post_id": 6937548,
+    "price": 380000,
+    "url": "rent-detail-6937548.html"
+  },
+  {
+    "addr": "台北市大同區南京西路",
+    "area": 105.4,
+    "post_id": 6902310,
+    "price": 70000,
+    "url": "rent-detail-6902310.html"
+  },
+  {
+    "addr": "台北市南港區南港路三段",
+    "area": 27.6,
+    "post_id": 6887077,
+    "price": 32000,
+    "url": "rent-detail-6887077.html"
+  },
+  {
+    "addr": "台北市中正區博愛路",
+    "area": 52.3,
+    "post_id": 7065377,
+    "price": 79999,
+    "url": "rent-detail-7065377.html"
+  },
+  {
+    "addr": "台北市信義區富陽街",
+    "area": 24.4,
+    "post_id": 7034589,
+    "price": 39999,
+    "url": "rent-detail-7034589.html"
+  },
+  {
+    "addr": "台北市中山區吉林路",
+    "area": 30,
+    "post_id": 7039959,
+    "price": 65000,
+    "url": "rent-detail-7039959.html"
+  },
+  {
+    "addr": "台北市文山區羅斯福路五段232號",
+    "area": 10,
+    "post_id": 6890004,
+    "price": 13000,
+    "url": "rent-detail-6890004.html"
+  },
+  {
+    "addr": "台北市士林區天母東路50巷",
+    "area": 25.7,
+    "post_id": 7054058,
+    "price": 48000,
+    "url": "rent-detail-7054058.html"
+  },
+  {
+    "addr": "台北市文山區木新路三段",
+    "area": 48,
+    "post_id": 6828391,
+    "price": 53000,
+    "url": "rent-detail-6828391.html"
+  },
+  {
+    "addr": "台北市文山區木柵路四段",
+    "area": 32,
+    "post_id": 6825544,
+    "price": 35000,
+    "url": "rent-detail-6825544.html"
+  },
+  {
+    "addr": "台北市文山區興隆路四段169號",
+    "area": 42,
+    "post_id": 4569428,
+    "price": 60000,
+    "url": "rent-detail-4569428.html"
+  },
+  {
+    "addr": "台北市大同區重慶北路二段",
+    "area": 70,
+    "post_id": 7008638,
+    "price": 115000,
+    "url": "rent-detail-7008638.html"
+  },
+  {
+    "addr": "台北市大安區和平東路三段",
+    "area": 33.7,
+    "post_id": 6615705,
+    "price": 150000,
+    "url": "rent-detail-6615705.html"
+  },
+  {
+    "addr": "台北市大安區通安街39巷49弄10號",
+    "area": 20,
+    "post_id": 6912822,
+    "price": 45000,
+    "url": "rent-detail-6912822.html"
+  },
+  {
+    "addr": "台北市北投區大興街55號",
+    "area": 14.4,
+    "post_id": 6853356,
+    "price": 12000,
+    "url": "rent-detail-6853356.html"
+  },
+  {
+    "addr": "台北市中山區長安東路二段",
+    "area": 36.6,
+    "post_id": 7005853,
+    "price": 80000,
+    "url": "rent-detail-7005853.html"
+  },
+  {
+    "addr": "台北市南港區重陽路",
+    "area": 17.6,
+    "post_id": 7058742,
+    "price": 33000,
+    "url": "rent-detail-7058742.html"
+  },
+  {
+    "addr": "台北市中正區和平西路二段",
+    "area": 75,
+    "post_id": 6964225,
+    "price": 98000,
+    "url": "rent-detail-6964225.html"
+  },
+  {
+    "addr": "台北市大安區師大路49巷",
+    "area": 25,
+    "post_id": 7042940,
+    "price": 100000,
+    "url": "rent-detail-7042940.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段",
+    "area": 16,
+    "post_id": 6994026,
+    "price": 120000,
+    "url": "rent-detail-6994026.html"
+  },
+  {
+    "addr": "台北市中山區雙城街",
+    "area": 31,
+    "post_id": 6971325,
+    "price": 83000,
+    "url": "rent-detail-6971325.html"
+  },
+  {
+    "addr": "台北市松山區民生東路四段",
+    "area": 36,
+    "post_id": 6994387,
+    "price": 48000,
+    "url": "rent-detail-6994387.html"
+  },
+  {
+    "addr": "台北市大安區光復南路180巷",
+    "area": 20,
+    "post_id": 7043424,
+    "price": 120000,
+    "url": "rent-detail-7043424.html"
+  },
+  {
+    "addr": "台北市大同區民權西路",
+    "area": 82.6,
+    "post_id": 6762489,
+    "price": 250000,
+    "url": "rent-detail-6762489.html"
+  },
+  {
+    "addr": "台北市中山區南京東路三段",
+    "area": 155.6,
+    "post_id": 6853405,
+    "price": 150000,
+    "url": "rent-detail-6853405.html"
+  },
+  {
+    "addr": "台北市大安區瑞安街",
+    "area": 60,
+    "post_id": 7023981,
+    "price": 130000,
+    "url": "rent-detail-7023981.html"
+  },
+  {
+    "addr": "台北市中山區遼寧街216號",
+    "area": 12.8,
+    "post_id": 6955419,
+    "price": 49000,
+    "url": "rent-detail-6955419.html"
+  },
+  {
+    "addr": "台北市中山區新生北路68巷13號",
+    "area": 6,
+    "post_id": 6812343,
+    "price": 18000,
+    "url": "rent-detail-6812343.html"
+  },
+  {
+    "addr": "台北市內湖區星雲街",
+    "area": 25,
+    "post_id": 6908482,
+    "price": 38000,
+    "url": "rent-detail-6908482.html"
+  },
+  {
+    "addr": "台北市北投區永興路一段",
+    "area": 25,
+    "post_id": 7060508,
+    "price": 28500,
+    "url": "rent-detail-7060508.html"
+  },
+  {
+    "addr": "台北市內湖區江南街96巷",
+    "area": 36.5,
+    "post_id": 6900573,
+    "price": 55000,
+    "url": "rent-detail-6900573.html"
+  },
+  {
+    "addr": "台北市大安區東豐街",
+    "area": 45,
+    "post_id": 6982110,
+    "price": 135000,
+    "url": "rent-detail-6982110.html"
+  },
+  {
+    "addr": "台北市大安區樂利路",
+    "area": 78,
+    "post_id": 6798394,
+    "price": 132000,
+    "url": "rent-detail-6798394.html"
+  },
+  {
+    "addr": "台北市大安區復興南路二段",
+    "area": 35,
+    "post_id": 6798558,
+    "price": 120000,
+    "url": "rent-detail-6798558.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 50.7,
+    "post_id": 7046944,
+    "price": 100000,
+    "url": "rent-detail-7046944.html"
+  },
+  {
+    "addr": "台北市大安區建國南路二段294巷",
+    "area": 54,
+    "post_id": 6817841,
+    "price": 60000,
+    "url": "rent-detail-6817841.html"
+  },
+  {
+    "addr": "台北市大安區延吉街62巷",
+    "area": 20,
+    "post_id": 6799073,
+    "price": 88000,
+    "url": "rent-detail-6799073.html"
+  },
+  {
+    "addr": "台北市信義區莊敬路391巷",
+    "area": 67,
+    "post_id": 6879911,
+    "price": 48000,
+    "url": "rent-detail-6879911.html"
+  },
+  {
+    "addr": "台北市大安區信義路二段198巷5號",
+    "area": 75.1,
+    "post_id": 7056249,
+    "price": 280000,
+    "url": "rent-detail-7056249.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段233巷",
+    "area": 40,
+    "post_id": 6940265,
+    "price": 180000,
+    "url": "rent-detail-6940265.html"
+  },
+  {
+    "addr": "台北市大安區基隆路二段",
+    "area": 60,
+    "post_id": 6822971,
+    "price": 150000,
+    "url": "rent-detail-6822971.html"
+  },
+  {
+    "addr": "台北市大安區信義路二段",
+    "area": 30,
+    "post_id": 6822990,
+    "price": 80000,
+    "url": "rent-detail-6822990.html"
+  },
+  {
+    "addr": "台北市大安區師大路39巷",
+    "area": 28,
+    "post_id": 6839396,
+    "price": 56000,
+    "url": "rent-detail-6839396.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段77巷",
+    "area": 22,
+    "post_id": 6839509,
+    "price": 150000,
+    "url": "rent-detail-6839509.html"
+  },
+  {
+    "addr": "台北市大安區永康街2巷",
+    "area": 60,
+    "post_id": 6839540,
+    "price": 230000,
+    "url": "rent-detail-6839540.html"
+  },
+  {
+    "addr": "台北市大安區市民大道四段",
+    "area": 60,
+    "post_id": 6839586,
+    "price": 280000,
+    "url": "rent-detail-6839586.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 22,
+    "post_id": 6886356,
+    "price": 85000,
+    "url": "rent-detail-6886356.html"
+  },
+  {
+    "addr": "台北市大安區師大路49巷",
+    "area": 28,
+    "post_id": 6886374,
+    "price": 250000,
+    "url": "rent-detail-6886374.html"
+  },
+  {
+    "addr": "台北市大安區安和路一段21巷",
+    "area": 5,
+    "post_id": 6886397,
+    "price": 40000,
+    "url": "rent-detail-6886397.html"
+  },
+  {
+    "addr": "台北市大安區東豐街",
+    "area": 30,
+    "post_id": 6982145,
+    "price": 128000,
+    "url": "rent-detail-6982145.html"
+  },
+  {
+    "addr": "台北市中正區永綏街",
+    "area": 168.6,
+    "post_id": 7045931,
+    "price": 460000,
+    "url": "rent-detail-7045931.html"
+  },
+  {
+    "addr": "台北市大安區和平東路二段118巷54弄21號",
+    "area": 25,
+    "post_id": 7046983,
+    "price": 48000,
+    "url": "rent-detail-7046983.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段205巷",
+    "area": 4,
+    "post_id": 6799036,
+    "price": 28000,
+    "url": "rent-detail-6799036.html"
+  },
+  {
+    "addr": "台北市大安區臨江街",
+    "area": 20,
+    "post_id": 6798317,
+    "price": 100000,
+    "url": "rent-detail-6798317.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段161巷",
+    "area": 33,
+    "post_id": 6791452,
+    "price": 120000,
+    "url": "rent-detail-6791452.html"
+  },
+  {
+    "addr": "台北市中正區博愛路",
+    "area": 31.5,
+    "post_id": 7044518,
+    "price": 128000,
+    "url": "rent-detail-7044518.html"
+  },
+  {
+    "addr": "台北市大安區安和路一段78巷",
+    "area": 66.7,
+    "post_id": 7013663,
+    "price": 130000,
+    "url": "rent-detail-7013663.html"
+  },
+  {
+    "addr": "台北市內湖區內湖路二段",
+    "area": 42,
+    "post_id": 7011461,
+    "price": 72000,
+    "url": "rent-detail-7011461.html"
+  },
+  {
+    "addr": "台北市松山區南京東路四段",
+    "area": 17,
+    "post_id": 7072814,
+    "price": 120000,
+    "url": "rent-detail-7072814.html"
+  },
+  {
+    "addr": "台北市大安區敦化南路一段",
+    "area": 39,
+    "post_id": 7024651,
+    "price": 230000,
+    "url": "rent-detail-7024651.html"
+  },
+  {
+    "addr": "台北市大安區大安路一段51巷21號",
+    "area": 8,
+    "post_id": 6962122,
+    "price": 45000,
+    "url": "rent-detail-6962122.html"
+  },
+  {
+    "addr": "台北市中正區重慶南路一段",
+    "area": 92,
+    "post_id": 5583762,
+    "price": 280000,
+    "url": "rent-detail-5583762.html"
+  },
+  {
+    "addr": "台北市信義區東興路",
+    "area": 200,
+    "post_id": 5503760,
+    "price": 905485,
+    "url": "rent-detail-5503760.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段",
+    "area": 33.6,
+    "post_id": 6973083,
+    "price": 350000,
+    "url": "rent-detail-6973083.html"
+  },
+  {
+    "addr": "台北市松山區南京東路五段",
+    "area": 21,
+    "post_id": 7023041,
+    "price": 85000,
+    "url": "rent-detail-7023041.html"
+  },
+  {
+    "addr": "台北市大安區忠孝東路四段101巷",
+    "area": 24,
+    "post_id": 6986251,
+    "price": 100000,
+    "url": "rent-detail-6986251.html"
+  },
+  {
+    "addr": "台北市大安區四維路22巷",
+    "area": 54,
+    "post_id": 7030849,
+    "price": 80000,
+    "url": "rent-detail-7030849.html"
+  },
+  {
+    "addr": "台北市南港區經貿二路255巷",
+    "area": 37,
+    "post_id": 6955196,
+    "price": 60000,
+    "url": "rent-detail-6955196.html"
+  },
+  {
+    "addr": "台北市松山區民生東路五段137巷",
+    "area": 31,
+    "post_id": 6871903,
+    "price": 120000,
+    "url": "rent-detail-6871903.html"
+  },
+  {
+    "addr": "台北市大安區延吉街",
+    "area": 13,
+    "post_id": 6880094,
+    "price": 70000,
+    "url": "rent-detail-6880094.html"
+  },
+  {
+    "addr": "台北市大安區金山南路二段",
+    "area": 62,
+    "post_id": 6885096,
+    "price": 270000,
+    "url": "rent-detail-6885096.html"
+  },
+  {
+    "addr": "台北市大安區通化街",
+    "area": 15,
+    "post_id": 6885977,
+    "price": 88000,
+    "url": "rent-detail-6885977.html"
+  },
+  {
+    "addr": "台北市中正區新生南路一段160巷22號",
+    "area": 60,
+    "post_id": 6856799,
+    "price": 130000,
+    "url": "rent-detail-6856799.html"
+  },
+  {
+    "addr": "台北市松山區市民大道四段",
+    "area": 60,
+    "post_id": 7019357,
+    "price": 132000,
+    "url": "rent-detail-7019357.html"
+  },
+  {
+    "addr": "台北市信義區忠孝東路四段",
+    "area": 200,
+    "post_id": 7061244,
+    "price": 2670000,
+    "url": "rent-detail-7061244.html"
+  },
+  {
+    "addr": "台北市內湖區康寧路三段189巷",
+    "area": 97,
+    "post_id": 7075239,
+    "price": 70000,
+    "url": "rent-detail-7075239.html"
+  },
+  {
+    "addr": "台北市內湖區成功路四段61巷23號",
+    "area": 79.7,
+    "post_id": 6834176,
+    "price": 70000,
+    "url": "rent-detail-6834176.html"
+  },
+  {
+    "addr": "台北市中正區羅斯福路三段284巷",
+    "area": 60,
+    "post_id": 6905808,
+    "price": 200000,
+    "url": "rent-detail-6905808.html"
+  },
+  {
+    "addr": "台北市文山區景後街",
+    "area": 9.2,
+    "post_id": 7068035,
+    "price": 36000,
+    "url": "rent-detail-7068035.html"
+  },
+  {
+    "addr": "台北市大同區長安西路131號",
+    "area": 22,
+    "post_id": 6830925,
+    "price": 85000,
+    "url": "rent-detail-6830925.html"
+  },
+  {
+    "addr": "台北市文山區興隆路一段",
+    "area": 45,
+    "post_id": 6913992,
+    "price": 65000,
+    "url": "rent-detail-6913992.html"
+  },
+  {
+    "addr": "台北市士林區承德路四段",
+    "area": 34.2,
+    "post_id": 7075225,
+    "price": 110000,
+    "url": "rent-detail-7075225.html"
+  },
+  {
+    "addr": "台北市大安區大安路二段",
+    "area": 28.7,
+    "post_id": 7047726,
+    "price": 70000,
+    "url": "rent-detail-7047726.html"
+  },
+  {
+    "addr": "台北市大安區和平東路二段",
+    "area": 51.7,
+    "post_id": 6969345,
+    "price": 200000,
+    "url": "rent-detail-6969345.html"
+  },
+  {
+    "addr": "台北市大安區金華街",
+    "area": 14.3,
+    "post_id": 6832729,
+    "price": 88000,
+    "url": "rent-detail-6832729.html"
+  },
+  {
+    "addr": "台北市大安區永康街75巷",
+    "area": 75,
+    "post_id": 6862266,
+    "price": 98000,
+    "url": "rent-detail-6862266.html"
   },
   {
     "addr": "台北市大安區和平東路三段",
@@ -4053,13 +5747,6 @@
     "url": "rent-detail-7054243.html"
   },
   {
-    "addr": "台北市大同區延平北路一段",
-    "area": 45,
-    "post_id": 6834066,
-    "price": 57500,
-    "url": "rent-detail-6834066.html"
-  },
-  {
     "addr": "台北市中正區博愛路",
     "area": 110,
     "post_id": 6979543,
@@ -4114,20 +5801,6 @@
     "post_id": 6765767,
     "price": 60000,
     "url": "rent-detail-6765767.html"
-  },
-  {
-    "addr": "台北市中山區林森北路119巷",
-    "area": 5.7,
-    "post_id": 6979455,
-    "price": 38000,
-    "url": "rent-detail-6979455.html"
-  },
-  {
-    "addr": "台北市中正區八德路一段",
-    "area": 102,
-    "post_id": 7021006,
-    "price": 280000,
-    "url": "rent-detail-7021006.html"
   },
   {
     "addr": "台北市內湖區碧山路",
@@ -4270,25 +5943,11 @@
     "url": "rent-detail-6977474.html"
   },
   {
-    "addr": "台北市北投區西安街一段",
-    "area": 16.6,
-    "post_id": 6963612,
-    "price": 20000,
-    "url": "rent-detail-6963612.html"
-  },
-  {
     "addr": "台北市萬華區萬大路",
     "area": 26.4,
     "post_id": 7068798,
     "price": 35000,
     "url": "rent-detail-7068798.html"
-  },
-  {
-    "addr": "台北市大安區樂利路",
-    "area": 36,
-    "post_id": 6756765,
-    "price": 88000,
-    "url": "rent-detail-6756765.html"
   },
   {
     "addr": "台北市士林區中山北路五段",
@@ -4611,13 +6270,6 @@
     "post_id": 6903439,
     "price": 98000,
     "url": "rent-detail-6903439.html"
-  },
-  {
-    "addr": "台北市大安區羅斯福路三段",
-    "area": 24.9,
-    "post_id": 6756308,
-    "price": 120000,
-    "url": "rent-detail-6756308.html"
   },
   {
     "addr": "台北市大同區酒泉街",
@@ -5467,13 +7119,6 @@
     "url": "rent-detail-7036072.html"
   },
   {
-    "addr": "台北市中山區長安東路二段",
-    "area": 36.6,
-    "post_id": 7005853,
-    "price": 80000,
-    "url": "rent-detail-7005853.html"
-  },
-  {
     "addr": "台北市信義區忠孝東路五段",
     "area": 39.6,
     "post_id": 7032636,
@@ -6125,27 +7770,6 @@
     "url": "rent-detail-7020291.html"
   },
   {
-    "addr": "台北市松山區民生東路五段36巷",
-    "area": 9.6,
-    "post_id": 7020870,
-    "price": 30000,
-    "url": "rent-detail-7020870.html"
-  },
-  {
-    "addr": "台北市大安區復興南路二段",
-    "area": 163.3,
-    "post_id": 6989199,
-    "price": 265000,
-    "url": "rent-detail-6989199.html"
-  },
-  {
-    "addr": "台北市大安區永康街",
-    "area": 8,
-    "post_id": 6766839,
-    "price": 62000,
-    "url": "rent-detail-6766839.html"
-  },
-  {
     "addr": "台北市松山區民生東路五段36巷4弄14號",
     "area": 9.3,
     "post_id": 7003378,
@@ -6751,7 +8375,7 @@
     "addr": "台北市萬華區和平西路三段",
     "area": 27,
     "post_id": 7061895,
-    "price": 35000,
+    "price": 40000,
     "url": "rent-detail-7061895.html"
   },
   {
@@ -6846,41 +8470,6 @@
     "url": "rent-detail-6943064.html"
   },
   {
-    "addr": "台北市士林區天母東路50巷",
-    "area": 25.7,
-    "post_id": 7054058,
-    "price": 48000,
-    "url": "rent-detail-7054058.html"
-  },
-  {
-    "addr": "台北市內湖區內湖路二段",
-    "area": 42,
-    "post_id": 7011461,
-    "price": 72000,
-    "url": "rent-detail-7011461.html"
-  },
-  {
-    "addr": "台北市大安區安和路一段78巷",
-    "area": 66.7,
-    "post_id": 7013663,
-    "price": 130000,
-    "url": "rent-detail-7013663.html"
-  },
-  {
-    "addr": "台北市大安區東豐街",
-    "area": 45,
-    "post_id": 6982110,
-    "price": 135000,
-    "url": "rent-detail-6982110.html"
-  },
-  {
-    "addr": "台北市文山區興隆路一段",
-    "area": 27,
-    "post_id": 7071009,
-    "price": 36000,
-    "url": "rent-detail-7071009.html"
-  },
-  {
     "addr": "台北市大安區大安路一段",
     "area": 160,
     "post_id": 6931090,
@@ -6916,13 +8505,6 @@
     "url": "rent-detail-6809691.html"
   },
   {
-    "addr": "台北市中山區民權東路三段",
-    "area": 57.8,
-    "post_id": 6982259,
-    "price": 120000,
-    "url": "rent-detail-6982259.html"
-  },
-  {
     "addr": "台北市中正區羅斯福路四段5號",
     "area": 52,
     "post_id": 6948713,
@@ -6930,25 +8512,11 @@
     "url": "rent-detail-6948713.html"
   },
   {
-    "addr": "台北市大同區承德路二段53巷6號",
-    "area": 88,
-    "post_id": 6792289,
-    "price": 110000,
-    "url": "rent-detail-6792289.html"
-  },
-  {
     "addr": "台北市大安區龍泉街",
     "area": 7.6,
     "post_id": 6921560,
     "price": 32000,
     "url": "rent-detail-6921560.html"
-  },
-  {
-    "addr": "台北市松山區八德路四段72巷",
-    "area": 35,
-    "post_id": 7074154,
-    "price": 31500,
-    "url": "rent-detail-7074154.html"
   },
   {
     "addr": "台北市內湖區文德路210巷",
@@ -6977,13 +8545,6 @@
     "post_id": 6958058,
     "price": 36000,
     "url": "rent-detail-6958058.html"
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "area": 81.9,
-    "post_id": 6942885,
-    "price": 89000,
-    "url": "rent-detail-6942885.html"
   },
   {
     "addr": "台北市中正區辛亥路一段",
@@ -7301,62 +8862,6 @@
     "url": "rent-detail-7073877.html"
   },
   {
-    "addr": "台北市中山區明水路",
-    "area": 1600,
-    "post_id": 7014255,
-    "price": 730000,
-    "url": "rent-detail-7014255.html"
-  },
-  {
-    "addr": "台北市萬華區成都路",
-    "area": 210,
-    "post_id": 6895286,
-    "price": 320000,
-    "url": "rent-detail-6895286.html"
-  },
-  {
-    "addr": "台北市信義區信義路四段",
-    "area": 300,
-    "post_id": 6933284,
-    "price": 400000,
-    "url": "rent-detail-6933284.html"
-  },
-  {
-    "addr": "台北市大安區和平東路二段",
-    "area": 16,
-    "post_id": 6991839,
-    "price": 68000,
-    "url": "rent-detail-6991839.html"
-  },
-  {
-    "addr": "台北市中山區民生東路一段",
-    "area": 44,
-    "post_id": 5429311,
-    "price": 220000,
-    "url": "rent-detail-5429311.html"
-  },
-  {
-    "addr": "台北市松山區南京東路四段",
-    "area": 30,
-    "post_id": 6715211,
-    "price": 140000,
-    "url": "rent-detail-6715211.html"
-  },
-  {
-    "addr": "台北市中山區吉林路",
-    "area": 28,
-    "post_id": 6991850,
-    "price": 70000,
-    "url": "rent-detail-6991850.html"
-  },
-  {
-    "addr": "台北市松山區民生東路三段113巷",
-    "area": 70,
-    "post_id": 7068034,
-    "price": 125000,
-    "url": "rent-detail-7068034.html"
-  },
-  {
     "addr": "台北市中山區中山北路二段179號",
     "area": 85.6,
     "post_id": 7033226,
@@ -7364,67 +8869,11 @@
     "url": "rent-detail-7033226.html"
   },
   {
-    "addr": "台北市松山區敦化南路一段",
-    "area": 280,
-    "post_id": 6946241,
-    "price": 979000,
-    "url": "rent-detail-6946241.html"
-  },
-  {
-    "addr": "台北市萬華區萬大路",
-    "area": 32.9,
-    "post_id": 7068412,
-    "price": 33000,
-    "url": "rent-detail-7068412.html"
-  },
-  {
-    "addr": "台北市北投區明德路",
-    "area": 39,
-    "post_id": 7067034,
-    "price": 46000,
-    "url": "rent-detail-7067034.html"
-  },
-  {
-    "addr": "台北市北投區石牌路一段",
-    "area": 30.3,
-    "post_id": 7012349,
-    "price": 75000,
-    "url": "rent-detail-7012349.html"
-  },
-  {
-    "addr": "台北市士林區基河路",
-    "area": 35,
-    "post_id": 7005614,
-    "price": 80000,
-    "url": "rent-detail-7005614.html"
-  },
-  {
-    "addr": "台北市大同區華陰街",
-    "area": 17,
-    "post_id": 6906448,
-    "price": 98000,
-    "url": "rent-detail-6906448.html"
-  },
-  {
     "addr": "台北市中正區博愛路",
     "area": 36,
     "post_id": 6911912,
     "price": 128000,
     "url": "rent-detail-6911912.html"
-  },
-  {
-    "addr": "台北市士林區基河路",
-    "area": 20,
-    "post_id": 6926397,
-    "price": 45000,
-    "url": "rent-detail-6926397.html"
-  },
-  {
-    "addr": "台北市松山區敦化南路一段",
-    "area": 40,
-    "post_id": 7037802,
-    "price": 120000,
-    "url": "rent-detail-7037802.html"
   },
   {
     "addr": "台北市松山區延吉街",
@@ -7483,20 +8932,6 @@
     "url": "rent-detail-7065869.html"
   },
   {
-    "addr": "台北市中正區博愛路",
-    "area": 31.5,
-    "post_id": 7044518,
-    "price": 128000,
-    "url": "rent-detail-7044518.html"
-  },
-  {
-    "addr": "台北市中正區永綏街",
-    "area": 168.6,
-    "post_id": 7045931,
-    "price": 460000,
-    "url": "rent-detail-7045931.html"
-  },
-  {
     "addr": "台北市中山區天祥路16號",
     "area": 61,
     "post_id": 6879282,
@@ -7539,13 +8974,6 @@
     "url": "rent-detail-6764936.html"
   },
   {
-    "addr": "台北市中正區羅斯福路三段284巷",
-    "area": 60,
-    "post_id": 6905808,
-    "price": 200000,
-    "url": "rent-detail-6905808.html"
-  },
-  {
     "addr": "台北市松山區新中街",
     "area": 80.7,
     "post_id": 6858851,
@@ -7565,13 +8993,6 @@
     "post_id": 7057646,
     "price": 118000,
     "url": "rent-detail-7057646.html"
-  },
-  {
-    "addr": "台北市文山區和平東路四段69號",
-    "area": 50,
-    "post_id": 6849702,
-    "price": 40000,
-    "url": "rent-detail-6849702.html"
   },
   {
     "addr": "台北市士林區文林路101巷12號",
@@ -7616,13 +9037,6 @@
     "url": "rent-detail-7040304.html"
   },
   {
-    "addr": "台北市松山區八德路四段226號",
-    "area": 31,
-    "post_id": 7039220,
-    "price": 60000,
-    "url": "rent-detail-7039220.html"
-  },
-  {
     "addr": "台北市中正區濟南路二段",
     "area": 40.6,
     "post_id": 7023565,
@@ -7665,13 +9079,6 @@
     "url": "rent-detail-6815016.html"
   },
   {
-    "addr": "台北市大安區樂利路",
-    "area": 40,
-    "post_id": 6787868,
-    "price": 88000,
-    "url": "rent-detail-6787868.html"
-  },
-  {
     "addr": "台北市大安區敦化南路一段252巷",
     "area": 53.7,
     "post_id": 6795450,
@@ -7691,48 +9098,6 @@
     "post_id": 7058282,
     "price": 200000,
     "url": "rent-detail-7058282.html"
-  },
-  {
-    "addr": "台北市萬華區梧州街",
-    "area": 29.1,
-    "post_id": 6600981,
-    "price": 46800,
-    "url": "rent-detail-6600981.html"
-  },
-  {
-    "addr": "台北市萬華區昆明街",
-    "area": 15,
-    "post_id": 7048245,
-    "price": 22000,
-    "url": "rent-detail-7048245.html"
-  },
-  {
-    "addr": "台北市萬華區柳州街",
-    "area": 20,
-    "post_id": 6902376,
-    "price": 32000,
-    "url": "rent-detail-6902376.html"
-  },
-  {
-    "addr": "台北市萬華區貴陽街二段",
-    "area": 25,
-    "post_id": 6990061,
-    "price": 38000,
-    "url": "rent-detail-6990061.html"
-  },
-  {
-    "addr": "台北市萬華區西園路二段",
-    "area": 30.7,
-    "post_id": 6929348,
-    "price": 52000,
-    "url": "rent-detail-6929348.html"
-  },
-  {
-    "addr": "台北市萬華區中華路二段",
-    "area": 40,
-    "post_id": 6969132,
-    "price": 62000,
-    "url": "rent-detail-6969132.html"
   },
   {
     "addr": "台北市萬華區中華路一段72巷",
@@ -7824,13 +9189,6 @@
     "post_id": 6793477,
     "price": 72000,
     "url": "rent-detail-6793477.html"
-  },
-  {
-    "addr": "台北市中山區北安路458巷41弄3號",
-    "area": 3,
-    "post_id": 7073037,
-    "price": 15000,
-    "url": "rent-detail-7073037.html"
   },
   {
     "addr": "台北市內湖區康寧路一段",
@@ -7945,48 +9303,6 @@
     "url": "rent-detail-7017713.html"
   },
   {
-    "addr": "台北市北投區稻香路",
-    "area": 34,
-    "post_id": 7023472,
-    "price": 30000,
-    "url": "rent-detail-7023472.html"
-  },
-  {
-    "addr": "台北市北投區三合街二段",
-    "area": 21,
-    "post_id": 6953075,
-    "price": 28000,
-    "url": "rent-detail-6953075.html"
-  },
-  {
-    "addr": "台北市北投區三合街一段82巷",
-    "area": 16.4,
-    "post_id": 6783531,
-    "price": 43000,
-    "url": "rent-detail-6783531.html"
-  },
-  {
-    "addr": "台北市北投區光明路2巷9號",
-    "area": 35,
-    "post_id": 7061424,
-    "price": 100000,
-    "url": "rent-detail-7061424.html"
-  },
-  {
-    "addr": "台北市士林區基河路120號",
-    "area": 15.6,
-    "post_id": 6863049,
-    "price": 79000,
-    "url": "rent-detail-6863049.html"
-  },
-  {
-    "addr": "台北市大同區重慶北路三段25巷7號",
-    "area": 21.7,
-    "post_id": 6989795,
-    "price": 27000,
-    "url": "rent-detail-6989795.html"
-  },
-  {
     "addr": "台北市中山區四平街",
     "area": 8,
     "post_id": 6773817,
@@ -8015,174 +9331,6 @@
     "url": "rent-detail-7025127.html"
   },
   {
-    "addr": "台北市松山區南京東路四段",
-    "area": 17,
-    "post_id": 7072814,
-    "price": 120000,
-    "url": "rent-detail-7072814.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段161巷",
-    "area": 33,
-    "post_id": 6791452,
-    "price": 120000,
-    "url": "rent-detail-6791452.html"
-  },
-  {
-    "addr": "台北市大安區臨江街",
-    "area": 20,
-    "post_id": 6798317,
-    "price": 100000,
-    "url": "rent-detail-6798317.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段205巷",
-    "area": 4,
-    "post_id": 6799036,
-    "price": 28000,
-    "url": "rent-detail-6799036.html"
-  },
-  {
-    "addr": "台北市大安區和平東路二段118巷54弄21號",
-    "area": 25,
-    "post_id": 7046983,
-    "price": 48000,
-    "url": "rent-detail-7046983.html"
-  },
-  {
-    "addr": "台北市內湖區江南街96巷",
-    "area": 36.5,
-    "post_id": 6900573,
-    "price": 55000,
-    "url": "rent-detail-6900573.html"
-  },
-  {
-    "addr": "台北市大安區東豐街",
-    "area": 30,
-    "post_id": 6982145,
-    "price": 128000,
-    "url": "rent-detail-6982145.html"
-  },
-  {
-    "addr": "台北市大安區安和路一段21巷",
-    "area": 5,
-    "post_id": 6886397,
-    "price": 40000,
-    "url": "rent-detail-6886397.html"
-  },
-  {
-    "addr": "台北市大安區師大路49巷",
-    "area": 28,
-    "post_id": 6886374,
-    "price": 250000,
-    "url": "rent-detail-6886374.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 22,
-    "post_id": 6886356,
-    "price": 85000,
-    "url": "rent-detail-6886356.html"
-  },
-  {
-    "addr": "台北市大安區市民大道四段",
-    "area": 60,
-    "post_id": 6839586,
-    "price": 280000,
-    "url": "rent-detail-6839586.html"
-  },
-  {
-    "addr": "台北市大安區永康街2巷",
-    "area": 60,
-    "post_id": 6839540,
-    "price": 230000,
-    "url": "rent-detail-6839540.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段77巷",
-    "area": 22,
-    "post_id": 6839509,
-    "price": 150000,
-    "url": "rent-detail-6839509.html"
-  },
-  {
-    "addr": "台北市大安區師大路39巷",
-    "area": 28,
-    "post_id": 6839396,
-    "price": 56000,
-    "url": "rent-detail-6839396.html"
-  },
-  {
-    "addr": "台北市大安區信義路二段",
-    "area": 30,
-    "post_id": 6822990,
-    "price": 80000,
-    "url": "rent-detail-6822990.html"
-  },
-  {
-    "addr": "台北市大安區基隆路二段",
-    "area": 60,
-    "post_id": 6822971,
-    "price": 150000,
-    "url": "rent-detail-6822971.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段233巷",
-    "area": 40,
-    "post_id": 6940265,
-    "price": 180000,
-    "url": "rent-detail-6940265.html"
-  },
-  {
-    "addr": "台北市大安區信義路二段198巷5號",
-    "area": 75.1,
-    "post_id": 7056249,
-    "price": 280000,
-    "url": "rent-detail-7056249.html"
-  },
-  {
-    "addr": "台北市信義區莊敬路391巷",
-    "area": 67,
-    "post_id": 6879911,
-    "price": 48000,
-    "url": "rent-detail-6879911.html"
-  },
-  {
-    "addr": "台北市大安區延吉街62巷",
-    "area": 20,
-    "post_id": 6799073,
-    "price": 88000,
-    "url": "rent-detail-6799073.html"
-  },
-  {
-    "addr": "台北市大安區建國南路二段294巷",
-    "area": 54,
-    "post_id": 6817841,
-    "price": 60000,
-    "url": "rent-detail-6817841.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 50.7,
-    "post_id": 7046944,
-    "price": 100000,
-    "url": "rent-detail-7046944.html"
-  },
-  {
-    "addr": "台北市大安區復興南路二段",
-    "area": 35,
-    "post_id": 6798558,
-    "price": 120000,
-    "url": "rent-detail-6798558.html"
-  },
-  {
-    "addr": "台北市大安區樂利路",
-    "area": 78,
-    "post_id": 6798394,
-    "price": 132000,
-    "url": "rent-detail-6798394.html"
-  },
-  {
     "addr": "台北市內湖區瑞光路",
     "area": 7,
     "post_id": 6855914,
@@ -8190,144 +9338,11 @@
     "url": "rent-detail-6855914.html"
   },
   {
-    "addr": "台北市大安區光復南路180巷",
-    "area": 20,
-    "post_id": 7043424,
-    "price": 120000,
-    "url": "rent-detail-7043424.html"
-  },
-  {
-    "addr": "台北市北投區北投路二段",
-    "area": 70,
-    "post_id": 7047149,
-    "price": 138000,
-    "url": "rent-detail-7047149.html"
-  },
-  {
-    "addr": "台北市士林區大西路",
-    "area": 32,
-    "post_id": 7053160,
-    "price": 48000,
-    "url": "rent-detail-7053160.html"
-  },
-  {
-    "addr": "台北市士林區大東路",
-    "area": 21.9,
-    "post_id": 7064215,
-    "price": 310000,
-    "url": "rent-detail-7064215.html"
-  },
-  {
-    "addr": "台北市信義區松山路",
-    "area": 55,
-    "post_id": 6910704,
-    "price": 62000,
-    "url": "rent-detail-6910704.html"
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "area": 31,
-    "post_id": 6898404,
-    "price": 60000,
-    "url": "rent-detail-6898404.html"
-  },
-  {
-    "addr": "台北市大安區基隆路三段",
-    "area": 31.8,
-    "post_id": 6916260,
-    "price": 50000,
-    "url": "rent-detail-6916260.html"
-  },
-  {
-    "addr": "台北市松山區八德路四段",
-    "area": 24.1,
-    "post_id": 6963167,
-    "price": 50000,
-    "url": "rent-detail-6963167.html"
-  },
-  {
-    "addr": "台北市松山區八德路三段",
-    "area": 34.4,
-    "post_id": 6954201,
-    "price": 79000,
-    "url": "rent-detail-6954201.html"
-  },
-  {
-    "addr": "台北市信義區松信路",
-    "area": 45,
-    "post_id": 6972790,
-    "price": 40000,
-    "url": "rent-detail-6972790.html"
-  },
-  {
-    "addr": "台北市中正區羅斯福路四段",
-    "area": 60,
-    "post_id": 7050523,
-    "price": 80000,
-    "url": "rent-detail-7050523.html"
-  },
-  {
-    "addr": "台北市信義區永吉路",
-    "area": 30,
-    "post_id": 6989908,
-    "price": 78000,
-    "url": "rent-detail-6989908.html"
-  },
-  {
-    "addr": "台北市信義區光復南路",
-    "area": 25,
-    "post_id": 6989927,
-    "price": 100000,
-    "url": "rent-detail-6989927.html"
-  },
-  {
-    "addr": "台北市松山區寶清街",
-    "area": 51,
-    "post_id": 6990015,
-    "price": 65000,
-    "url": "rent-detail-6990015.html"
-  },
-  {
-    "addr": "台北市南港區忠孝東路六段",
-    "area": 28,
-    "post_id": 7008240,
-    "price": 38000,
-    "url": "rent-detail-7008240.html"
-  },
-  {
-    "addr": "台北市中山區中山北路二段36巷",
-    "area": 20,
-    "post_id": 7020358,
-    "price": 150000,
-    "url": "rent-detail-7020358.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段",
-    "area": 21.8,
-    "post_id": 7025355,
-    "price": 120000,
-    "url": "rent-detail-7025355.html"
-  },
-  {
-    "addr": "台北市松山區南京東路五段",
-    "area": 22,
-    "post_id": 7025953,
-    "price": 27000,
-    "url": "rent-detail-7025953.html"
-  },
-  {
     "addr": "台北市松山區八德路四段",
     "area": 16,
     "post_id": 6969823,
     "price": 27000,
     "url": "rent-detail-6969823.html"
-  },
-  {
-    "addr": "台北市萬華區萬大路322巷",
-    "area": 21.6,
-    "post_id": 7049642,
-    "price": 26800,
-    "url": "rent-detail-7049642.html"
   },
   {
     "addr": "台北市中正區中華路一段21巷",
@@ -8365,20 +9380,6 @@
     "url": "rent-detail-6910072.html"
   },
   {
-    "addr": "台北市南港區忠孝東路七段",
-    "area": 87,
-    "post_id": 6987355,
-    "price": 168000,
-    "url": "rent-detail-6987355.html"
-  },
-  {
-    "addr": "台北市士林區德行東路",
-    "area": 35.4,
-    "post_id": 7008821,
-    "price": 35000,
-    "url": "rent-detail-7008821.html"
-  },
-  {
     "addr": "台北市內湖區東湖路24號",
     "area": 25,
     "post_id": 7072643,
@@ -8386,95 +9387,11 @@
     "url": "rent-detail-7072643.html"
   },
   {
-    "addr": "台北市中正區館前路",
-    "area": 12,
-    "post_id": 6597460,
-    "price": 38000,
-    "url": "rent-detail-6597460.html"
-  },
-  {
     "addr": "台北市萬華區德昌街247號",
     "area": 20,
     "post_id": 6837757,
     "price": 16000,
     "url": "rent-detail-6837757.html"
-  },
-  {
-    "addr": "台北市松山區南京東路三段256巷",
-    "area": 43,
-    "post_id": 7064408,
-    "price": 55000,
-    "url": "rent-detail-7064408.html"
-  },
-  {
-    "addr": "台北市信義區松山路",
-    "area": 21.5,
-    "post_id": 6962453,
-    "price": 105000,
-    "url": "rent-detail-6962453.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 8,
-    "post_id": 6971806,
-    "price": 60000,
-    "url": "rent-detail-6971806.html"
-  },
-  {
-    "addr": "台北市大安區光復南路240巷",
-    "area": 17,
-    "post_id": 6984269,
-    "price": 60000,
-    "url": "rent-detail-6984269.html"
-  },
-  {
-    "addr": "台北市大安區四維路",
-    "area": 50,
-    "post_id": 7023107,
-    "price": 108800,
-    "url": "rent-detail-7023107.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 27,
-    "post_id": 6994613,
-    "price": 65000,
-    "url": "rent-detail-6994613.html"
-  },
-  {
-    "addr": "台北市內湖區江南街",
-    "area": 35,
-    "post_id": 7017354,
-    "price": 95000,
-    "url": "rent-detail-7017354.html"
-  },
-  {
-    "addr": "台北市大安區信義路三段",
-    "area": 26,
-    "post_id": 7038460,
-    "price": 200000,
-    "url": "rent-detail-7038460.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 15,
-    "post_id": 7041424,
-    "price": 70000,
-    "url": "rent-detail-7041424.html"
-  },
-  {
-    "addr": "台北市松山區敦化北路165巷",
-    "area": 35,
-    "post_id": 7041551,
-    "price": 70000,
-    "url": "rent-detail-7041551.html"
-  },
-  {
-    "addr": "台北市松山區復興北路313巷",
-    "area": 30,
-    "post_id": 7064439,
-    "price": 50000,
-    "url": "rent-detail-7064439.html"
   },
   {
     "addr": "台北市大同區延平北路四段51號",
@@ -8489,13 +9406,6 @@
     "post_id": 6835792,
     "price": 58000,
     "url": "rent-detail-6835792.html"
-  },
-  {
-    "addr": "台北市南港區南港路三段",
-    "area": 27.6,
-    "post_id": 6887077,
-    "price": 32000,
-    "url": "rent-detail-6887077.html"
   },
   {
     "addr": "台北市大安區敦化南路一段",
@@ -8519,41 +9429,6 @@
     "url": "rent-detail-6959144.html"
   },
   {
-    "addr": "台北市中正區汀州路三段",
-    "area": 20,
-    "post_id": 7053362,
-    "price": 95000,
-    "url": "rent-detail-7053362.html"
-  },
-  {
-    "addr": "台北市大安區和平東路二段",
-    "area": 20,
-    "post_id": 7053353,
-    "price": 65000,
-    "url": "rent-detail-7053353.html"
-  },
-  {
-    "addr": "台北市中山區敬業一路",
-    "area": 24,
-    "post_id": 7037669,
-    "price": 62000,
-    "url": "rent-detail-7037669.html"
-  },
-  {
-    "addr": "台北市中山區南京西路",
-    "area": 160,
-    "post_id": 7053347,
-    "price": 380000,
-    "url": "rent-detail-7053347.html"
-  },
-  {
-    "addr": "台北市信義區永吉路30巷",
-    "area": 30,
-    "post_id": 7065247,
-    "price": 115000,
-    "url": "rent-detail-7065247.html"
-  },
-  {
     "addr": "台北市信義區基隆路一段",
     "area": 19.2,
     "post_id": 7031438,
@@ -8561,81 +9436,11 @@
     "url": "rent-detail-7031438.html"
   },
   {
-    "addr": "台北市大安區瑞安街208巷47弄18號",
-    "area": 48,
-    "post_id": 6903726,
-    "price": 70000,
-    "url": "rent-detail-6903726.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段177巷",
-    "area": 50,
-    "post_id": 7046562,
-    "price": 250000,
-    "url": "rent-detail-7046562.html"
-  },
-  {
-    "addr": "台北市文山區景文街",
-    "area": 16.7,
-    "post_id": 6862824,
-    "price": 100000,
-    "url": "rent-detail-6862824.html"
-  },
-  {
-    "addr": "台北市文山區羅斯福路六段455巷",
-    "area": 35.5,
-    "post_id": 6541099,
-    "price": 58000,
-    "url": "rent-detail-6541099.html"
-  },
-  {
-    "addr": "台北市文山區三福街",
-    "area": 58.5,
-    "post_id": 6941893,
-    "price": 60000,
-    "url": "rent-detail-6941893.html"
-  },
-  {
     "addr": "台北市松山區八德路四段",
     "area": 16,
     "post_id": 6969597,
     "price": 30000,
     "url": "rent-detail-6969597.html"
-  },
-  {
-    "addr": "台北市中正區重慶南路一段",
-    "area": 82.3,
-    "post_id": 6872256,
-    "price": 280000,
-    "url": "rent-detail-6872256.html"
-  },
-  {
-    "addr": "台北市中山區德惠街46號",
-    "area": 25.4,
-    "post_id": 6832199,
-    "price": 38999,
-    "url": "rent-detail-6832199.html"
-  },
-  {
-    "addr": "台北市中山區德惠街46號",
-    "area": 25.4,
-    "post_id": 7062538,
-    "price": 38999,
-    "url": "rent-detail-7062538.html"
-  },
-  {
-    "addr": "台北市大安區仁愛路四段105巷",
-    "area": 37.3,
-    "post_id": 6892475,
-    "price": 80000,
-    "url": "rent-detail-6892475.html"
-  },
-  {
-    "addr": "台北市文山區忠順街",
-    "area": 32,
-    "post_id": 6874294,
-    "price": 38000,
-    "url": "rent-detail-6874294.html"
   },
   {
     "addr": "台北市中正區博愛路",
@@ -8771,13 +9576,6 @@
     "url": "rent-detail-7037569.html"
   },
   {
-    "addr": "台北市大安區信義路二段198巷",
-    "area": 63.2,
-    "post_id": 6757691,
-    "price": 330000,
-    "url": "rent-detail-6757691.html"
-  },
-  {
     "addr": "台北市大安區辛亥路一段",
     "area": 50.5,
     "post_id": 7045229,
@@ -8811,13 +9609,6 @@
     "post_id": 7072279,
     "price": 250000,
     "url": "rent-detail-7072279.html"
-  },
-  {
-    "addr": "台北市萬華區中華路一段",
-    "area": 60,
-    "post_id": 6966492,
-    "price": 175000,
-    "url": "rent-detail-6966492.html"
   },
   {
     "addr": "台北市大安區安和路一段102巷",
@@ -8883,13 +9674,6 @@
     "url": "rent-detail-6776887.html"
   },
   {
-    "addr": "台北市南港區經貿二路255巷",
-    "area": 37,
-    "post_id": 6955196,
-    "price": 60000,
-    "url": "rent-detail-6955196.html"
-  },
-  {
     "addr": "台北市中山區松江路33號",
     "area": 79,
     "post_id": 6859042,
@@ -8930,34 +9714,6 @@
     "post_id": 6806890,
     "price": 210000,
     "url": "rent-detail-6806890.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 15,
-    "post_id": 6885977,
-    "price": 88000,
-    "url": "rent-detail-6885977.html"
-  },
-  {
-    "addr": "台北市大安區金山南路二段",
-    "area": 62,
-    "post_id": 6885096,
-    "price": 270000,
-    "url": "rent-detail-6885096.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 13,
-    "post_id": 6880094,
-    "price": 70000,
-    "url": "rent-detail-6880094.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段137巷",
-    "area": 31,
-    "post_id": 6871903,
-    "price": 120000,
-    "url": "rent-detail-6871903.html"
   },
   {
     "addr": "台北市大同區重慶北路一段",
@@ -9121,32 +9877,11 @@
     "url": "rent-detail-6908484.html"
   },
   {
-    "addr": "台北市南港區重陽路",
-    "area": 17.6,
-    "post_id": 7058742,
-    "price": 33000,
-    "url": "rent-detail-7058742.html"
-  },
-  {
-    "addr": "台北市大安區東豐街",
-    "area": 45,
-    "post_id": 7039272,
-    "price": 135000,
-    "url": "rent-detail-7039272.html"
-  },
-  {
     "addr": "台北市中山區復興南路一段",
     "area": 100,
     "post_id": 6995370,
     "price": 330000,
     "url": "rent-detail-6995370.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段270巷8號",
-    "area": 50,
-    "post_id": 6814354,
-    "price": 80000,
-    "url": "rent-detail-6814354.html"
   },
   {
     "addr": "台北市士林區德行東路90巷",
@@ -9205,20 +9940,6 @@
     "url": "rent-detail-6880823.html"
   },
   {
-    "addr": "台北市信義區忠孝東路四段",
-    "area": 200,
-    "post_id": 7061244,
-    "price": 2670000,
-    "url": "rent-detail-7061244.html"
-  },
-  {
-    "addr": "台北市松山區市民大道四段",
-    "area": 60,
-    "post_id": 7019357,
-    "price": 132000,
-    "url": "rent-detail-7019357.html"
-  },
-  {
     "addr": "台北市信義區基隆路二段79巷30弄5號",
     "area": 37,
     "post_id": 7034129,
@@ -9233,25 +9954,11 @@
     "url": "rent-detail-7072105.html"
   },
   {
-    "addr": "台北市文山區景後街",
-    "area": 9.2,
-    "post_id": 7068035,
-    "price": 36000,
-    "url": "rent-detail-7068035.html"
-  },
-  {
     "addr": "台北市大安區復興南路二段",
     "area": 52,
     "post_id": 6984090,
     "price": 300000,
     "url": "rent-detail-6984090.html"
-  },
-  {
-    "addr": "台北市大同區延平北路二段",
-    "area": 47,
-    "post_id": 6993303,
-    "price": 41000,
-    "url": "rent-detail-6993303.html"
   },
   {
     "addr": "台北市松山區八德路四段",
@@ -9338,13 +10045,6 @@
     "url": "rent-detail-6933982.html"
   },
   {
-    "addr": "台北市中正區中華路二段341號",
-    "area": 20,
-    "post_id": 6937737,
-    "price": 78000,
-    "url": "rent-detail-6937737.html"
-  },
-  {
     "addr": "台北市大安區師大路59巷",
     "area": 17.8,
     "post_id": 7052117,
@@ -9378,13 +10078,6 @@
     "post_id": 7070332,
     "price": 40000,
     "url": "rent-detail-7070332.html"
-  },
-  {
-    "addr": "台北市北投區大興街55號",
-    "area": 14.4,
-    "post_id": 6853356,
-    "price": 12000,
-    "url": "rent-detail-6853356.html"
   },
   {
     "addr": "台北市中山區長安西路46號",
@@ -9723,13 +10416,6 @@
     "url": "rent-detail-7071908.html"
   },
   {
-    "addr": "台北市中山區南京東路三段",
-    "area": 155.6,
-    "post_id": 6853405,
-    "price": 150000,
-    "url": "rent-detail-6853405.html"
-  },
-  {
     "addr": "台北市大安區信義路二段",
     "area": 42,
     "post_id": 6910507,
@@ -9919,13 +10605,6 @@
     "url": "rent-detail-6900533.html"
   },
   {
-    "addr": "台北市大同區民權西路",
-    "area": 82.6,
-    "post_id": 6762489,
-    "price": 250000,
-    "url": "rent-detail-6762489.html"
-  },
-  {
     "addr": "台北市士林區士東路",
     "area": 50.3,
     "post_id": 7060242,
@@ -9961,116 +10640,11 @@
     "url": "rent-detail-7001396.html"
   },
   {
-    "addr": "台北市南港區南港路一段",
-    "area": 28,
-    "post_id": 6811558,
-    "price": 85000,
-    "url": "rent-detail-6811558.html"
-  },
-  {
-    "addr": "台北市大安區通化街39巷",
-    "area": 20,
-    "post_id": 7053539,
-    "price": 45000,
-    "url": "rent-detail-7053539.html"
-  },
-  {
-    "addr": "台北市大安區和平東路二段",
-    "area": 51.7,
-    "post_id": 6969345,
-    "price": 200000,
-    "url": "rent-detail-6969345.html"
-  },
-  {
-    "addr": "台北市內湖區成功路四段",
-    "area": 36.8,
-    "post_id": 6823310,
-    "price": 120000,
-    "url": "rent-detail-6823310.html"
-  },
-  {
-    "addr": "台北市信義區富陽街",
-    "area": 24.4,
-    "post_id": 7034589,
-    "price": 39999,
-    "url": "rent-detail-7034589.html"
-  },
-  {
-    "addr": "台北市中正區博愛路",
-    "area": 52.3,
-    "post_id": 7065377,
-    "price": 79999,
-    "url": "rent-detail-7065377.html"
-  },
-  {
-    "addr": "台北市文山區木新路三段",
-    "area": 48,
-    "post_id": 6828391,
-    "price": 53000,
-    "url": "rent-detail-6828391.html"
-  },
-  {
-    "addr": "台北市文山區木柵路四段",
-    "area": 32,
-    "post_id": 6825544,
-    "price": 35000,
-    "url": "rent-detail-6825544.html"
-  },
-  {
-    "addr": "台北市文山區興隆路四段169號",
-    "area": 42,
-    "post_id": 4569428,
-    "price": 60000,
-    "url": "rent-detail-4569428.html"
-  },
-  {
     "addr": "台北市松山區民生東路四段",
     "area": 45.6,
     "post_id": 6866786,
     "price": 76000,
     "url": "rent-detail-6866786.html"
-  },
-  {
-    "addr": "台北市信義區忠孝東路四段553巷",
-    "area": 21.8,
-    "post_id": 6967758,
-    "price": 100000,
-    "url": "rent-detail-6967758.html"
-  },
-  {
-    "addr": "台北市南港區忠孝東路六段",
-    "area": 27.9,
-    "post_id": 6877785,
-    "price": 39000,
-    "url": "rent-detail-6877785.html"
-  },
-  {
-    "addr": "台北市中山區天祥路",
-    "area": 137.4,
-    "post_id": 7001425,
-    "price": 260000,
-    "url": "rent-detail-7001425.html"
-  },
-  {
-    "addr": "台北市信義區松隆路",
-    "area": 27,
-    "post_id": 6932568,
-    "price": 60000,
-    "url": "rent-detail-6932568.html"
-  },
-  {
-    "addr": "台北市大同區民權西路",
-    "area": 82.6,
-    "post_id": 6932639,
-    "price": 250000,
-    "url": "rent-detail-6932639.html"
-  },
-  {
-    "addr": "台北市中山區南京東路二段11號",
-    "area": 59,
-    "post_id": 6860426,
-    "price": 80000,
-    "url": "rent-detail-6860426.html"
   },
   {
     "addr": "台北市大安區通化街171巷",
@@ -10080,32 +10654,11 @@
     "url": "rent-detail-6892135.html"
   },
   {
-    "addr": "台北市信義區忠孝東路五段",
-    "area": 21.5,
-    "post_id": 6908993,
-    "price": 125000,
-    "url": "rent-detail-6908993.html"
-  },
-  {
     "addr": "台北市文山區木柵路三段",
     "area": 89.9,
     "post_id": 7012871,
     "price": 120000,
     "url": "rent-detail-7012871.html"
-  },
-  {
-    "addr": "台北市中山區吉林路",
-    "area": 30,
-    "post_id": 7039959,
-    "price": 65000,
-    "url": "rent-detail-7039959.html"
-  },
-  {
-    "addr": "台北市北投區永興路一段",
-    "area": 25,
-    "post_id": 7060508,
-    "price": 28500,
-    "url": "rent-detail-7060508.html"
   },
   {
     "addr": "台北市萬華區昆明街",
@@ -10115,32 +10668,11 @@
     "url": "rent-detail-7069820.html"
   },
   {
-    "addr": "台北市中山區樂群二路",
-    "area": 61.5,
-    "post_id": 6854533,
-    "price": 80000,
-    "url": "rent-detail-6854533.html"
-  },
-  {
-    "addr": "台北市南港區園區街56號",
-    "area": 97.2,
-    "post_id": 6966238,
-    "price": 300000,
-    "url": "rent-detail-6966238.html"
-  },
-  {
     "addr": "台北市中正區廈門街",
     "area": 31,
     "post_id": 7035767,
     "price": 45000,
     "url": "rent-detail-7035767.html"
-  },
-  {
-    "addr": "台北市中正區羅斯福路三段284巷",
-    "area": 48.5,
-    "post_id": 6935049,
-    "price": 150000,
-    "url": "rent-detail-6935049.html"
   },
   {
     "addr": "台北市大安區泰順街16巷",
@@ -10225,13 +10757,6 @@
     "post_id": 6782075,
     "price": 315000,
     "url": "rent-detail-6782075.html"
-  },
-  {
-    "addr": "台北市中山區雙城街17巷",
-    "area": 15,
-    "post_id": 7035712,
-    "price": 52800,
-    "url": "rent-detail-7035712.html"
   },
   {
     "addr": "台北市萬華區德昌街94巷",
@@ -10346,25 +10871,11 @@
     "url": "rent-detail-6764081.html"
   },
   {
-    "addr": "台北市大同區長安西路131號",
-    "area": 22,
-    "post_id": 6830925,
-    "price": 85000,
-    "url": "rent-detail-6830925.html"
-  },
-  {
     "addr": "台北市中山區林森北路107巷",
     "area": 25.2,
     "post_id": 6957603,
     "price": 55000,
     "url": "rent-detail-6957603.html"
-  },
-  {
-    "addr": "台北市文山區興隆路一段",
-    "area": 45,
-    "post_id": 6913992,
-    "price": 65000,
-    "url": "rent-detail-6913992.html"
   },
   {
     "addr": "台北市中正區忠孝西路一段",
@@ -10465,25 +10976,11 @@
     "url": "rent-detail-7063118.html"
   },
   {
-    "addr": "台北市中正區新生南路一段160巷22號",
-    "area": 60,
-    "post_id": 6856799,
-    "price": 130000,
-    "url": "rent-detail-6856799.html"
-  },
-  {
     "addr": "台北市內湖區環山路一段",
     "area": 33.2,
     "post_id": 7066869,
     "price": 48000,
     "url": "rent-detail-7066869.html"
-  },
-  {
-    "addr": "台北市士林區忠誠路二段",
-    "area": 21.8,
-    "post_id": 6836141,
-    "price": 55000,
-    "url": "rent-detail-6836141.html"
   },
   {
     "addr": "台北市內湖區環山路二段",
@@ -10542,53 +11039,11 @@
     "url": "rent-detail-6764250.html"
   },
   {
-    "addr": "台北市文山區羅斯福路五段232號",
-    "area": 10,
-    "post_id": 6890004,
-    "price": 13000,
-    "url": "rent-detail-6890004.html"
-  },
-  {
-    "addr": "台北市松山區復興北路",
-    "area": 52,
-    "post_id": 6708574,
-    "price": 70000,
-    "url": "rent-detail-6708574.html"
-  },
-  {
-    "addr": "台北市大安區安和路一段",
-    "area": 40,
-    "post_id": 6837698,
-    "price": 89000,
-    "url": "rent-detail-6837698.html"
-  },
-  {
-    "addr": "台北市大安區市民大道四段",
-    "area": 12,
-    "post_id": 7071629,
-    "price": 40000,
-    "url": "rent-detail-7071629.html"
-  },
-  {
-    "addr": "台北市中山區中山北路二段",
-    "area": 80,
-    "post_id": 7071621,
-    "price": 130000,
-    "url": "rent-detail-7071621.html"
-  },
-  {
     "addr": "台北市松山區民權東路三段160巷",
     "area": 4,
     "post_id": 6901386,
     "price": 23000,
     "url": "rent-detail-6901386.html"
-  },
-  {
-    "addr": "台北市大安區東豐街",
-    "area": 50,
-    "post_id": 7071616,
-    "price": 125000,
-    "url": "rent-detail-7071616.html"
   },
   {
     "addr": "台北市信義區忠孝東路五段743巷",
@@ -10598,46 +11053,11 @@
     "url": "rent-detail-7055238.html"
   },
   {
-    "addr": "台北市中山區長安東路二段",
-    "area": 40,
-    "post_id": 7071607,
-    "price": 53000,
-    "url": "rent-detail-7071607.html"
-  },
-  {
     "addr": "台北市萬華區長沙街二段",
     "area": 71.3,
     "post_id": 6795873,
     "price": 114000,
     "url": "rent-detail-6795873.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 72,
-    "post_id": 7071602,
-    "price": 170000,
-    "url": "rent-detail-7071602.html"
-  },
-  {
-    "addr": "台北市中山區民生東路一段",
-    "area": 10,
-    "post_id": 7071599,
-    "price": 59000,
-    "url": "rent-detail-7071599.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段",
-    "area": 45,
-    "post_id": 7071597,
-    "price": 150000,
-    "url": "rent-detail-7071597.html"
-  },
-  {
-    "addr": "台北市信義區吳興街",
-    "area": 32,
-    "post_id": 7071595,
-    "price": 43000,
-    "url": "rent-detail-7071595.html"
   },
   {
     "addr": "台北市大安區通化街103號",
@@ -10654,25 +11074,11 @@
     "url": "rent-detail-7025229.html"
   },
   {
-    "addr": "台北市內湖區星雲街",
-    "area": 25,
-    "post_id": 6908482,
-    "price": 38000,
-    "url": "rent-detail-6908482.html"
-  },
-  {
     "addr": "台北市士林區德行東路",
     "area": 31.7,
     "post_id": 6908192,
     "price": 58000,
     "url": "rent-detail-6908192.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 30,
-    "post_id": 7071577,
-    "price": 45000,
-    "url": "rent-detail-7071577.html"
   },
   {
     "addr": "台北市內湖區行善路",
@@ -10694,20 +11100,6 @@
     "post_id": 6886619,
     "price": 8000,
     "url": "rent-detail-6886619.html"
-  },
-  {
-    "addr": "台北市大安區延吉街",
-    "area": 10,
-    "post_id": 7071563,
-    "price": 57000,
-    "url": "rent-detail-7071563.html"
-  },
-  {
-    "addr": "台北市松山區南京東路四段",
-    "area": 230.4,
-    "post_id": 6971564,
-    "price": 800000,
-    "url": "rent-detail-6971564.html"
   },
   {
     "addr": "台北市信義區松信路",
@@ -10778,62 +11170,6 @@
     "post_id": 7059497,
     "price": 60000,
     "url": "rent-detail-7059497.html"
-  },
-  {
-    "addr": "台北市大安區四維路22巷",
-    "area": 54,
-    "post_id": 7030849,
-    "price": 80000,
-    "url": "rent-detail-7030849.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段101巷",
-    "area": 24,
-    "post_id": 6986251,
-    "price": 100000,
-    "url": "rent-detail-6986251.html"
-  },
-  {
-    "addr": "台北市松山區南京東路五段",
-    "area": 21,
-    "post_id": 7023041,
-    "price": 85000,
-    "url": "rent-detail-7023041.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段",
-    "area": 33.6,
-    "post_id": 6973083,
-    "price": 350000,
-    "url": "rent-detail-6973083.html"
-  },
-  {
-    "addr": "台北市信義區東興路",
-    "area": 200,
-    "post_id": 5503760,
-    "price": 905485,
-    "url": "rent-detail-5503760.html"
-  },
-  {
-    "addr": "台北市中正區重慶南路一段",
-    "area": 92,
-    "post_id": 5583762,
-    "price": 280000,
-    "url": "rent-detail-5583762.html"
-  },
-  {
-    "addr": "台北市大安區大安路一段51巷21號",
-    "area": 8,
-    "post_id": 6962122,
-    "price": 45000,
-    "url": "rent-detail-6962122.html"
-  },
-  {
-    "addr": "台北市大安區敦化南路一段",
-    "area": 39,
-    "post_id": 7024651,
-    "price": 230000,
-    "url": "rent-detail-7024651.html"
   },
   {
     "addr": "台北市中山區龍江路",
@@ -11536,13 +11872,6 @@
     "url": "rent-detail-7036289.html"
   },
   {
-    "addr": "台北市士林區中正路",
-    "area": 34.4,
-    "post_id": 7069978,
-    "price": 27000,
-    "url": "rent-detail-7069978.html"
-  },
-  {
     "addr": "台北市士林區文林路",
     "area": 27.3,
     "post_id": 6367402,
@@ -11851,13 +12180,6 @@
     "url": "rent-detail-7069333.html"
   },
   {
-    "addr": "台北市大安區瑞安街",
-    "area": 60,
-    "post_id": 7023981,
-    "price": 130000,
-    "url": "rent-detail-7023981.html"
-  },
-  {
     "addr": "台北市士林區社正路",
     "area": 10,
     "post_id": 6781971,
@@ -11912,13 +12234,6 @@
     "post_id": 7069185,
     "price": 60000,
     "url": "rent-detail-7069185.html"
-  },
-  {
-    "addr": "台北市大安區安和路209巷",
-    "area": 49.1,
-    "post_id": 7032777,
-    "price": 188000,
-    "url": "rent-detail-7032777.html"
   },
   {
     "addr": "台北市內湖區行忠路28巷",
@@ -11996,55 +12311,6 @@
     "post_id": 6960855,
     "price": 220000,
     "url": "rent-detail-6960855.html"
-  },
-  {
-    "addr": "台北市大安區信義路二段198巷",
-    "area": 62.5,
-    "post_id": 7015816,
-    "price": 280000,
-    "url": "rent-detail-7015816.html"
-  },
-  {
-    "addr": "台北市中正區信義路二段",
-    "area": 126.3,
-    "post_id": 6904942,
-    "price": 400000,
-    "url": "rent-detail-6904942.html"
-  },
-  {
-    "addr": "台北市信義區嘉興街",
-    "area": 19.4,
-    "post_id": 7011653,
-    "price": 35000,
-    "url": "rent-detail-7011653.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段",
-    "area": 20.6,
-    "post_id": 7018025,
-    "price": 250000,
-    "url": "rent-detail-7018025.html"
-  },
-  {
-    "addr": "台北市松山區民權東路三段160巷",
-    "area": 6,
-    "post_id": 7058024,
-    "price": 19800,
-    "url": "rent-detail-7058024.html"
-  },
-  {
-    "addr": "台北市內湖區內湖路一段",
-    "area": 134.7,
-    "post_id": 7050651,
-    "price": 353000,
-    "url": "rent-detail-7050651.html"
-  },
-  {
-    "addr": "台北市中山區德惠街",
-    "area": 44,
-    "post_id": 7023079,
-    "price": 80000,
-    "url": "rent-detail-7023079.html"
   },
   {
     "addr": "台北市士林區大西路7號",
@@ -12131,13 +12397,6 @@
     "url": "rent-detail-7037844.html"
   },
   {
-    "addr": "台北市大安區通安街39巷49弄10號",
-    "area": 20,
-    "post_id": 6912822,
-    "price": 45000,
-    "url": "rent-detail-6912822.html"
-  },
-  {
     "addr": "台北市大安區忠孝東路三段217巷",
     "area": 25,
     "post_id": 6980849,
@@ -12199,13 +12458,6 @@
     "post_id": 6964409,
     "price": 200000,
     "url": "rent-detail-6964409.html"
-  },
-  {
-    "addr": "台北市內湖區東湖路119巷",
-    "area": 40,
-    "post_id": 6756303,
-    "price": 105000,
-    "url": "rent-detail-6756303.html"
   },
   {
     "addr": "台北市內湖區內湖路一段",
@@ -12320,13 +12572,6 @@
     "url": "rent-detail-6854428.html"
   },
   {
-    "addr": "台北市大安區大安路二段",
-    "area": 28.7,
-    "post_id": 7047726,
-    "price": 70000,
-    "url": "rent-detail-7047726.html"
-  },
-  {
     "addr": "台北市內湖區內湖路二段",
     "area": 42,
     "post_id": 6834647,
@@ -12425,13 +12670,6 @@
     "url": "rent-detail-7043136.html"
   },
   {
-    "addr": "台北市大安區和平東路三段",
-    "area": 33.7,
-    "post_id": 6615705,
-    "price": 150000,
-    "url": "rent-detail-6615705.html"
-  },
-  {
     "addr": "台北市信義區忠孝東路五段215巷22號",
     "area": 11,
     "post_id": 6832243,
@@ -12444,13 +12682,6 @@
     "post_id": 6782382,
     "price": 138000,
     "url": "rent-detail-6782382.html"
-  },
-  {
-    "addr": "台北市中山區新生北路68巷13號",
-    "area": 6,
-    "post_id": 6812343,
-    "price": 18000,
-    "url": "rent-detail-6812343.html"
   },
   {
     "addr": "台北市松山區八德路三段",
@@ -12768,55 +12999,6 @@
     "url": "rent-detail-6765370.html"
   },
   {
-    "addr": "台北市中山區長春路",
-    "area": 23,
-    "post_id": 6942316,
-    "price": 60000,
-    "url": "rent-detail-6942316.html"
-  },
-  {
-    "addr": "台北市信義區逸仙路",
-    "area": 38,
-    "post_id": 7009629,
-    "price": 130000,
-    "url": "rent-detail-7009629.html"
-  },
-  {
-    "addr": "台北市松山區饒河街",
-    "area": 50,
-    "post_id": 6941686,
-    "price": 160000,
-    "url": "rent-detail-6941686.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段",
-    "area": 31,
-    "post_id": 6997365,
-    "price": 138000,
-    "url": "rent-detail-6997365.html"
-  },
-  {
-    "addr": "台北市大安區通化街",
-    "area": 16,
-    "post_id": 6992274,
-    "price": 85000,
-    "url": "rent-detail-6992274.html"
-  },
-  {
-    "addr": "台北市中正區金山南路一段",
-    "area": 22,
-    "post_id": 6913435,
-    "price": 85000,
-    "url": "rent-detail-6913435.html"
-  },
-  {
-    "addr": "台北市大同區南京西路",
-    "area": 105.4,
-    "post_id": 6902310,
-    "price": 70000,
-    "url": "rent-detail-6902310.html"
-  },
-  {
     "addr": "台北市內湖區洲子街",
     "area": 65,
     "post_id": 6864329,
@@ -13013,13 +13195,6 @@
     "url": "rent-detail-7067622.html"
   },
   {
-    "addr": "台北市北投區中央北路一段",
-    "area": 14.6,
-    "post_id": 6757995,
-    "price": 62000,
-    "url": "rent-detail-6757995.html"
-  },
-  {
     "addr": "台北市信義區松山路183號",
     "area": 40.8,
     "post_id": 6823195,
@@ -13207,13 +13382,6 @@
     "post_id": 7063266,
     "price": 40000,
     "url": "rent-detail-7063266.html"
-  },
-  {
-    "addr": "台北市士林區忠誠路二段22號",
-    "area": 40.4,
-    "post_id": 6870460,
-    "price": 110000,
-    "url": "rent-detail-6870460.html"
   },
   {
     "addr": "台北市信義區松仁路",
@@ -13601,13 +13769,6 @@
     "url": "rent-detail-6897811.html"
   },
   {
-    "addr": "台北市中山區遼寧街216號",
-    "area": 12.8,
-    "post_id": 6955419,
-    "price": 49000,
-    "url": "rent-detail-6955419.html"
-  },
-  {
     "addr": "台北市松山區敦化北路222巷",
     "area": 57.7,
     "post_id": 6981424,
@@ -13643,13 +13804,6 @@
     "url": "rent-detail-6931499.html"
   },
   {
-    "addr": "台北市大安區大安路一段",
-    "area": 84.1,
-    "post_id": 6937548,
-    "price": 380000,
-    "url": "rent-detail-6937548.html"
-  },
-  {
     "addr": "台北市松山區敦化北路",
     "area": 40.1,
     "post_id": 7046292,
@@ -13683,13 +13837,6 @@
     "post_id": 7006819,
     "price": 32000,
     "url": "rent-detail-7006819.html"
-  },
-  {
-    "addr": "台北市中山區林森北路133巷26號",
-    "area": 10,
-    "post_id": 7018354,
-    "price": 8888,
-    "url": "rent-detail-7018354.html"
   },
   {
     "addr": "台北市內湖區民權東路六段",
@@ -14033,13 +14180,6 @@
     "post_id": 6447276,
     "price": 300000,
     "url": "rent-detail-6447276.html"
-  },
-  {
-    "addr": "台北市大同區重慶北路二段",
-    "area": 70,
-    "post_id": 7008638,
-    "price": 115000,
-    "url": "rent-detail-7008638.html"
   },
   {
     "addr": "台北市大安區忠孝東路四段",
@@ -14441,13 +14581,6 @@
     "url": "rent-detail-6961211.html"
   },
   {
-    "addr": "台北市中山區松江路",
-    "area": 30,
-    "post_id": 7060290,
-    "price": 45000,
-    "url": "rent-detail-7060290.html"
-  },
-  {
     "addr": "台北市松山區富錦街",
     "area": 139,
     "post_id": 7061629,
@@ -14749,13 +14882,6 @@
     "url": "rent-detail-6788424.html"
   },
   {
-    "addr": "台北市松山區延壽街402巷",
-    "area": 30.2,
-    "post_id": 6871146,
-    "price": 47000,
-    "url": "rent-detail-6871146.html"
-  },
-  {
     "addr": "台北市大安區忠孝東路四段",
     "area": 37,
     "post_id": 7013137,
@@ -14768,34 +14894,6 @@
     "post_id": 7013135,
     "price": 168000,
     "url": "rent-detail-7013135.html"
-  },
-  {
-    "addr": "台北市松山區民生東路四段",
-    "area": 36,
-    "post_id": 6994387,
-    "price": 48000,
-    "url": "rent-detail-6994387.html"
-  },
-  {
-    "addr": "台北市中山區雙城街",
-    "area": 31,
-    "post_id": 6971325,
-    "price": 83000,
-    "url": "rent-detail-6971325.html"
-  },
-  {
-    "addr": "台北市松山區民生東路五段",
-    "area": 16,
-    "post_id": 6994026,
-    "price": 120000,
-    "url": "rent-detail-6994026.html"
-  },
-  {
-    "addr": "台北市中正區和平西路二段",
-    "area": 75,
-    "post_id": 6964225,
-    "price": 98000,
-    "url": "rent-detail-6964225.html"
   },
   {
     "addr": "台北市大安區四維路",
@@ -15351,13 +15449,6 @@
     "url": "rent-detail-7024210.html"
   },
   {
-    "addr": "台北市內湖區成功路四段61巷23號",
-    "area": 79.7,
-    "post_id": 6834176,
-    "price": 70000,
-    "url": "rent-detail-6834176.html"
-  },
-  {
     "addr": "台北市萬華區成都路",
     "area": 26,
     "post_id": 6964920,
@@ -15764,20 +15855,6 @@
     "url": "rent-detail-6919195.html"
   },
   {
-    "addr": "台北市大同區延平北路一段69巷",
-    "area": 65.8,
-    "post_id": 7018839,
-    "price": 69000,
-    "url": "rent-detail-7018839.html"
-  },
-  {
-    "addr": "台北市大同區承德路一段",
-    "area": 15.8,
-    "post_id": 6964881,
-    "price": 66000,
-    "url": "rent-detail-6964881.html"
-  },
-  {
     "addr": "台北市大同區南京西路",
     "area": 13.1,
     "post_id": 7015208,
@@ -16098,20 +16175,6 @@
     "post_id": 6772273,
     "price": 190000,
     "url": "rent-detail-6772273.html"
-  },
-  {
-    "addr": "台北市大安區永康街75巷",
-    "area": 75,
-    "post_id": 6862266,
-    "price": 98000,
-    "url": "rent-detail-6862266.html"
-  },
-  {
-    "addr": "台北市大安區金華街",
-    "area": 14.3,
-    "post_id": 6832729,
-    "price": 88000,
-    "url": "rent-detail-6832729.html"
   },
   {
     "addr": "台北市萬華區西寧南路36號",
@@ -16513,13 +16576,6 @@
     "url": "rent-detail-6760415.html"
   },
   {
-    "addr": "台北市大安區忠孝東路四段",
-    "area": 29,
-    "post_id": 6756638,
-    "price": 620000,
-    "url": "rent-detail-6756638.html"
-  },
-  {
     "addr": "台北市大同區承德路一段77巷",
     "area": 13.4,
     "post_id": 7046993,
@@ -16784,13 +16840,6 @@
     "post_id": 6770093,
     "price": 190000,
     "url": "rent-detail-6770093.html"
-  },
-  {
-    "addr": "台北市大安區師大路49巷",
-    "area": 25,
-    "post_id": 7042940,
-    "price": 100000,
-    "url": "rent-detail-7042940.html"
   },
   {
     "addr": "台北市內湖區成功路四段61巷",
@@ -17661,13 +17710,6 @@
     "url": "rent-detail-6822063.html"
   },
   {
-    "addr": "台北市大安區四維路52巷8號",
-    "area": 52,
-    "post_id": 7014158,
-    "price": 70000,
-    "url": "rent-detail-7014158.html"
-  },
-  {
     "addr": "台北市中正區汀州路二段93號",
     "area": 30.4,
     "post_id": 6759831,
@@ -17806,13 +17848,6 @@
     "post_id": 6868803,
     "price": 9000,
     "url": "rent-detail-6868803.html"
-  },
-  {
-    "addr": "台北市大安區忠孝東路四段101巷32號",
-    "area": 7,
-    "post_id": 7021818,
-    "price": 14000,
-    "url": "rent-detail-7021818.html"
   },
   {
     "addr": "台北市中山區中山北路二段",
@@ -19033,13 +19068,6 @@
     "url": "rent-detail-6922911.html"
   },
   {
-    "addr": "台北市中山區敬業四路",
-    "area": 68.5,
-    "post_id": 6932229,
-    "price": 330000,
-    "url": "rent-detail-6932229.html"
-  },
-  {
     "addr": "台北市中山區復興北路",
     "area": 31.8,
     "post_id": 6859272,
@@ -19668,13 +19696,6 @@
     "post_id": 6922877,
     "price": 200000,
     "url": "rent-detail-6922877.html"
-  },
-  {
-    "addr": "台北市松山區新東街12巷",
-    "area": 35,
-    "post_id": 6756247,
-    "price": 53000,
-    "url": "rent-detail-6756247.html"
   },
   {
     "addr": "台北市大安區仁愛路四段105巷",
@@ -20683,13 +20704,6 @@
     "post_id": 6802027,
     "price": 55000,
     "url": "rent-detail-6802027.html"
-  },
-  {
-    "addr": "台北市中山區建國北路二段",
-    "area": 61,
-    "post_id": 6756991,
-    "price": 95000,
-    "url": "rent-detail-6756991.html"
   },
   {
     "addr": "台北市松山區民生東路五段",
