@@ -1,3 +1,5 @@
+import sys
+sys.path.append("script/")
 from wb import get_web_page
 from bs4 import BeautifulSoup
 import time

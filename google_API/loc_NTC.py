@@ -1,4 +1,6 @@
 import googlemaps
+import sys
+sys.path.append("script/")
 from datetime import datetime
 from myio import read_excel, save
 

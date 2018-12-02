@@ -1,4 +1,6 @@
 import re
+import sys
+sys.path.append("script/")
 from myio import read_excel, save
 from bs4 import BeautifulSoup
 from wb import get_web_page
