@@ -16,4 +16,4 @@ if __name__ == "__main__":
         })
     print(geo_result)
 
-    save(geo_result, "lease/data/loc_TPE")
+    save(geo_result, "sells/data/loc_TPE")
