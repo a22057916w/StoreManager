@@ -1,7 +1,7 @@
 import mysql.connector
 import os
-import myio
+import googlemaps
 
 if __name__ == "__main__":
-    a = myio.read_excel("lease/data/total_rows_NTC.xlsx")
-    print(a)
+    gmaps = googlemaps.Client(key = "AIzaSyDcixkMKgROY2tE_4VLPTioPtDOwbmzfcI")
+    print(gmaps.places_nearby(location = (25.031995, 121.4690562), radius = 1000, type = "bus_station", language = "zh-TW"))
