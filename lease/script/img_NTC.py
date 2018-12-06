@@ -1,5 +1,5 @@
 import sys
-sys.path.append("script/")
+sys.path.append("lib/")
 from bs4 import BeautifulSoup
 from wb import get_web_page
 import os
@@ -10,11 +10,11 @@ import pandas as pd
 import shutil
 
 DETAIL_URL = "https://rent.591.com.tw/"
-urlJumpIp = 1
+urlJumpIp = 3
 
 def read_excel():
     try:
-        df = pd.read_excel("lease/data/total_rows_TPE.xlsx")
+        df = pd.read_excel("lease/data/NTC/info/total_rows_NTC.xlsx")
         my_dict = df.to_dict("records")
         return my_dict  # return a list of dict
 
@@ -53,7 +53,7 @@ def get_images(dom):
 if __name__ == "__main__":
     row_data = read_excel() # get the excel info
 
-    dir = "D:/Python/database/lease/images/TPE/"
+    dir = "D:/Python/database/lease/images/NTC/"
     if os.path.exists(dir): # 先刪除原本的images資料夾
         shutil.rmtree(dir, ignore_errors=True)
 

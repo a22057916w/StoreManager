@@ -1,6 +1,6 @@
 import googlemaps
 import sys
-sys.path.append("script/")
+sys.path.append("lib/")
 from datetime import datetime
 from myio import read_excel, save
 
@@ -20,10 +20,10 @@ if __name__ == "__main__":
     gmaps = googlemaps.Client(key = "AIzaSyDcixkMKgROY2tE_4VLPTioPtDOwbmzfcI")
 
     # data for lease TPE
-    row_data = read_excel("lease/data/total_rows_TPE.xlsx")
+    row_data = read_excel("lease/data/TPE/info/total_rows_TPE.xlsx")
     geo_result = get_geoLoc(row_data)
-    save(geo_result, "lease/data/loc_TPE")
+    save(geo_result, "lease/data/TPE/geo/coordinate/loc_TPE")
     # data for sells TPE
-    row_data = read_excel("sells/data/total_rows_TPE.xlsx")
+    row_data = read_excel("sells/data/TPE/info/total_rows_TPE.xlsx")
     geo_result = get_geoLoc(row_data)
-    save(geo_result, "sells/data/loc_TPE")
+    save(geo_result, "sells/data/TPE/geo/coordinate/loc_TPE")

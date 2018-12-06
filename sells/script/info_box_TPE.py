@@ -1,6 +1,6 @@
 import re
 import sys
-sys.path.append("script/")
+sys.path.append("lib/")
 from myio import read_excel, save
 from bs4 import BeautifulSoup
 from wb import get_web_page
@@ -73,11 +73,11 @@ def get_info_box(dom, post_id):
     return info_boxes
 
 if __name__ == "__main__":
-    row_data = read_excel("sells/data/total_rows_TPE.xlsx") # get the excel info
+    row_data = read_excel("sells/data/TPE/info/total_rows_TPE.xlsx") # get the excel info
 
     info_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         info_boxes += get_info_box(page, data["post_id"])
 
-    save(info_boxes, "sells/data/info_box_TPE")
+    save(info_boxes, "sells/data/TPE/info/info_box_TPE")

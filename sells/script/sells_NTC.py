@@ -1,5 +1,5 @@
 import sys
-sys.path.append("script/")
+sys.path.append("lib/")
 from wb import get_web_page
 from bs4 import BeautifulSoup
 import time
@@ -39,14 +39,14 @@ def get_total_rows(page):
     return int_total
 
 def save(row_data):
-    os.makedirs("sells/data", exist_ok=True)
+    os.makedirs("sells/data/NTC/info", exist_ok=True)
 
     df = pd.DataFrame.from_dict(row_data)
-    writer = pd.ExcelWriter("sells/data/total_rows_NTC.xlsx", engine='xlsxwriter')
+    writer = pd.ExcelWriter("sells/data/NTC/info/total_rows_NTC.xlsx", engine='xlsxwriter')
     df.to_excel(writer, sheet_name='sells_total_rows_data')
     writer.save()
 
-    with open("sells/data/total_rows_NTC.json", 'w', encoding='utf-8') as f:
+    with open("sells/data/NTC/info/total_rows_NTC.json", 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
 if __name__ == "__main__":
