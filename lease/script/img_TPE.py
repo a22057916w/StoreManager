@@ -2,6 +2,7 @@ import sys
 sys.path.append("lib/")
 from bs4 import BeautifulSoup
 from wb import get_web_page
+from myio import read_excel, save
 import os
 import re
 import urllib.request
@@ -11,15 +12,6 @@ import shutil
 
 DETAIL_URL = "https://rent.591.com.tw/"
 urlJumpIp = 1
-
-def read_excel():
-    try:
-        df = pd.read_excel("lease/data/TPE/info/total_rows_TPE.xlsx")
-        my_dict = df.to_dict("records")
-        return my_dict  # return a list of dict
-
-    except Exception as e:
-        print(e)
 
 def save(image_urls, post_id, dir):
     if img_urls:
@@ -51,7 +43,7 @@ def get_images(dom):
 
 
 if __name__ == "__main__":
-    row_data = read_excel() # get the excel info
+    row_data = read_excel("lease/data/TPE/info/total_rows_TPE.xlsx") # get the excel info
 
     dir = "D:/Python/database/lease/images/TPE/"
     if os.path.exists(dir): # 先刪除原本的images資料夾
