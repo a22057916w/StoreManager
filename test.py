@@ -1,18 +1,12 @@
 from multiprocessing import Process
-import os
-
-def info(title):
-    print(title)
-    print('module name:', __name__)
-    print('parent process:', os.getppid())
-    print('process id:', os.getpid())
-
-def f(name):
-    info('function f')
-    print('hello', name)
+import sys
+sys.path.append("sells/script/")
+from sells_TPE import SELLS_TPE_INIT
+from sells_NTC import SELLS_NTC_INIT
 
 if __name__ == '__main__':
-    info('main line')
-    p = Process(target=f, args=('bob',))
-    p.start()
-    p.join()
+    p1 = Process(target = SELLS_TPE_INIT)
+    p1.start()
+    p1.join()
+    p2 = Process(target = SELLS_NTC_INIT)
+    p2.start()

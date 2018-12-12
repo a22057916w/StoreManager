@@ -49,7 +49,8 @@ def save(row_data):
     with open('sells/data/TPE/info/total_rows_TPE.json', 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
+def SELLS_TPE_INIT():
     current_page = get_web_page(SELLS_URL, urlJumpIp) # return a dict of dict of list of dict
     total_rows = get_total_rows(current_page)
 
@@ -57,6 +58,7 @@ if __name__ == "__main__":
     row_data = []
 
     while page_count <= total_rows:
+        print("TPE")
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
