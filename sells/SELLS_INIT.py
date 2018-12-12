@@ -11,7 +11,7 @@ from img_TPE import IMG_TPE_INIT
 from img_NTC import IMG_NTC_INIT
 
 
-if __name__ == '__main__':
+def SELLS_INIT():
     pl = [INFO_BOX_TPE_INIT, INFO_BOX_NTC_INIT, HOUSE_BOX_TPE_INIT, HOUSE_BOX_NTC_INIT, IMG_TPE_INIT, IMG_NTC_INIT]
     p = [None] * 6
 
@@ -25,7 +25,6 @@ if __name__ == '__main__':
     p2.join()
     p1.close()
     p2.close()
-    print("Data collection succeed")
 
     try:
         for i in range(0, 6):

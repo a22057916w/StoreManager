@@ -4,6 +4,8 @@ sys.path.append("lib/")
 from myio import read_excel, save
 from bs4 import BeautifulSoup
 from wb import get_web_page
+from progress_bar import progress, showProgess
+
 DETAIL_URL = "https://sale.591.com.tw/home/house/detail/2/"
 urlJumpIp = 1
 
@@ -79,5 +81,7 @@ def INFO_BOX_TPE_INIT():
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         info_boxes += get_info_box(page, data["post_id"])
+        showProgess(__file__)
 
     save(info_boxes, "sells/data/TPE/info/info_box_TPE")
+    print(str(__file__) + " complete")

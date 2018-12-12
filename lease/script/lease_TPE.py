@@ -2,6 +2,7 @@ import sys
 sys.path.append("lib/")
 from bs4 import BeautifulSoup
 from wb import get_web_page
+from progress_bar import progress, showProgess
 import os
 import re
 import json
@@ -46,7 +47,7 @@ def save(row_data):
     with open('lease/data/TPE/info/total_rows_TPE.json', 'w', encoding='utf-8') as f:
         json.dump(row_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
-if __name__ == "__main__":
+def LEASE_TPE_INIT():
     current_page = get_web_page(LEASE_URL, urlJumpIp) # return a dict of dict of list of dict
     total_rows = get_total_rows(current_page)
 
@@ -58,5 +59,7 @@ if __name__ == "__main__":
         row_data += data
         page_count += pageRow
         current_page = get_web_page(LEASE_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows), urlJumpIp)
+        progress(page_count, total_rows, __file__)
 
     save(row_data)
+    print(str(__file__) + " complete")

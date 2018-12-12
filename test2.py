@@ -1,50 +1,38 @@
-# -*- coding: UTF-8 -*-
+from multiprocessing import Process
+from lease_TPE import LEASE_TPE_INIT
+from lease_NTC import LEASE_NTC_INIT
+from info_box_TPE import INFO_BOX_TPE_INIT
+from info_box_NTC import INFO_BOX_NTC_INIT
+from house_box_TPE import HOUSE_BOX_TPE_INIT
+from house_box_NTC import HOUSE_BOX_NTC_INIT
+from img_TPE import IMG_TPE_INIT
+from img_NTC import IMG_NTC_INIT
 
-import sys, time
 
-class ShowProcess():
-    """
-    显示处理进度的类
-    调用该类相关函数即可实现处理进度的显示
-    """
-    i = 0 # 当前的处理进度
-    max_steps = 0 # 总共需要处理的次数
-    max_arrow = 50 #进度条的长度
-    infoDone = 'done'
+if __name__ == '__main__':
+    pl = [INFO_BOX_TPE_INIT, INFO_BOX_NTC_INIT, HOUSE_BOX_TPE_INIT, HOUSE_BOX_NTC_INIT, IMG_TPE_INIT, IMG_NTC_INIT]
+    p = [None] * 6
 
-    # 初始化函数，需要知道总共的处理次数
-    def __init__(self, max_steps, infoDone = 'Done'):
-        self.max_steps = max_steps
-        self.i = 0
-        self.infoDone = infoDone
+    p1 = Process(target = LEASE_TPE_INIT)
+    p2 = Process(target = LEASE_NTC_INIT)
+    # start colleting data
+    p1.start()
+    p2.start()
+    # p1, p2 須執行完才能往下進行
+    p1.join()
+    p2.join()
+    p1.close()
+    p2.close()
+    print("Data collection succeed")
 
-    # 显示函数，根据当前的处理进度i显示进度
-    # 效果为[>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>]100.00%
-    def show_process(self, i=None):
-        if i is not None:
-            self.i = i
-        else:
-            self.i += 1
-        num_arrow = int(self.i * self.max_arrow / self.max_steps) #计算显示多少个'>'
-        num_line = self.max_arrow - num_arrow #计算显示多少个'-'
-        percent = self.i * 100.0 / self.max_steps #计算完成进度，格式为xx.xx%
-        process_bar = '[' + '>' * num_arrow + '-' * num_line + ']'\
-                      + '%.2f' % percent + '%' + '\r' #带输出的字符串，'\r'表示不换行回到最左边
-        sys.stdout.write(process_bar) #这两句打印字符到终端
-        sys.stdout.flush()
-        if self.i >= self.max_steps:
-            self.close()
-
-    def close(self):
-        print('')
-        print(self.infoDone)
-        self.i = 0
-
-if __name__=='__main__':
-    max_steps = 100
-
-    process_bar = ShowProcess(max_steps, 'OK')
-
-    for i in range(max_steps):
-        process_bar.show_process()
-        time.sleep(0.01)
+    try:
+        for i in range(0, 6):
+            p[i] = Process(target = pl[i])
+            p[i].start()
+        for i in range(0, 6):
+            p[i].join()
+            p[i].close()
+    except Exception as e:
+        print(e)
+    finally:
+        print("lease data collection complete")

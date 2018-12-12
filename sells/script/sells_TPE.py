@@ -1,6 +1,7 @@
 import sys
 sys.path.append("lib/")
 from bs4 import BeautifulSoup
+from progress_bar import progress
 from wb import get_web_page
 import time
 import os
@@ -51,6 +52,7 @@ def save(row_data):
 
 #if __name__ == "__main__":
 def SELLS_TPE_INIT():
+    print()
     current_page = get_web_page(SELLS_URL, urlJumpIp) # return a dict of dict of list of dict
     total_rows = get_total_rows(current_page)
 
@@ -58,10 +60,11 @@ def SELLS_TPE_INIT():
     row_data = []
 
     while page_count <= total_rows:
-        print("TPE")
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
         current_page = get_web_page(SELLS_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows), urlJumpIp)
+        progress(page_count, total_rows, __file__) # show process progress
 
     save(row_data)
+    print(str(__file__) + " complete")

@@ -1,6 +1,7 @@
 import sys
 sys.path.append("lib/")
 from wb import get_web_page
+from progress_bar import progress
 from bs4 import BeautifulSoup
 import time
 import os
@@ -58,10 +59,11 @@ def SELLS_NTC_INIT():
     row_data = []
 
     while page_count <= total_rows:
-        print("NTC")
         data = get_info(current_page)
         row_data += data
         page_count += pageRow
         current_page = get_web_page(SELLS_URL + "&firstRow=" + str(page_count) + "&totalRows=" + str(total_rows), urlJumpIp)
+        progress(page_count, total_rows, __file__) # show process progress
 
     save(row_data)
+    print(str(__file__) + " complete")

@@ -4,6 +4,7 @@ sys.path.append("lib/")
 from myio import read_excel, save
 from bs4 import BeautifulSoup
 from wb import get_web_page
+from progress_bar import progress, showProgess
 
 DETAIL_URL = "https://rent.591.com.tw/"
 urlJumpIp = 1
@@ -42,12 +43,14 @@ def get_house_box(dom, post_id):
         house_boxes.append(my_dict)
         return house_boxes
 
-if __name__ == "__main__":
+def HOUSE_BOX_TPE_INIT():
     row_data = read_excel("lease/data/TPE/info/total_rows_TPE.xlsx") # get the excel info
 
     house_boxes = []
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
         house_boxes += get_house_box(page, data["post_id"])
+        showProgess(__file__)
 
     save(house_boxes, "lease/data/TPE/info/house_box_TPE")
+    print(str(__file__) + " complete")

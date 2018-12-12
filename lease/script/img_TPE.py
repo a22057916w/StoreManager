@@ -3,6 +3,7 @@ sys.path.append("lib/")
 from bs4 import BeautifulSoup
 from wb import get_web_page
 from myio import read_excel, save
+from progress_bar import progress, showProgess
 import os
 import re
 import urllib.request
@@ -17,7 +18,7 @@ def save(image_urls, post_id, dir):
     if img_urls:
         try:
             dname = dir + str(post_id)
-            os.makedirs(dname, exist_ok=False)
+            os.makedirs(dname, exist_ok=True)
 
             for img_url in img_urls:
                 fname = img_url.split('/')[-1]
@@ -42,7 +43,7 @@ def get_images(dom):
 
 
 
-if __name__ == "__main__":
+def IMG_TPE_INIT():
     row_data = read_excel("lease/data/TPE/info/total_rows_TPE.xlsx") # get the excel info
 
     dir = "D:/Python/database/lease/images/TPE/"
@@ -51,6 +52,8 @@ if __name__ == "__main__":
 
     for data in row_data:
         page = get_web_page(DETAIL_URL + data["url"], urlJumpIp)
-        print(data["post_id"])
         img_urls = get_images(page)
         save(img_urls, data["post_id"], dir)
+        showProgess(__file__)
+
+    print(str(__file__) + " complete")

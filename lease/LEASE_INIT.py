@@ -1,8 +1,8 @@
 from multiprocessing import Process
 import sys
-sys.path.append("sells/script/")
-from sells_TPE import SELLS_TPE_INIT
-from sells_NTC import SELLS_NTC_INIT
+sys.path.append("lease/script/")
+from lease_TPE import LEASE_TPE_INIT
+from lease_NTC import LEASE_NTC_INIT
 from info_box_TPE import INFO_BOX_TPE_INIT
 from info_box_NTC import INFO_BOX_NTC_INIT
 from house_box_TPE import HOUSE_BOX_TPE_INIT
@@ -11,12 +11,12 @@ from img_TPE import IMG_TPE_INIT
 from img_NTC import IMG_NTC_INIT
 
 
-if __name__ == '__main__':
+def LEASE_INIT():
     pl = [INFO_BOX_TPE_INIT, INFO_BOX_NTC_INIT, HOUSE_BOX_TPE_INIT, HOUSE_BOX_NTC_INIT, IMG_TPE_INIT, IMG_NTC_INIT]
     p = [None] * 6
 
-    p1 = Process(target = SELLS_TPE_INIT)
-    p2 = Process(target = SELLS_NTC_INIT)
+    p1 = Process(target = LEASE_TPE_INIT)
+    p2 = Process(target = LEASE_NTC_INIT)
     # start colleting data
     p1.start()
     p2.start()
@@ -25,7 +25,6 @@ if __name__ == '__main__':
     p2.join()
     p1.close()
     p2.close()
-    print("Data collection succeed")
 
     try:
         for i in range(0, 6):
@@ -37,4 +36,4 @@ if __name__ == '__main__':
     except Exception as e:
         print(e)
     finally:
-        print("sells data collection complete")
+        print("Lease data collection complete")
