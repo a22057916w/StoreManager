@@ -72,7 +72,7 @@ def get_info_box(dom, post_id):
     })
     return info_boxes
 
-if __name__ == "__main__":
+def INFO_BOX_TPE_INIT():
     row_data = read_excel("sells/data/TPE/info/total_rows_TPE.xlsx") # get the excel info
 
     info_boxes = []
