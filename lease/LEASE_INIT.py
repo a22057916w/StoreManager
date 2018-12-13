@@ -32,6 +32,7 @@ def LEASE_INIT():
             p[i].start()
         for i in range(0, 6):
             p[i].join()
+        for i in range(0, 6):
             p[i].close()
     except Exception as e:
         print(e)
