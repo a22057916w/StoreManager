@@ -7,8 +7,8 @@ from info_box_TPE import INFO_BOX_TPE_INIT
 from info_box_NTC import INFO_BOX_NTC_INIT
 from house_box_TPE import HOUSE_BOX_TPE_INIT
 from house_box_NTC import HOUSE_BOX_NTC_INIT
-from img_TPE import IMG_TPE_INIT
-from img_NTC import IMG_NTC_INIT
+from sells_img_TPE import IMG_TPE_INIT
+from sells_img_NTC import IMG_NTC_INIT
 
 
 def SELLS_INIT():
