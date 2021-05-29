@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:titleTextColor="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="331dp"
+                android:layout_marginRight="331dp"
+                android:text="詳細資料"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/heart"
+                android:layout_width="32dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/ic_favorite_border_white_24dp"
+                android:contentDescription="TODO" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="46dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_keyboard_backspace_white_24dp"
+                android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/navigation">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <HorizontalScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#fff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="租金:"
+                    android:textColor="#1e1e1e"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvprice"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:gravity="left"
+                    android:text="價錢"
+                    android:textColor="#FF0000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imgSTAR"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/tvavg_score"
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="avg_score"
+                    android:textColor="#1e1e1e"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvarea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="坪數"
+
+                        android:textColor="#1e1e1e"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tvfloor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="left"
+                        android:text="樓層"
+
+                        android:textColor="#1e1e1e"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="447dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvtype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="left"
+                        android:text="型態"
+
+                        android:textColor="#1e1e1e"
+                        android:textSize="30sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvcommunity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="left"
+                        android:text="社區"
+
+                        android:textColor="#1e1e1e"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvpaper"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+
+                android:gravity="left"
+                android:text="權狀坪數"
+
+                android:textColor="#1e1e1e"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89dp">
+
+
+                <TextView
+                    android:id="@+id/tvmrt_score"
+                    android:layout_width="200dp"
+                    android:layout_height="63dp"
+                    android:gravity="left"
+                    android:text="mrt_score"
+                    android:textColor="#1e1e1e"
+                    android:textSize="30sp" />
+
+
+                <TextView
+                    android:id="@+id/tvt_score"
+                    android:layout_width="200dp"
+                    android:layout_height="63dp"
+                    android:gravity="left"
+                    android:text="t_score"
+                    android:textColor="#1e1e1e"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvl_score"
+                    android:layout_width="200dp"
+                    android:layout_height="62dp"
+                    android:gravity="left"
+                    android:text="l_score"
+                    android:textColor="#1e1e1e"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvhouse_info"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:text="房屋資料"
+                android:textColor="#1e1e1e"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvlife"
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:text="生活機能"
+                android:textColor="#1e1e1e"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvaddr"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="地址"
+                android:textColor="#1e1e1e"
+                android:textSize="30sp" />
+
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                tools:context=".MAP" />
+
+            <TextView
+                android:id="@+id/tvtraffic"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:text="附近交通"
+                android:textColor="#1e1e1e"
+                android:textSize="30sp" />
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:background="?android:attr/windowBackground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:menu="@menu/navigation">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/hostName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:text="TextView"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/hostPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text="TextView"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:id="@+id/call"
+                        android:layout_width="43dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="207dp"
+                        android:background="@drawable/ic_phone_black_24dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/hostPhone"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="0dp"
+                        android:text="來源591"
+                        android:textSize="5dp" />
+                </RelativeLayout>
+            </android.support.design.widget.BottomNavigationView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="搜尋結果"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#1e1e1e"
+            android:gravity="center"
+            android:fontFamily="casual"
+            android:layout_alignParentLeft="true"/>
+
+    </RelativeLayout>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#080808"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="top">
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img15"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img16"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img17"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img18"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img19"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img20"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img21"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img22"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+            <ImageView
+                android:id="@+id/img23"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/orange_insert"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn10"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn11"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="房屋資料"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#515050"
+                />
+            <Button
+                android:id="@+id/sebtn13"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#313030"
+                android:textColor="#f2eeee"
+                android:text="詳細資料" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

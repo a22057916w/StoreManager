@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".Fav">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/goToMap"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="101dp"
+                android:layout_marginRight="101dp"
+                android:text="租售"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/field_item_spinner_content"
+                style="@style/spinner_Fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="627dp"
+                android:layout_marginLeft="627dp"
+                android:layout_marginTop="37dp" />
+
+            <TextView
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="296dp"
+                android:layout_marginRight="296dp"
+                android:text="收藏"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/goToMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:text="地圖"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="46dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_keyboard_backspace_white_24dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar" ></ListView>
+
+    <TextView
+        android:id="@+id/noCol"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="305dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginRight="208dp"
+        android:text="目前無任何收藏"
+        android:textSize="25dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Store Manager</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_test">TEST</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_fav_map">Map</string>
+
+    <string-array name="meinv">
+        <item>選擇</item>
+        <item>綜合排名</item>
+        <item>捷運排名</item>
+        <item>生活排名</item>
+
+    </string-array>
+
+    <string-array name="rents">
+        <item>選擇</item>
+        <item>租售</item>
+        <item>出租</item>
+        <item>出售</item>
+
+    </string-array>
+    <string name="title_activity_test32">test32</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="500萬以下" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="500~1000萬" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="1000~2000萬" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="2000~5000萬" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="5000萬以上" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <Button
+        android:id="@+id/pbtn6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#fcfcfc"
+        android:textColor="#060606"
+        android:textSize="20sp"
+        android:text="取消" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1b1b1b"/>
+    <ImageView
+        android:id="@+id/imgpricebac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ac"
+        />
+
+
+
+</LinearLayout>

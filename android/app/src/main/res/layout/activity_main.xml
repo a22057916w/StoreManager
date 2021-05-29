@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/storeManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="307dp"
+                android:layout_marginLeft="307dp"
+                android:layout_marginTop="20dp"
+                android:text="Store Manager"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="46dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="727dp"
+                android:layout_marginLeft="727dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorPrimary"
+                android:text="搜尋"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <Button
+                android:id="@+id/btn_local"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcfcfc"
+                android:text="地區"
+                android:textColor="#060606"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <Button
+                android:id="@+id/btn_rent"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcfcfc"
+                android:text="租售"
+                android:textColor="#060606"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <Button
+                android:id="@+id/btn_type"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcfcfc"
+                android:text="店家類型"
+                android:textColor="#060606"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <Button
+                android:id="@+id/btn_price"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcfcfc"
+                android:text="價錢"
+                android:textColor="#060606"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <Button
+                android:id="@+id/btn_square"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#fcfcfc"
+                android:text="坪數"
+                android:textColor="#060606"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#1b1b1b" />
+
+            <ImageView
+                android:id="@+id/imgmainbac"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/main" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
