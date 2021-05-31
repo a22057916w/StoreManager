@@ -15,5 +15,6 @@ StoreManager collects the data and organizes it as the following pictures.
   These data correspond to the Activity that display the shop info. <br><br>
   <img src="/.meta/location.PNG"><br>
   The data correspond to the same Activity mentioned above for the shop's mini-map that links to google-map. <br><br>
-  <img src="/.meta/totalrows.PNG">
+  <img src="/.meta/totalrows.PNG"><br>
+  And this corresponds to the Activity that shows the search result.
 </p>
