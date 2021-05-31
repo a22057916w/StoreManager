@@ -13,11 +13,11 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 </div>
 The main page offers the user to select the specific conditions, such as region, for sale or rents, the business type, price, square meter. The user must notice that the first two slots must be decided for searching. Otherwise, there will be an error message.
 <div align="center">
-  <img src="/.meta/search_result.PNG" width="40%" height="40%">
+  <img src="/.meta/search_result.png" width="40%" height="40%">
 </div>
 
 <div align="center">
-  <img src="/.meta/shop_info.PNG" width="40%" height="40%">
+  <img src="/.meta/shop_info.png" width="40%" height="40%">
 </div>
 
 ## Detail
