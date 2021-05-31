@@ -17,7 +17,7 @@ The main page offers the user to select the specific conditions, such as region,
 </div>
 
 <div align="center">
-  <img src="/.meta/shopinfo.PNG" width="40%" height="40%">
+  <img src="/.meta/shop_info.PNG" width="40%" height="40%">
 </div>
 
 ## Detail
