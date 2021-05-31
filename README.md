@@ -8,7 +8,9 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 :warning: Warning: The App can not be used for commercial purposes.
 
 ## Guide
-![](/.meta/mainpage.PNG)
+<div align="center">
+  <img src="/.meta/mainpage.PNG" width="60%" height="60%">
+</div>
 
 
 ## Detail
