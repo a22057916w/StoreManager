@@ -13,7 +13,7 @@ Storemanager collects the data and organizes it as the following pictures.
   <img src="/.meta/housebox.PNG">
   <img src="/.meta/infobox.PNG"><br><br>
   These data correspond to the Activity that display the shop info. <br><br>
-  <img src="/.meta/location.PNG">
-  The data correspond to the same Activity mentioned above for the shop's mini-map that links to google-map. <
+  <img src="/.meta/location.PNG"><br><br>
+  The data correspond to the same Activity mentioned above for the shop's mini-map that links to google-map. <br><br>
   <img src="/.meta/totalrows.PNG">
 </p>
