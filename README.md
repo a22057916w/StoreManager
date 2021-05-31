@@ -5,7 +5,7 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 
 <br><br>
 
-:warning: Warning: The App can not be used for commercial purposes.
+:warning: Warning: This App can not be used for commercial purposes.
 
 ## Guide
 <div align="center">
@@ -23,6 +23,7 @@ After you hit the search button. The App goes to the page that shows a list of r
 <div align="center">
   <img src="/.meta/shop_info.png" width="40%" height="40%">
 </div>
+The picture above shows the shop's detail after choosing one of the slots on the list. It also shows the three substantial scores, which we calculated out the total score shown in the previous list by weighted average. The photos on the top of the page are rollable, depending on how many pictures we got; The map marking the location can be browsed on the mini-map or the google map.
 
 ## Detail
 ### Data
