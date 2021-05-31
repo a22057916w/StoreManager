@@ -9,7 +9,7 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 
 ## Guide
 <div align="center">
-  <img src="/.meta/mainpage.PNG" width="60%" height="60%">
+  <img src="/.meta/mainpage.PNG" width="40%" height="40%">
 </div>
 
 
