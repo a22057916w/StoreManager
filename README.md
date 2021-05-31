@@ -8,3 +8,10 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 :warning: Warning: The App can not be used for commercial purposes.
 
 ## Detail
+Storemanager collects the data and organizes it as the following pictures.
+<p align="center">
+  <img src="/.meta/housebox.gif" width="30%" height="30%">&nbsp;&nbsp;
+  <img src="/.meta/infobox.gif" width="30%" height="30%">&nbsp;&nbsp;<br><br>
+  <img src="/.meta/totalrows.gif" width="30%" height="30%">&nbsp;&nbsp;
+  <img src="/.meta/location.gif" width="30%" height="30%">
+</p>
