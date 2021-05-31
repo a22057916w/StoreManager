@@ -10,7 +10,7 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 ## Detail
 Storemanager collects the data and organizes it as the following pictures.
 <p align="center">
-  <img src="/.meta/housebox.png" width="30%" height="30%">&nbsp;&nbsp;
+  <img src="/.meta/housebox.PNG" width="30%" height="30%">&nbsp;&nbsp;
   <img src="/.meta/infobox.png" width="30%" height="30%">&nbsp;&nbsp;<br><br>
   <img src="/.meta/totalrows.png" width="30%" height="30%">&nbsp;&nbsp;
   <img src="/.meta/location.png" width="30%" height="30%">
