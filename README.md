@@ -19,3 +19,6 @@ StoreManager collects the data and organizes it as the following pictures.
   <img src="/.meta/totalrows.PNG"><br>
   And this corresponds to the Activity that shows the search result.
 </p>
+
+### Implementation
+All this is done by the python scripts, the crawler goes to the websiets for data every 24 hours then update the data for server. At first, the data needs to manually update every 3 to 5 days. However, we realized it's not faster enough for getting first-hand info and the data was growing larger every day. Therefore, there was more scripts but hard to run manually. In this case, we must design the multi-processing and self-updating program. Now, simply run the init.py, the scripts runs every subroutines and update data every day.
