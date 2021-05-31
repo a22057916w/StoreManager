@@ -11,7 +11,9 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 Storemanager collects the data and organizes it as the following pictures.
 <p align="left">
   <img src="/.meta/housebox.PNG">
-  <img src="/.meta/infobox.PNG">&nbsp;&nbsp;<br><br>
-  <img src="/.meta/totalrows.PNG" width="50%" height="50%">&nbsp;&nbsp;
-  <img src="/.meta/location.PNG" width="50%" height="50%">
+  <img src="/.meta/infobox.PNG"><br><br>
+  These data correspond to the Activity that display the shop info. <br><br>
+  <img src="/.meta/location.PNG">
+  The data correspond to the same Activity mentioned above for the shop's mini-map that links to google-map. <
+  <img src="/.meta/totalrows.PNG">
 </p>
