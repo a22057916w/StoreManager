@@ -7,6 +7,8 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 
 :warning: Warning: The App can not be used for commercial purposes.
 
+## Guide
+
 ## Detail
 ### Data
 StoreManager collects the data and organizes it as the following pictures.
