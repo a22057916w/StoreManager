@@ -40,3 +40,6 @@ StoreManager collects the data and organizes it as the following pictures.
 
 ### Implementation
 All about this was done by the python scripts. The crawler goes to the websites for data every 24 hours then update the data for the server. At first, the data was manually updated every 3 to 5 days. However, we realized it's not faster enough for getting first-hand info and the data was growing larger every day. Therefore, there were more scripts but hard to run manually. In this case, we must design the multi-processing and self-updating program. Now, simply run the [init.py](https://github.com/a22057916w/StoreManager/blob/master/init.py). The script runs every subroutine and updates data every day.
+
+### License
+Avaliable under [GPL License](https://github.com/a22057916w/StoreManager/blob/master/LICENSE)
