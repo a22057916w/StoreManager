@@ -6,3 +6,5 @@ The App organizes the data crawled from other webs or platforms and analyzes the
 <br><br>
 
 :warning: Warning: The App can not be used for commercial purposes.
+
+## Detail
