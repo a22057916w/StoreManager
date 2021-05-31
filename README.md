@@ -12,13 +12,13 @@ The App organizes the data crawled from other webs or platforms and analyzes the
   <img src="/.meta/mainpage.PNG" width="40%" height="40%">
 </div>
 The main page offers the user to select the specific conditions, such as region, for sale or rents, the business type, price, square meter. The user must notice that the first two slots must be decided for searching. Otherwise, there will be an error message.
-<br>
+<br><br>
 
 <div align="center">
   <img src="/.meta/search_result.png" width="40%" height="40%">
 </div>
 After you hit the search button. The App goes to the page that shows a list of ranked shops. The score is estimated by the population of each MRT station,  transport stations, and the region; the surrounding environment of the shop, such as school, park, parking lot, night market, etc.
-<br>
+<br><br>
 
 <div align="center">
   <img src="/.meta/shop_info.png" width="40%" height="40%">
