@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>StoreManager</h1>
+  <h2>StoreManager</h2>
   <img src="/.meta/shop_info.png" width="50%" height="50%">
 </div>
 
